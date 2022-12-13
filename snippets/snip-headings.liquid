@@ -1,6 +1,6 @@
-{%- if section.settings.title != blank -%}
+{%- if section.settings.title != blank and heading == blank -%}
   {%- unless grid == blank -%}<div class="{{ grid }}">{%- endunless -%}
-    <h2 class="section-heading {{ align }} mt2 pb2 {{ padding }} {{ classes }}">
+    <h2 class="section-heading {{ align }} {{ size }} mt2 pb2 {{ classes }}">
       {%- unless url == blank -%}<a href="{{ url }}">{%- endunless -%}
         {{ section.settings.title | escape }}
       {%- unless url == blank -%}</a>{%- endunless -%}
@@ -8,7 +8,7 @@
   {%- unless grid == blank -%}</div>{%- endunless -%}
 {% elsif heading != blank %}
   {%- unless grid == blank -%}<div class="{{ grid }}">{%- endunless -%}
-    <h2 class="section-heading {{ align }} mt2 pb2 {{ classes }}">
+    <h2 class="section-heading {{ align }} {{ size }} mt2 pb2 {{ classes }}">
       {%- unless url == blank -%}<a href="{{ url }}">{%- endunless -%}
         {{ heading }}
       {%- unless url == blank -%}</a>{%- endunless -%}
@@ -16,7 +16,7 @@
   {%- unless grid == blank -%}</div>{%- endunless -%}
 {% elsif translation != blank %}
   {%- unless grid == blank -%}<div class="{{ grid }}">{%- endunless -%}
-    <h2 class="section-heading {{ align }} mt2 pb2 {{ classes }}">
+    <h2 class="section-heading {{ align }} {{ size }} mt2 pb2 {{ classes }}">
       {%- unless url == blank -%}<a href="{{ url }}">{%- endunless -%}
         {{ translation | t }}
       {%- unless url == blank -%}</a>{%- endunless -%}

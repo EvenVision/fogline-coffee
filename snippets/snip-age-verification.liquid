@@ -9,7 +9,7 @@
   <div id="age-check-prompt" class="modal-prompt grid__wrapper a-center">
     <div class="site-logo span-12 auto relative lh0 mt7 mb7">
       {% if settings.age_logo != blank %}
-        <a class="inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}"><img style="max-width: {{ settings.logo_max_width }}px;" src="{{ settings.age_logo | img_url: '800x' }}" alt="{{ shop.name }}"></a>
+        <a class="inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}"><img style="max-width: {{ settings.logo_max_width }}px;" src="{{ settings.age_logo | image_url: width: 800 }}" alt="{{ shop.name }}"></a>
       {% else %}
         <a class="inline-block v-center m0" style="font-size: {{ settings.logo_size }}px; color: var(--age-text-color) !important;" href="{{ routes.root_url }}">{{ shop.name }}</a>
       {% endif %}
@@ -247,7 +247,7 @@
           {{ settings.age_bg_overlay_color | color_modify: 'alpha', opacity }},
           {{ settings.age_bg_overlay_color | color_modify: 'alpha', opacity }}),
       {%- endif -%}
-      url({{ settings.age_bg_image | img_url: '1600x' }})
+      url({{ settings.age_bg_image | image_url: width: 1600 }})
     {% endif %};
     background-position: center center;
     background-repeat: no-repeat;

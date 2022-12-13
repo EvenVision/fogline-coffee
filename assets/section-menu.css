@@ -62,10 +62,7 @@
 
 .section-menu .button {
   background-color: transparent;
-}
-
-.section-menu .button:after {
-  z-index: 1 !important;
+  z-index: 2 !important;
 }
 
 .section-menu .button:hover {

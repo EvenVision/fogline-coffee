@@ -13,7 +13,7 @@
        data-popup-delay={{ section.settings.popup_delay | json }}
        data-popup-frequency={{ section.settings.popup_frequency | json }}>
 
-      <button class="js-popup-close newsletter__popup-container-close btn-as-link" aria-label="Close popup" style="padding: var(--space-2) !important;" tabindex="0" type="button" name="button">
+      <button class="js-popup-close newsletter__popup-container-close btn-as-link" aria-hidden="true" style="padding: var(--space-2) !important;" tabindex="0" type="button" name="button">
         {% render 'snip-icons',
            wrapper: '.newsletter__popup-container-close',
            type: 'theme',
@@ -42,7 +42,8 @@
           {% form 'customer', id: 'mailing-popup-form' %}
             <div class="form form-vertical v-center">
               <input type="hidden" name="contact[tags]" value="prospect, newsletter">
-              <input type="email" name="contact[email]" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}">
+              <label class="visually-hidden" for="newsletter__popup-form__email">{{ 'general.newsletter_form.email_placeholder' | t }}</label>
+              <input type="email" id="newsletter__popup-form__email" name="contact[email]" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}">
               <input type="submit" class="button" value="{{ 'general.newsletter_form.submit' | t }}">
               {% if section.settings.mail_gdpr_text %}
                 <div class="gdpr-text before-signup">{{ section.settings.mail_gdpr_text }}</div>
@@ -100,24 +101,24 @@
 
     {% if section.settings.email_image != blank and section.settings.popup_image == 'background' %}
     #newsletter__popup-content {
-      background: url({{ section.settings.email_image | img_url: '1200x'}});
+      background: url({{ section.settings.email_image | image_url: width: 1200 }});
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: {{ section.settings.email_image.presentation.focal_point | default: 'inherit' }};
     }
     {% else %}
     #newsletter__popup-content .newsletter__popup-image {
-      background: url({{ section.settings.email_image | img_url: '1200x'}});
+      background: url({{ section.settings.email_image | image_url: width: 1200 }});
       background-size: cover;
       background-repeat: no-repeat;
-      background-position: center center;
+      background-position: {{ section.settings.email_image.presentation.focal_point | default: 'inherit' }};
       width: 100%;
       min-height: 600px;
     }
     {% endif %}
   </style>
 </div>
-
+<script src="{{ 'section-mailing-popup.js' | asset_url }}" defer></script>
 {% schema %}
 {
   "name": "Mailing popup",

@@ -58,6 +58,7 @@
             {% endif %}
           </div>
           <div class="form form-vertical a-center">
+            <label class="visually-hidden" for="q">{{ 'general.search.placeholder' | t }}</label>
             <input
               class="mb0"
               type="text"
@@ -198,7 +199,8 @@
                               type: item.image,
                               sm_render: '100vw'
                               md_render: 'calc((100vw / 12) * 4)',
-                              lg_render: 'calc((1600px / 12) * 4)' %}
+                              lg_render: 'calc((1600px / 12) * 4)',
+                              width: 800 %}
                            </a>
                          {% endif %}
                        </div>

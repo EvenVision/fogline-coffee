@@ -159,6 +159,7 @@
       "shop_all": "Tout afficher",
       "clear_all_tags": "Effacer les filtres",
       "save": "Sauver",
+      "save_to_html": "Économiser jusqu'à {{ savings }}",
       "items": "Articles",
       "item_count": {
         "one": "{{ count }} Article",

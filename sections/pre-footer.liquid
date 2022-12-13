@@ -27,6 +27,7 @@
               </div>
             {% else %}
               <input type="hidden" name="contact[tags]" value="prospect, password page">
+              <label class="visually-hidden" for="email-address">{{ 'general.newsletter_form.email_placeholder' | t }}</label>
               <input type="email" name="contact[email]" id="email-address" placeholder="{{ 'general.newsletter_form.email_placeholder' | t }}">
               <button class="button btn-secondary" type="submit">{{ 'general.newsletter_form.newsletter_email' | t }}</button>
             {% endif %}
@@ -74,7 +75,7 @@
       "step": 1,
       "unit": "px",
       "label": "Heading size",
-      "default": 34
+      "default": 50
     },
     {
        "type": "select",

@@ -44,14 +44,16 @@
               width="{{ basic_banner_img.width }}"
               height="{{ basic_banner_img.height }}"
               alt="{{ basic_banner_img.alt | escape }}"
-              loading="lazy">
+              loading="eager">
          </div>
       {%- elsif section.settings.image != blank -%}
         {% render 'helper-image',
            type: section.settings.image,
            sm_render: sm_render
            md_render: md_render,
-           lg_render: lg_render %}
+           lg_render: lg_render,
+           width: 2400,
+           loading: 'eager' %}
       {% endif %}
     </div>
     <style>

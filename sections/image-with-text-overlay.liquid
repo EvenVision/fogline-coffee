@@ -17,7 +17,36 @@
     assign section_padding = 'mt0 pb0'
   endif
 
+  assign desktop_height = section.settings.image_height | append: 'px'
+  assign mobile_height = section.settings.mobile_height | append: 'px'
+
 -%}
+
+{% style %}
+#shopify-section-{{ section.id }} {
+  --desktop-section-height: {{ desktop_height }};
+  --mobile-section-height: {{ mobile_height }};
+}
+.image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__bg-img {
+  height: {{ section.settings.image_height }}px;
+  {% if section.settings.show_overlay_color %}
+    box-shadow: inset 0 0 0 2000px {{ section.settings.overlay_color | color_modify: 'alpha', 0.30 }};
+  {% endif %}
+}
+.image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__heading {
+  font-size: {{ section.settings.heading_size }}px;
+  line-height: calc(({{ section.settings.heading_size }}px * 0.17) + {{ section.settings.heading_size }}px);
+}
+.image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__subheading {
+  font-size: {{ section.settings.subheading_size }}px;
+  line-height: calc(({{ section.settings.subheading_size }}px * 0.34) + {{ section.settings.subheading_size }}px);
+}
+.image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__heading,
+.image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__subheading {
+  color: {{ section.settings.text_color }};
+}
+{% endstyle %}
+
 {% comment %} Image with text overlay Template {% endcomment %}
 <div
   class="section-img-txt-overlay image-with-text-overlay-{{ section.id }} global__section {{ section_padding }}"
@@ -31,7 +60,9 @@
       {% if section.settings.link != blank %}<a href="{{ section.settings.link }}">{% endif %}
         <div class="section-img-txt-overlay__wrapper homepage-promo relative">
           {% if section.settings.image %}
-            <div class="section-img-txt-overlay__bg-img background-image"></div>
+            <div class="section-img-txt-overlay__bg-img background-image">
+              {{ section.settings.image | image_url: width: 2400 | image_tag }}
+            </div>
           {% else %}
             <div class="onboard demo-1 color-2">
               {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -54,49 +85,6 @@
       {% if section.settings.link != blank %}</a>{% endif %}
     </article>
   </div>
-  <style>
-    .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__bg-img {
-      height: {{ section.settings.image_height }}px;
-      {% if section.settings.show_overlay_color %}
-        box-shadow: inset 0 0 0 2000px {{ section.settings.overlay_color | color_modify: 'alpha', 0.30 }};
-      {% endif %}
-    }
-    @media (min-width: 1367px) {
-      .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__bg-img {
-        background-image: url({{ section.settings.image | img_url: '1950x' }});
-      }
-    }
-    @media (min-width: 769px) and (max-width: 1366px) {
-      .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__bg-img {
-        background-image: url({{ section.settings.image | img_url: '1400x' }});
-      }
-    }
-    @media (min-width: 412px) and (max-width: 768px) {
-      .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__bg-img {
-        background-image: url({{ section.settings.image | img_url: '770x' }});
-      }
-    }
-    @media (max-width: 411px) {
-      .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__bg-img {
-        background-image: url({{ section.settings.image | img_url: '420x' }});
-      }
-    }
-    .image-with-text-overlay-{{ section.id }} svg.placeholder-svg {
-      height: {{ section.settings.image_height }}px;
-    }
-    .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__heading {
-      font-size: {{ section.settings.heading_size }}px;
-      line-height: calc(({{ section.settings.heading_size }}px * 0.17) + {{ section.settings.heading_size }}px);
-    }
-    .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__subheading {
-      font-size: {{ section.settings.subheading_size }}px;
-      line-height: calc(({{ section.settings.subheading_size }}px * 0.34) + {{ section.settings.subheading_size }}px);
-    }
-    .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__heading,
-    .image-with-text-overlay-{{ section.id }} .section-img-txt-overlay__subheading {
-      color: {{ section.settings.text_color }};
-    }
-  </style>
 </div>
 
 {% schema %}
@@ -126,11 +114,21 @@
       "type": "range",
       "id": "image_height",
       "min": 200,
-      "max": 800,
-      "step": 100,
+      "max": 900,
+      "step": 50,
       "unit": "px",
-      "label": "Image height",
+      "label": "Desktop image height",
       "default": 600
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "min": 200,
+      "max": 900,
+      "step": 50,
+      "unit": "px",
+      "label": "Mobile image height",
+      "default": 500
     },
     {
       "type": "text",

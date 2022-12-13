@@ -26,24 +26,20 @@
   <div class="grid__wrapper edge py9">
     {% render 'snip-headings', align: section.settings.alignment, classes: 'animate--text delay--1 px4', grid: 'span-12' %}
 
-    <div class="span-12 auto {{ section.settings.alignment }} px4">
-      <div class="pages-content animate--text delay--2">
-        {% if section.settings.page != blank %}
+    {% if section.settings.page != blank or section.settings.rich_text != blank %}
+      <div class="span-12 auto {{ section.settings.alignment }} px4">
+        <div class="pages-content animate--text delay--2">
+          {% if section.settings.page != blank %}
           {% assign feat_page = pages[section.settings.page] %}
           {{ feat_page.content }}
         {% else %}
           <div class="rte">
             {{ section.settings.rich_text }}
           </div>
-        {% endif %}
-
-        {% if section.settings.page == blank and section.settings.rich_text == blank %}
-          <div class="content-onboard">
-            <p>Use this section to tell customers about your store or add content from one of your pages which makes it easy to add images, video or any other content</p>
-          </div>
-        {% endif %}
-      </div>
-    </div>
+          {% endif %}
+        </div><!-- /.pages-content -->
+      </div><!-- /.span-12.auto -->
+    {% endif %}
   </div>
   <style>
     .rich-text-{{ section.id }} h2 {

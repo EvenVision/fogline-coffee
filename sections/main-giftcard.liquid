@@ -15,7 +15,7 @@ data-section-loaded="false">
     <div class="span-12 a-center mb8">
       {% if section.settings.logo != blank %}
         <a class="gift-card-logo mb4 lh0 inline-block" href="{{ routes.root_url }}">
-          <img src="{{ section.settings.logo | img_url: '800x' }}" alt="{{ shop.name }}">
+          {{ section.settings.logo | image_url: width: 800 | image_tag: loading: 'eager' }}
         </a>
       {% else %}
         <h1>{{ shop.name }}</h1>

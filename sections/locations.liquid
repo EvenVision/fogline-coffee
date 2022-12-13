@@ -35,26 +35,38 @@
     assign width_two = 'span-4'
     assign md_render = 'calc(100vw / 3)'
     assign lg_render = 'calc(1600px / 3)'
+    assign width = '800'
   elsif section.settings.item_width == 'one_half' or section.settings.item_width == '50'
     assign width_one = 'span-6'
     assign width_two = 'span-6'
     assign md_render = 'calc(100vw / 2)'
     assign lg_render = 'calc(1600px / 2)'
+    assign width = '1000'
   elsif section.settings.item_width == 'two_thirds' or section.settings.item_width == '66'
     assign md_render = 'calc(100vw * 0.6667)'
     assign lg_render = 'calc(1600px * 0.6667)'
     assign width_one = 'span-4'
     assign width_two = 'span-8'
+    assign width = '1200'
   elsif section.settings.item_width == 'three_quarters' or section.settings.item_width == '75'
     assign md_render = 'calc(100vw * 0.75)'
     assign lg_render = 'calc(1600px * 0.75)'
     assign width_one = 'span-9'
     assign width_two = 'span-3'
+    assign width = '1200'
   elsif section.settings.item_width == 'one_whole' or section.settings.item_width == '100'
     assign md_render = '100vw'
     assign lg_render = '100vw'
     assign width_one = 'span-8 push-2'
     assign width_two = 'span-8 push-2'
+    assign width = '2000'
+  endif
+
+  assign is_fixed_height = false
+  if section.settings.image_height == 'fixed'
+    assign is_fixed_height = true
+    assign desktop_height = section.settings.desktop_height | append: 'px'
+    assign mobile_height = section.settings.mobile_height | append: 'px'
   endif
 
 -%}
@@ -67,6 +79,13 @@
   "prevNextButtons":true,
   "arrowShape": "M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"
 }{% endcapture %}
+
+{% style %}
+#shopify-section-{{ section.id }} {
+  --desktop-section-height: {{ desktop_height }};
+  --mobile-section-height: {{ mobile_height }};
+}
+{% endstyle %}
 
 {% comment %} Locations Template {% endcomment %}
 <div
@@ -84,7 +103,7 @@
           {% if section.blocks.size > 0 %}
               {% for block in section.blocks %}
                 <div
-                  class="carousel-cell slide-{{ block.id }}"
+                  class="carousel-cell location--carousel_image{% if is_fixed_height %} is--fixed{% endif %} slide-{{ block.id }}"
                   data-block-id="{{ block.id }}" data-slide-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
 
                   {% if block.settings.location_image == blank %}
@@ -98,7 +117,8 @@
                        type: block.settings.location_image,
                        sm_render: sm_render
                        md_render: md_render,
-                       lg_render: lg_render %}
+                       lg_render: lg_render,
+                       width: width %}
                   {% endif %}
 
                 </div>
@@ -166,6 +186,42 @@
         { "value": "one_whole", "label": "100%" }
       ],
       "default": "one_half"
+    },
+    {
+      "type": "radio",
+      "id": "image_height",
+      "label": "Image height",
+      "default":"natural",
+      "options": [
+        {
+          "value": "natural",
+          "label": "Natural"
+        },
+        {
+          "value": "fixed",
+          "label": "Fixed height"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "desktop_height",
+      "min": 200,
+      "max": 1000,
+      "step": 50,
+      "unit": "px",
+      "label": "Desktop fixed height",
+      "default": 650
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "min": 200,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Mobile fixed height",
+      "default": 400
     },
     {
       "type": "select",

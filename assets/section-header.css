@@ -342,3 +342,19 @@ ul.header__navigation li.dropdown ul.submenu li a:hover,
 #drop-mega-menu {
   background-color: var(--secondary-bg) !important;
 }
+
+span.js-cart-count.icon-only {
+  position: absolute;
+  bottom: 10px;
+  left: 13px;
+  height: 16px;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 10px;
+  padding: 0 6px;
+  background: var(--header-text);
+  color: var(--header-bg);
+}
+span.js-cart-count.icon-only:hover {
+  color: var(--header-bg) !important;
+}

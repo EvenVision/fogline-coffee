@@ -27,13 +27,15 @@
                type: collection.image,
                sm_render: sm_render,
                md_render: md_render,
-               lg_render: lg_render %}
+               lg_render: lg_render,
+               width: 800 %}
           {% elsif collection.products.first.featured_media %}
             {% render 'helper-image',
                type: collection.products.first.featured_media,
                sm_render: sm_render,
                md_render: md_render,
-               lg_render: lg_render %}
+               lg_render: lg_render,
+               width: 800 %}
           {% else %}
             <div class="demo-1 color-2 relative">
               {{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}

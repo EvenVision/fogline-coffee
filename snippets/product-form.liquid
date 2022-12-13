@@ -85,7 +85,7 @@
           type="text" name="quantity"
           class="product__quantity-input vib-center span-10 sm-span-10 auto"
           value="1" />
-        <a class="product__quantity-down downer js-qty-down mr1 mb0 vib-center no-js-hidden span-1 sm-span-1 auto" href="{{ product.url }}" tabindex="0" aria-label="Decrease">
+        <button class="product__quantity-down downer js-qty-down mr1 mb0 vib-center no-js-hidden span-1 sm-span-1 auto" data-href="{{ product.url }}" tabindex="0" aria-label="Decrease quantity" type="button">
           {% render 'snip-icons',
              wrapper: '.product__quantity',
              type: 'apollo',
@@ -93,8 +93,8 @@
              size: '10px',
              fill: 'var(--text-color)',
              hover: 'var(--text-color)' %}
-        </a>
-        <a class="product__quantity-up js-qty-up up ml1 mb0 vib-center no-js-hidden span-1 sm-span-1 auto" href="{{ product.url }}" tabindex="0" aria-label="Increase">
+        </button>
+        <button class="product__quantity-up js-qty-up up ml1 mb0 vib-center no-js-hidden span-1 sm-span-1 auto" data-href="{{ product.url }}" tabindex="0" aria-label="Increase quantity" type="button">
           {% render 'snip-icons',
              wrapper: '.product__quantity',
              type: 'theme',
@@ -102,7 +102,7 @@
              size: '10px',
              fill: 'var(--text-color)',
              hover: 'var(--text-color)' %}
-        </a>
+        </button>
       </div>
     </div>
   {% endif %}

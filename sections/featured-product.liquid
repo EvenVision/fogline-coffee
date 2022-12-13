@@ -111,7 +111,9 @@
   data-product-video="{{ has_video }}"
   data-product-model="{{ has_media }}"
   data-asset-url="{{ 'section-featured-product.js' | asset_url }}"
-  data-initial-variant="{{ current_variant.featured_media.id }}">
+  data-initial-variant="{{ current_variant.featured_media.id }}"
+  data-product-pickup-availability="true"
+  data-product-complementary-products="true">
 
   {% render 'product-json', product: product %}
 
@@ -218,6 +220,15 @@
                     </div><!-- /.rte -->
                   </div>
                 {% endif %}
+              </div>
+            {% when 'complementary_products' %}
+              <div class="product-template__complementary-products pt2 pb2" {{ block.shopify_attributes }}>
+                {%
+                  render 'complementary-products',
+                  block: block,
+                  section: section,
+                  product: product
+                %}
               </div>
             {% when '@app' %}
               <div class="product__section--app" {{ block.shopify_attributes }}>
@@ -424,6 +435,33 @@
         "id": "popup_metafield_content",
         "label": "Popup content",
         "default": "<p>Add content which will be shown in a popup across all product pages</p>"
+      }
+    ]
+  },
+  {
+    "type": "complementary_products",
+    "name": "Complementary products",
+    "limit": 1,
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "To select complementary products, add the Search & Discovery app. [Learn more](https:\/\/shopify.dev\/themes\/product-merchandising\/recommendations)"
+      },
+      {
+        "type": "text",
+        "id": "heading",
+        "label": "Heading",
+        "default": "Pair it with"
+      },
+      {
+        "type": "range",
+        "id": "limit",
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "label": "Complementary products to show",
+        "info": "Displays in carousel when more than three products.",
+        "default": 2
       }
     ]
   },

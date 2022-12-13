@@ -10,7 +10,7 @@
          fill: fill_color,
          hover: hover_color %}</a>
   {%- else -%}
-    <a class="px1 py4 js-search-toggle" aria-label="{{ 'general.header.search' | t }}" href="#"><span class="navigation__top-level--hover">{{ 'general.header.search' | t }}</span></a>
+    <a class="px1 py4 js-search-toggle" aria-label="{{ 'general.header.search' | t }}" href="#"><span class="navigation__top-level--hover no-pe">{{ 'general.header.search' | t }}</span></a>
   {%- endif -%}
 </li>
 {% if shop.customer_accounts_enabled %}
@@ -78,6 +78,7 @@
            classes: 'mr0',
            fill: fill_color,
            hover: hover_color %}
+           <span class="js-cart-count icon-only">{{ cart.item_count }}</span>
       {%- else -%}
         <span class="navigation__top-level--hover">{{ 'general.header.bag' | t }}<span>&nbsp;(<span class="js-cart-count">{{ cart.item_count }}</span>)</span></span>
       {%- endif -%}
@@ -106,6 +107,7 @@
                classes: 'mr0',
                fill: fill_color,
                hover: hover_color %}
+               <span class="js-cart-count icon-only">{{ cart.item_count }}</span>
           {%- else -%}
             <span class="navigation__top-level--hover">{{ 'general.header.bag' | t }}<span>&nbsp;(<span class="js-cart-count">{{ cart.item_count }}</span>)</span></span>
           {%- endif -%}

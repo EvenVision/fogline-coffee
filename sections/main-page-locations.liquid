@@ -196,26 +196,21 @@ data-section-loaded="false">
           height: 100%;
           width: 100%;
           background-size: cover;
-          background-position: center center;
+          background-position: {{ block.settings.iwt_image.presentation.focal_point | default: 'inherit' }};
         }
         @media (min-width: 1367px) {
           #block-{{ block.id }} .background-image {
-            background-image: url({{ block.settings.iwt_image | img_url: '975x' }});
+            background-image: url({{ block.settings.iwt_image | image_url: width: 1200 }});
           }
         }
         @media (min-width: 769px) and (max-width: 1366px) {
           #block-{{ block.id }} .background-image {
-            background-image: url({{ block.settings.iwt_image | img_url: '700x' }});
+            background-image: url({{ block.settings.iwt_image | image_url: width: 800 }});
           }
         }
-        @media (min-width: 412px) and (max-width: 768px) {
+        @media (max-width: 768px) {
           #block-{{ block.id }} .background-image {
-            background-image: url({{ block.settings.iwt_image | img_url: '770x' }});
-          }
-        }
-        @media (max-width: 411px) {
-          #block-{{ block.id }} .background-image {
-            background-image: url({{ block.settings.iwt_image | img_url: '420x' }});
+            background-image: url({{ block.settings.iwt_image | image_url: width: 600 }});
           }
         }
       </style>

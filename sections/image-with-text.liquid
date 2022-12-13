@@ -22,7 +22,87 @@
   assign bg_color = 'var(--scheme-' | append: section.settings.color_scheme | append: '-bg)'
   assign hover_color = 'var(--scheme-' | append: section.settings.color_scheme | append: '-hover)'
 
+  assign desktop_height = section.settings.iwt_section_height | append: 'px'
+  assign mobile_height = '280px'
+
 -%}
+
+{% style %}
+#shopify-section-{{ section.id }} {
+  --desktop-section-height: {{ desktop_height }};
+  --mobile-section-height: {{ mobile_height }};
+}
+{%- unless section.settings.color_scheme == 'none' -%}
+  .image-with-text-{{ section.id }} .info {
+    background-color: {{ bg_color }};
+  }
+  .image-with-text-{{ section.id }} .info__inner-wrapper h2,
+  .image-with-text-{{ section.id }} .info__inner-wrapper p,
+  .image-with-text-{{ section.id }} .info__inner-wrapper a {
+    color: {{ text_color }};
+  }
+  .image-with-text-{{ section.id }} .info__inner-wrapper a.button {
+    border-color: {{ text_color }};
+    color: {{ text_color }};
+  }
+  .image-with-text-{{ section.id }} .info__inner-wrapper a.button:after {
+    border-color: {{ text_color }};
+  }
+  .image-with-text-{{ section.id }} .info__inner-wrapper a.button:hover {
+    border-color: {{ hover_color }};
+    color: {{ hover_color }};
+  }
+  .image-with-text-{{ section.id }} .info__inner-wrapper a.button:hover:after {
+    border-color: {{ hover_color }};
+  }
+  .image-with-text-{{ section.id }} article {
+    -webkit-box-shadow: 20px 20px 0 0 var(--box-shadow-color);
+    -moz-box-shadow: 20px 20px 0 0 var(--box-shadow-color);
+    box-shadow: 20px 20px 0 0 var(--box-shadow-color);
+  }
+{%- endunless -%}
+
+.section-image-with-text .image .box-ratio {
+  padding-bottom: var(--desktop-section-height) !important;
+}
+.section-image-with-text .image img {
+  height: var(--desktop-section-height) !important;
+  object-fit: cover;
+}
+.section-image-with-text .image .onboard {
+  height: var(--desktop-section-height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-image-with-text .image .onboard svg {
+  height: 100%;
+  width: 100%;
+}
+@media screen and (max-width: 740px) {
+  .section-image-with-text .image .box-ratio {
+    padding-bottom: var(--mobile-section-height) !important;
+  }
+  .section-image-with-text .image img {
+    height: var(--mobile-section-height) !important;
+    object-fit: cover;
+  }
+  .section-image-with-text .image .onboard {
+    height: var(--mobile-section-height);
+  }
+}
+
+@media (min-width: 768px) {
+  .image-with-text-{{ section.id }} article {
+    height: {{ section.settings.iwt_section_height }}px;
+  }
+  .image-with-text-{{ section.id }} .info__inner-wrapper {
+    position:absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+{% endstyle %}
 
 {% comment %} Image with text template {% endcomment %}
 <div
@@ -33,7 +113,9 @@
 
     <article class="image span-6 auto" style="order: {{ img_order }}; {% if img_order == 2 %}z-index: 1;{% endif %}">
       {% if section.settings.iwt_image != blank %}
-        <div class="background-image"></div>
+        <div class="background-image">
+          {{ section.settings.iwt_image | image_url: width: 975 | image_tag }}
+        </div>
       {% else %}
         <div class="onboard demo-1 color-1">
           {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -55,74 +137,6 @@
         {% endif %}
       </div>
     </article>
-    <style>
-      {%- unless section.settings.color_scheme == 'none' -%}
-        .image-with-text-{{ section.id }} .info {
-          background-color: {{ bg_color }};
-        }
-        .image-with-text-{{ section.id }} .info__inner-wrapper h2,
-        .image-with-text-{{ section.id }} .info__inner-wrapper p,
-        .image-with-text-{{ section.id }} .info__inner-wrapper a {
-          color: {{ text_color }};
-        }
-        .image-with-text-{{ section.id }} .info__inner-wrapper a.button {
-          border-color: {{ text_color }};
-          color: {{ text_color }};
-        }
-        .image-with-text-{{ section.id }} .info__inner-wrapper a.button:after {
-          border-color: {{ text_color }};
-        }
-        .image-with-text-{{ section.id }} .info__inner-wrapper a.button:hover {
-          border-color: {{ hover_color }};
-          color: {{ hover_color }};
-        }
-        .image-with-text-{{ section.id }} .info__inner-wrapper a.button:hover:after {
-          border-color: {{ hover_color }};
-        }
-        .image-with-text-{{ section.id }} article {
-          -webkit-box-shadow: 20px 20px 0 0 var(--box-shadow-color);
-          -moz-box-shadow: 20px 20px 0 0 var(--box-shadow-color);
-          box-shadow: 20px 20px 0 0 var(--box-shadow-color);
-        }
-      {%- endunless -%}
-
-      @media (min-width: 768px) {
-        .image-with-text-{{ section.id }} article {
-          height: {{ section.settings.iwt_section_height }}px;
-        }
-        .image-with-text-{{ section.id }} .info__inner-wrapper {
-          position:absolute;
-          top: 50%;
-          transform: translateY(-50%);
-        }
-      }
-      .image-with-text-{{ section.id }} .background-image {
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-        background-position: center center;
-      }
-      @media (min-width: 1367px) {
-        .image-with-text-{{ section.id }} .background-image {
-          background-image: url({{ section.settings.iwt_image | img_url: '975x' }});
-        }
-      }
-      @media (min-width: 769px) and (max-width: 1366px) {
-        .image-with-text-{{ section.id }} .background-image {
-          background-image: url({{ section.settings.iwt_image | img_url: '700x' }});
-        }
-      }
-      @media (min-width: 412px) and (max-width: 768px) {
-        .image-with-text-{{ section.id }} .background-image {
-          background-image: url({{ section.settings.iwt_image | img_url: '770x' }});
-        }
-      }
-      @media (max-width: 411px) {
-        .image-with-text-{{ section.id }} .background-image {
-          background-image: url({{ section.settings.iwt_image | img_url: '420x' }});
-        }
-      }
-    </style>
 </div>
 {% schema %}
 {

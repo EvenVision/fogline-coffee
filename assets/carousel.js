@@ -42,12 +42,19 @@ function carouselInit(container) {
   const flktyOptions = JSON.parse(flktyData);
   new Flickity(carousel, flktyOptions);
   carouselResize(carousel);
+  carouselAccesibility(carousel);
 
   // Carousel pagination
   var carouselPag = container.querySelector('.js-carousel-pagination');
   if ( !carouselPag ) return false;
   carouselPagination(carousel, carouselPag);
 
+}
+
+function carouselAccesibility(carousel) {
+  var flkty = Flickity.data(carousel);
+  flkty.handles[0].before(flkty.nextButton.element);
+  flkty.nextButton.element.before(flkty.prevButton.element);
 }
 
 function carouselSlideEdit(container) {

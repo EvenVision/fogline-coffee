@@ -9,6 +9,10 @@ document.querySelectorAll('[data-section-type="product"].product-page').forEach(
       loader.load([jsAssets.productModel]).finally(() => {});
     }
 
+    if (container.dataset.productComplementaryProducts === 'true') {
+      loader.load([jsAssets.productComplementaryProducts]).finally(() => {});
+    }    
+
     loader.load([jsAssets.product]).finally(() => {});
   });
 });

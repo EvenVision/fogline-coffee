@@ -74,6 +74,7 @@
                 <input type="checkbox"
                   name="{{ value.param_name }}"
                   value="{{ value.value }}"
+                  id="{{ value.label | downcase | handle }}"
                   {% if value.active %}checked{% endif %}
                   {% if value.count == 0 and value.active == false %}disabled{% endif %}
                 >
@@ -91,7 +92,7 @@
                       assign bg_color = 'background-color:' | append:  css_color | append: ';'
                     -%}
                   <span class="color-filter color-filter--rounded color-filter--{{ status }} {{ status }}" style="{{ bg_color }}{{ bg_img }}"></span>
-                  <span class="color-filter--label">{{ value.label | escape }} <span class="filter__count">({{ value.count }})</span></span>
+                  <label class="color-filter--label" for="{{ value.label | downcase | handle }}">{{ value.label | escape }} <span class="filter__count">({{ value.count }})</span></label>
                 </a>
               </li>
             {% else %}
@@ -99,11 +100,12 @@
                 <input type="checkbox"
                   name="{{ value.param_name }}"
                   value="{{ value.value }}"
+                  id="{{ value.label | downcase | handle }}"
                   {% if value.active %}checked{% endif %}
                   {% if value.count == 0 and value.active == false %}disabled{% endif %}
                 >
                 <a class="c-accordion__link" href="{{ url }}">
-                  <span class="filter__text--label">{{ value.label | escape }} <span class="filter__count">({{ value.count }})</span></span>
+                  <label class="filter__text--label" for="{{ value.label | downcase | handle }}">{{ value.label | escape }} <span class="filter__count">({{ value.count }})</span></label>
                 </a>
               </li>
             {% endif %}

@@ -82,6 +82,8 @@ const Header = {
     element.querySelectorAll('*').forEach((item, i) => {
       item.removeAttribute('tabIndex');
     });
+    element.querySelector('.searchbox__input').focus();
+
   },
   prepareSticky: function prepareSticky() {
     let isMobile = window.innerWidth < 767,

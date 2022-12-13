@@ -14,14 +14,12 @@
     <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
   {%- endunless -%}
 
-  <link rel="stylesheet" href="https://use.typekit.net/zos6qsg.css">
-
     <!-- Preload onDomain stylesheets and script libraries -->
   <link rel="preload" href="{{ 'theme.css' | asset_url }}" as="style">
   <link rel="preload" href="{{ 'theme.js' | asset_url }}" as="script">
 
   {% if settings.favicon %}
-    <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
+    <link rel="shortcut icon" href="{{ settings.favicon | image_url: width: 32, height: 32 }}" type="image/png" />
   {% endif %}
 
   <title>
@@ -110,7 +108,8 @@
       "flickity": {{ 'vendor-flickity.js' | asset_url | json }},
       "product": {{ 'product.js' | asset_url | json }},
       "productModel": {{ 'product-model.js' | asset_url | json }},
-      "productVideo": {{ 'product-video.js' | asset_url | json }}
+      "productVideo": {{ 'product-video.js' | asset_url | json }},
+      "productComplementaryProducts": {{ 'complementary-products.js' | asset_url | json }}
     }
   </script>
 

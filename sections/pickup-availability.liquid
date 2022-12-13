@@ -34,7 +34,7 @@
     <div class="store-availability-information block w100">
       {%- assign closest_location = pick_up_availabilities.first -%}
       {%- if closest_location.available -%}
-        <button class="slideout__trigger-store-availability js-slideout-open" data-slideout-direction="right" data-wau-slideout-target="store-availability" aria-label="Toggle slideout" tabindex="0" type="button" name="button">
+        <button class="slideout__trigger-store-availability js-slideout-open" data-slideout-direction="right" data-wau-slideout-target="store-availability" aria-label="Toggle pickup availability slideout" tabindex="0" type="button" name="button">
           {%- if pick_up_availabilities.size == 1 -%}
             {{ 'store_availability.general.view_store_info' | t }}
           {%- else -%}
@@ -42,7 +42,7 @@
           {%- endif -%}
         </button>
       {%- else -%}
-        <button class="slideout__trigger-store-availability js-slideout-open" data-slideout-direction="right" data-wau-slideout-target="store-availability" aria-label="Toggle slideout" tabindex="0" type="button" name="button">
+        <button class="slideout__trigger-store-availability js-slideout-open" data-slideout-direction="right" data-wau-slideout-target="store-availability" aria-label="Close pickup availability slideout" tabindex="0" type="button" name="button">
           {%- if pick_up_availabilities.size == 1 -%}
             {{ 'store_availability.general.view_store_info' | t }}
           {%- else -%}

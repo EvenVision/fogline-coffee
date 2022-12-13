@@ -19,26 +19,138 @@ const CollectionFilters = {
 	},
 	horizontalFilters: function horizontalFilters() {
 		const listFilters = document.querySelectorAll('.js-hz-filter');
-		listFilters.forEach((item, i) => {
-			const inputField = item.querySelector('.js-hz-filter-input');
-			const dropdown = item.querySelector('.js-hz-filter-list');
-			const dropdownArray = [... item.querySelectorAll('li')];
 
-			let valueArray = [];
-
-			dropdownArray.forEach(item => {
-				let searchLabel = item.querySelector('.js-hz-filter-label');
-				if ( !searchLabel ) return false;
-				valueArray.push(searchLabel.textContent);
+		const closeDropdown = (dropdown) => {
+			dropdown.classList.remove('open');
+			dropdown.classList.add('closed');
+			dropdown.querySelectorAll("li").forEach((item) => {
+				if ( item.classList.contains('js-hz-filter-price') ) {
+					item.setAttribute('tabindex', -1);
+					item.querySelectorAll('input').forEach((el) => {
+						el.setAttribute('tabindex', -1);
+					});
+				} else {
+					item.setAttribute('tabindex', -1);
+				}
 			});
+		}
 
-			const closeDropdown = () => {
-				dropdown.classList.remove('open');
+		const openDropdown = (dropdown) => {
+			// Close any other list first
+			listFilters.forEach((list) => {
+				if ( list.querySelector('.js-hz-filter-list').classList.contains('open') ) closeDropdown(list.querySelector('.js-hz-filter-list'));
+			});
+			// Now open specific list
+			dropdown.classList.add('open');
+			dropdown.classList.remove('closed');
+			dropdown.querySelectorAll("li").forEach((item) => {
+				if ( item.classList.contains('js-hz-filter-price') ) {
+					item.setAttribute('tabindex', -1);
+					item.querySelectorAll('input').forEach((el) => {
+						el.setAttribute('tabindex', 0);
+					});
+				} else {
+					item.setAttribute('tabindex', 0);
+				}
+			});
+		}
+
+		const submitData = (item) => {
+
+			if ( item.querySelector('input[type="checkbox"]').disabled === true ) return false;
+
+			if ( item.querySelector('input[type="checkbox"]').checked ) {
+				item.classList.remove('current');
+				item.querySelector('input[type="checkbox"]').checked = false;
+			} else {
+				item.classList.add('current');
+				item.querySelector('input[type="checkbox"]').checked = true;
 			}
 
-			inputField.addEventListener('input', () => {
-				dropdown.classList.add('open');
-				let inputValue = inputField.value.toLowerCase();
+			const inputField = item.querySelector('input[type="checkbox"]');
+
+			if ( item.getAttribute('data-placeholder') ) {
+				inputField.placeholder = item.dataset.placeholder;
+			}
+			const formData = new FormData(inputField.closest('form'));
+	    const searchParams = new URLSearchParams(formData).toString();
+			const accordionContext = item.closest('.c-accordion__panel');
+
+	    CollectionFilters.renderPage(searchParams, accordionContext, true);
+		};
+
+		// On tabbing filters
+		document.addEventListener('keydown', (event) => {
+			if (event.key === 'Enter') {
+
+				if (document.activeElement.classList.contains("js-hz-filter-input")) {
+					event.stopPropagation();
+					event.preventDefault();
+
+					let dropdown = document.activeElement.nextElementSibling;
+					if (dropdown.classList.contains('open')) {
+						closeDropdown(dropdown);
+					} else {
+						openDropdown(dropdown);
+					}
+				}
+				if (document.activeElement.classList.contains('js-filter-item')) {
+					submitData(document.activeElement);
+				}
+			}
+		});
+
+		// On clicking filters
+		document.addEventListener('click', (event) => {
+			// Show/hide dropdown
+			if (event.target.classList.contains("js-hz-filter-input")) {
+				event.stopPropagation();
+				event.preventDefault();
+
+				let dropdown = event.target.nextElementSibling;
+				if (dropdown.classList.contains('open')) {
+					closeDropdown(dropdown);
+				} else {
+					openDropdown(dropdown);
+				}
+			}
+			// On click of li add/remove filter
+			if (event.target.classList.contains('js-filter-item')) {
+				submitData(event.target);
+			}
+
+			// On off click close active dropdown
+			const activeDropdown = document.querySelector('.js-hz-filter-list.open');
+			const activeinputField = activeDropdown?.previousElementSibling;
+
+			if (activeDropdown && activeinputField) {
+				const isDropdown = activeDropdown.contains(event.target);
+				const isInput = activeinputField.contains(event.target);
+
+				if (!isDropdown && !isInput) {
+					closeDropdown(activeDropdown)
+					activeinputField.value = '';
+				}
+			}
+		});
+
+		// On typing input
+		document.addEventListener('input', (event) => {
+			if (event.target.classList.contains("js-hz-filter-input")) {
+				let dropdown = event.target.nextElementSibling;
+
+				openDropdown(dropdown);
+
+				let valueArray = [];
+				const dropdownArray = [... dropdown.querySelectorAll('li')];
+
+				dropdownArray.forEach(item => {
+					let searchLabel = item.querySelector('.js-hz-filter-label');
+					if ( !searchLabel ) return false;
+					valueArray.push(searchLabel.textContent);
+				});
+
+				let inputValue = event.target.value.toLowerCase();
 				let valueSubstring;
 				if (inputValue.length > 0) {
 					for (let j = 0; j < valueArray.length; j++) {
@@ -53,57 +165,7 @@ const CollectionFilters = {
 						dropdownArray[i].classList.remove('closed');
 					}
 				}
-			});
-
-			dropdownArray.forEach(item => {
-				item.addEventListener('click', (evt) => {
-
-					if ( item.querySelector('input[type="checkbox"]').checked ) {
-						item.classList.remove('current');
-						item.querySelector('input[type="checkbox"]').checked = false;
-					} else {
-						item.classList.add('current');
-						item.querySelector('input[type="checkbox"]').checked = true;
-					}
-
-					if ( item.getAttribute('data-placeholder') ) {
-						inputField.placeholder = item.dataset.placeholder;
-					}
-
-					const formData = new FormData(inputField.closest('form'));
-			    const searchParams = new URLSearchParams(formData).toString();
-					const accordionContext = item.closest('.c-accordion__panel');
-
-			    CollectionFilters.renderPage(searchParams, accordionContext, true);
-
-					dropdownArray.forEach(dropdown => {
-						dropdown.classList.add('closed');
-					});
-				});
-			})
-
-			inputField.addEventListener('focus', () => {
-				 inputField.placeholder = inputField.dataset.genericPlaceholder;
-				 inputField.classList.add('active');
-				 dropdown.classList.add('open');
-				 dropdownArray.forEach(dropdown => {
-					 dropdown.classList.remove('closed');
-				 });
-			});
-
-			inputField.addEventListener('blur', () => {
-				inputField.placeholder = inputField.dataset.placeholder;
-				inputField.classList.remove('active');
-				dropdown.classList.remove('open');
-			});
-
-			document.addEventListener('click', (evt) => {
-				const isDropdown = dropdown.contains(evt.target);
-				const isInput = inputField.contains(evt.target);
-				if (!isDropdown && !isInput) {
-					dropdown.classList.remove('open');
-				}
-			});
+			}
 		});
 	},
 	priceRange: function priceRange() {
@@ -123,72 +185,6 @@ const CollectionFilters = {
 				});
 			});
 		}
-
-		// Open/close horizontal price range filter
-		const filterButtons = document.querySelectorAll('.js-hz-filter-price-trigger');
-
-		filterButtons.forEach((item, i) => {
-			// Show or hide dropdown when clicking
-			document.addEventListener('click', function(event){
-				const dropdown = item.nextElementSibling;
-				const isTrigger = event.target.classList.contains('js-hz-filter-price-trigger');
-				const isDropdown = dropdown.contains(event.target);
-
-				// Prevent default on button
-				if (isTrigger) {
-					event.preventDefault();
-				}
-
-				// Hide dropdown on off click
-				if (!isDropdown && !isTrigger) {
-					item.classList.remove('active');
-					dropdown.style.display = 'none';
-				}
-
-				// Only show dropdown if clicked Trigger
-				if (!isTrigger) return false;
-
-				if (dropdown.style.display == 'inline-block') {
-					item.classList.remove('active');
-					dropdown.style.display = 'none';
-				} else {
-					item.classList.add('active');
-					dropdown.style.display = 'inline-block';
-				}
-
-			});
-
-			// Show dropdown when tabbing on
-			let mouseDown = false;
-
-			item.addEventListener('mousedown', () => {
-				mouseDown = true;
-			});
-
-			item.addEventListener('mouseup', () => {
-				mouseDown = false;
-			});
-
-			item.addEventListener('focus', (event) => {
-				if (!mouseDown) {
-					const dropdown = event.target.nextElementSibling;
-					item.classList.add('active');
-					dropdown.style.display = 'inline-block';
-				}
-			});
-
-			// Hide dropdown when tabbing off
-			document.addEventListener('keyup', (event) => {
-				if (event.keyCode == 9) {
-					const dropdown = document.querySelector('.js-hz-filter-price-dropdown');
-
-					if (!document.querySelector('.js-hz-filter-price').contains(event.target)) {
-						item.classList.remove('active');
-						dropdown.style.display = 'none';
-					}
-				}
-			});
-		});
 	},
 	priceSlider: function priceSlider() {
     var parents = document.querySelectorAll(".js-price-range");
@@ -363,7 +359,6 @@ const CollectionFilters = {
       }
 		}
 		if ( document.querySelector("[data-filters-hz]") || document.querySelector("[data-collection-sort-by]") ) {
-			this.horizontalFilters();
 			this.currentFilters();
 		}
 		this.updateCollectionMsg(container);

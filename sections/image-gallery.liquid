@@ -18,7 +18,72 @@
   else
     assign heading_align = 'a-center'
   endif
+
+  assign is_single_block = true
+  if section.blocks.size > 1
+    assign is_single_block = false
+  endif
+
+  assign is_fixed_height = false
+  if section.settings.image_height == 'fixed'
+    assign is_fixed_height = true
+    assign desktop_height = section.settings.desktop_height | append: 'px'
+    assign mobile_height = section.settings.mobile_height | append: 'px'
+  endif
+
 -%}
+
+{% style %}
+#shopify-section-{{ section.id }} {
+  --desktop-section-height: {{ desktop_height }};
+  --mobile-section-height: {{ mobile_height }};
+}
+{% if section.settings.image_padding == 'padding' %}
+  .gallery-{{ section.id }} .section-gallery__container {
+    margin-top: -10px;
+    margin-bottom: -10px;
+  }
+  .gallery-{{ section.id }} .section-gallery__item-wrapper {
+    padding: 10px !important;
+  }
+{% endif %}
+{% if section.settings.full_width %}
+  .gallery-{{ section.id }} .section-gallery__container {
+    width: 102.4%;
+    margin-left: -20px;
+  }
+  @media (max-width: 980px) {
+    .gallery-{{ section.id }} .section-gallery__container {
+      width: 105.5%;
+      margin-left: -10px;
+    }
+  }
+{% else %}
+  .gallery-{{ section.id }} .section-gallery__container {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin: 0 auto !important;
+  }
+{% endif %}
+
+.gallery-{{ section.id }} .section-gallery__block-heading {
+  font-size: {{ section.settings.heading_size }}px;
+  line-height: 1;
+}
+.gallery-{{ section.id }} .section-gallery__block-subheading {
+  font-size: {{ section.settings.subheading_size }}px;
+}
+
+@media (max-width: 767px) {
+  .gallery-{{ section.id }} .section-gallery__block-heading {
+    font-size: calc({{ section.settings.heading_size }}px - ({{ section.settings.heading_size }}px * 0.15));
+  }
+  .gallery-{{ section.id }} .section-gallery__block-subheading {
+    font-size: calc({{ section.settings.subheading_size }}px - ({{ section.settings.subheading_size }}px * 0.15));
+  }
+}
+{% endstyle %}
 
 {% comment %} Gallery Template {% endcomment %}
 <div
@@ -40,38 +105,45 @@
               assign md_render = 'calc(100vw / 4)'
               assign lg_render = 'calc(1600px / 4)'
               assign image_width = 'one-quarter'
+              assign width = '500'
             when '33'
               assign md_render = 'calc(100vw / 3)'
               assign lg_render = 'calc(1600px / 3)'
               assign image_width = 'one-third'
+              assign width = '800'
             when '50'
               assign md_render = 'calc(100vw / 2)'
               assign lg_render = 'calc(1600px / 2)'
               assign image_width = 'one-half'
+              assign width = '1000'
             when '66'
               assign md_render = 'calc(100vw * 0.6667)'
               assign lg_render = 'calc(1600px * 0.6667)'
               assign image_width = 'two-thirds'
+              assign width = '1400'
             when '75'
               assign md_render = 'calc(100vw * 0.75)'
               assign lg_render = 'calc(1600px * 0.75)'
               assign image_width = 'three-quarters'
+              assign width = '1200'
             when '100'
               assign md_render = '100vw'
               assign lg_render = '100vw'
               assign image_width = 'one-whole'
+              assign width = '2000'
             endcase
           -%}
 
-          <div class="section-gallery__item-wrapper promo-{{ block.id }} section-gallery__item-wrapper--{{ image_width }}" {{ block.shopify_attributes }}>
-            <div class="section-gallery__item-inner relative">
+          <div class="section-gallery__item-wrapper promo-{{ block.id }} section-gallery__item-wrapper--{{ image_width }}" {% if is_single_block %}style="margin: 0 auto; float: unset; {% if is_single_block and image_width == 'one-whole' %}width: 100%;{% endif %}"{% endif %} {{ block.shopify_attributes }}>
+            <div class="section-gallery__item-inner{% if is_fixed_height %} is--fixed{% endif %} relative">
               {% if block.settings.link != blank %}<a class="section-gallery__item-link" href="{{ block.settings.link }}">{% endif %}
                 {% if block.settings.image != blank %}
                   {% render 'helper-image',
                      type: block.settings.image,
                      sm_render: '300px',
                      md_render: md_render,
-                     lg_render: lg_render %}
+                     lg_render: lg_render,
+                     width: width %}
                 {% else %}
                   <div class="onboard demo-1 color-2">
                     {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
@@ -127,53 +199,6 @@
 
   <div class="clear"></div>
 
-<style>
-  {% if section.settings.image_padding == 'padding' %}
-    .gallery-{{ section.id }} .section-gallery__container {
-      margin-top: -10px;
-      margin-bottom: -10px;
-    }
-    .gallery-{{ section.id }} .section-gallery__item-wrapper {
-      padding: 10px !important;
-    }
-  {% endif %}
-  {% if section.settings.full_width %}
-    .gallery-{{ section.id }} .section-gallery__container {
-      width: 102.4%;
-      margin-left: -20px;
-    }
-    @media (max-width: 980px) {
-      .gallery-{{ section.id }} .section-gallery__container {
-        width: 105.5%;
-        margin-left: -10px;
-      }
-    }
-  {% else %}
-    .gallery-{{ section.id }} .section-gallery__container {
-      width: 100%;
-      padding-left: 3%;
-      padding-right: 3%;
-      margin: 0 auto !important;
-    }
-  {% endif %}
-
-  .gallery-{{ section.id }} .section-gallery__block-heading {
-    font-size: {{ section.settings.heading_size }}px;
-    line-height: 1;
-  }
-  .gallery-{{ section.id }} .section-gallery__block-subheading {
-    font-size: {{ section.settings.subheading_size }}px;
-  }
-
-  @media (max-width: 767px) {
-    .gallery-{{ section.id }} .section-gallery__block-heading {
-      font-size: calc({{ section.settings.heading_size }}px - ({{ section.settings.heading_size }}px * 0.15));
-    }
-    .gallery-{{ section.id }} .section-gallery__block-subheading {
-      font-size: calc({{ section.settings.subheading_size }}px - ({{ section.settings.subheading_size }}px * 0.15));
-    }
-  }
-</style>
 </div>
 
 {% schema %}
@@ -193,6 +218,42 @@
         "id": "title",
         "label": "Heading",
         "default": "Image gallery"
+      },
+      {
+        "type": "radio",
+        "id": "image_height",
+        "label": "Image height",
+        "default":"natural",
+        "options": [
+          {
+            "value": "natural",
+            "label": "Natural"
+          },
+          {
+            "value": "fixed",
+            "label": "Fixed height"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "desktop_height",
+        "min": 200,
+        "max": 1000,
+        "step": 50,
+        "unit": "px",
+        "label": "Desktop fixed height",
+        "default": 450
+      },
+      {
+        "type": "range",
+        "id": "mobile_height",
+        "min": 200,
+        "max": 800,
+        "step": 50,
+        "unit": "px",
+        "label": "Mobile fixed height",
+        "default": 350
       },
       {
         "type": "range",

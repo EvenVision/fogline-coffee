@@ -93,28 +93,28 @@
 -%}
 
 :root {
-  --heading-family: {{ '"trajan-pro-3",serif' }};
+  --heading-family: {{ heading_font.family }};
   --heading-weight: {{ heading_font.weight }};
   --heading-style: {{ heading_font.style }};
   --heading-spacing: {{ heading_spacing }};
   --heading-align: {{ settings.section_title_align }};
 
-  --main-family: {{ '"brandon-grotesque", sans-serif' }};
+  --main-family: {{ main_font.family }};
   --main-weight: {{ main_font.weight }};
   --main-style: {{ main_font.style }};
   --main-spacing: {{ font_spacing }};
 
-  --nav-family: {{ '"brandon-grotesque", sans-serif' }};
+  --nav-family: {{ nav_font.family }};
   --nav-weight: {{ nav_font.weight }};
   --nav-style: {{ nav_font.style }};
   --nav-spacing: {{ nav_spacing }};
   --nav-transform: {{ nav_transform }};
 
-  --font-size: {{ '20' }}px;
+  --font-size: {{ settings.font_size}}px;
   --nav-size: {{ settings.nav_size }}px;
-  --h1-size: {{ '64' }}px;
-  --h2-size: {{ '34' }}px;
-  --h3-size: {{ '34' }}px;
+  --h1-size: {{ settings.h1_size }}px;
+  --h2-size: {{ settings.h2_size }}px;
+  --h3-size: {{ settings.h3_size }}px;
 
   --font-size-sm: calc({{ settings.font_size}}px - 2px);
 
@@ -197,6 +197,10 @@
   --prefooter-button-text: {{ settings.prefooter_button_text }};
   --age-text-color: {{ settings.age_text_color }};
   --age-bg-color: {{ settings.age_bg_color }};
+
+  --text-color-reset: {{ settings.text_color }};
+  --background-reset: {{ settings.background }};
+
 }
 .ajax-cart__free-shipping {
   background-color: var(--scheme-{{ settings.free_shipping_scheme }}-bg);

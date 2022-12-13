@@ -37,7 +37,108 @@
   assign bg_color = 'var(--scheme-' | append: section.settings.color_scheme | append: '-bg)'
   assign hover_color = 'var(--scheme-' | append: section.settings.color_scheme | append: '-hover)'
 
+  assign is_fixed_height = false
+  if section.settings.image_height == 'fixed'
+    assign is_fixed_height = true
+    assign desktop_height = section.settings.desktop_height | append: 'px'
+    assign mobile_height = section.settings.mobile_height | append: 'px'
+  endif
+
 -%}
+
+<style media="screen">
+  #shopify-section-{{ section.id }} {
+    --desktop-section-height: {{ desktop_height }};
+    --mobile-section-height: {{ mobile_height }};
+  }
+  .text-with-image-{{ section.id }}.section-text-with-image {
+    background: -webkit-linear-gradient({{ bg_color }} 80%, var(--background) 20%);
+    color: {{ text_color }};
+  }
+  .text-with-image-{{ section.id }}.section-text-with-image p,
+  .text-with-image-{{ section.id }}.section-text-with-image a {
+    font-size: {{ section.settings.text_size }}px;
+    color: {{ text_color }};
+  }
+  .text-with-image-{{ section.id }}.section-text-with-image .rte a:hover {
+    color: {{ hover_color }};
+  }
+  .text-with-image-{{ section.id }}.section-text-with-image h3 {
+    font-size: {{ section.settings.heading_size }}px;
+    color: {{ text_color }};
+  }
+  @media (min-width: 768px) {
+    .text-with-image-{{ section.id }}.section-text-with-image .button,
+    .text-with-image-{{ section.id }}.section-text-with-image a,
+    .text-with-image-{{ section.id }}.section-text-with-image h3 {
+      color: {{ text_color }} !important;
+    }
+    .text-with-image-{{ section.id }}.section-text-with-image .rte a:hover {
+      color: {{ hover_color }} !important;
+    }
+    .text-with-image-{{ section.id }}.section-text-with-image .button {
+      background-color: {{ bg_color }} !important;
+      color: {{ text_color }} !important;
+      border-color:  {{ text_color }} !important;
+    }
+    .text-with-image-{{ section.id }}.section-text-with-image .button:after {
+      background-color: transparent; !important;
+      border-color:  {{ text_color }} !important;
+      z-index: 0;
+    }
+    .text-with-image-{{ section.id }}.section-text-with-image .button:hover {
+      background-color: {{ bg_color }} !important;
+      color: {{ hover_color }} !important;
+      border-color:  {{ hover_color }} !important;
+    }
+     .text-with-image-{{ section.id }}.section-text-with-image .button:hover:after {
+      border-color:  {{ hover_color }} !important;
+    }
+  }
+  @media (max-width: 767px) {
+    .text-with-image-{{ section.id }}.section-text-with-image {
+      background: -webkit-linear-gradient({{ bg_color }} 35%, var(--background) 35%);
+    }
+    .text-with-image-{{ section.id }}.section-text-with-image h3 {
+      font-size: calc({{ section.settings.heading_size }}px - ({{ section.settings.heading_size }}px * 0.15));
+    }
+    .text-with-image-{{ section.id }}.section-text-with-image p {
+      font-size: calc({{ section.settings.text_size }}px - ({{ section.settings.text_size }}px * 0.15));
+    }
+  }
+  {% if section.settings.color_header %}
+    .template-index #shopify-section-header,
+    .template-index .section-header__mobile,
+    .template-index .section-header__main-bar {
+      background-color: {{ bg_color }} !important;
+    }
+    .template-index .section-header .site-logo a,
+    .template-index ul.header__cart-links__wrapper a,
+    .template-index ul.header__cart-links__wrapper button,
+    .template-index ul.header__navigation a.dlink {
+      color: {{ text_color }} !important;
+    }
+    .template-index .section-header .site-logo a:hover,
+    .template-index ul.header__cart-links__wrapper a:hover,
+    .template-index ul.header__cart-links__wrapper button:hover {
+      color: {{ hover_color }} !important;
+    }
+    .template-index ul.header__cart-links__wrapper svg .hover-fill,
+    .template-index ul.header__navigation a.dlink svg .hover-fill,
+    .template-index .section-header__mobile svg .hover-fill {
+      fill: {{ text_color }} !important;
+    }
+    .section-header__main-bar .stroke g,
+    .section-header__mobile .stroke g {
+      stroke: {{ text_color }} !important;
+    }
+    .template-index ul.header__cart-links__wrapper svg:hover .hover-fill,
+    .template-index ul.header__navigation a.dlink svg:hover .hover-fill,
+    .template-index .section-header__mobile svg:hover .hover-fill {
+      fill: {{ hover_color }} !important;
+    }
+  {% endif %}
+</style>
 
 {% comment %} Hero image with text template {% endcomment %}
 <div
@@ -45,11 +146,11 @@
   data-section-id="{{ section.id }}"
   data-section-type="hero-image-with-text">
 
-  <div class="grid__wrapper narrow">
+  <div class="grid__wrapper narrow {% if section.settings.desktop_image_placement == 'left' %}reverse{% endif %}">
     <article class="text span-6 auto {{ text_align }} {{ vertical_align }}">
-      <div class="text-with-image pt6 pb10 sm-pb5">
+      <div class="text-with-image pt8 pb9 sm-pb5">
         {% if section.settings.title != blank %}
-          <h2 class="mb4 animate--text">{{ section.settings.title | escape }}</h2>
+          <h3 class="mb6 animate--text">{{ section.settings.title | escape }}</h3>
         {% endif %}
         {% if section.settings.text != blank %}
           <div class="rte mb6 animate--text delay--1">{{ section.settings.text }}</div>
@@ -63,7 +164,7 @@
     </article>
     <article class="image span-6 auto relative {{ vertical_align }}">
       <div
-        class="image-container pt9">
+        class="image-container{% if is_fixed_height %} is--fixed{% endif %} pt8">
 
         {% if section.settings.image == blank %}
           <div class="demo-1 color-1 placeholder-image">
@@ -74,102 +175,13 @@
              type: section.settings.image,
              sm_render: sm_render
              md_render: md_render,
-             lg_render: lg_render %}
+             lg_render: lg_render,
+             width: 1200,
+             loading: 'eager' %}
         {% endif %}
       </div>
     </article>
   </div>
-
-  <style media="screen">
-    .text-with-image-{{ section.id }}.section-text-with-image {
-      background: -webkit-linear-gradient({{ bg_color }} 85%, var(--background) 15%);
-      color: {{ text_color }};
-    }
-    .text-with-image-{{ section.id }}.section-text-with-image p,
-    .text-with-image-{{ section.id }}.section-text-with-image a {
-      font-size: {{ section.settings.text_size }}px;
-      color: {{ text_color }};
-    }
-    .text-with-image-{{ section.id }}.section-text-with-image .rte a:hover {
-      color: {{ hover_color }};
-    }
-    .text-with-image-{{ section.id }}.section-text-with-image h2 {
-      font-size: {{ section.settings.heading_size }}px;
-      line-height: 1;
-      color: {{ text_color }};
-    }
-    @media (min-width: 768px) {
-      .text-with-image-{{ section.id }}.section-text-with-image .button,
-      .text-with-image-{{ section.id }}.section-text-with-image a,
-      .text-with-image-{{ section.id }}.section-text-with-image h2 {
-        color: {{ text_color }} !important;
-      }
-      .text-with-image-{{ section.id }}.section-text-with-image .rte a:hover {
-        color: {{ hover_color }} !important;
-      }
-      .text-with-image-{{ section.id }}.section-text-with-image .button {
-        background-color: {{ bg_color }} !important;
-        color: {{ text_color }} !important;
-        border-color:  {{ text_color }} !important;
-      }
-      .text-with-image-{{ section.id }}.section-text-with-image .button:after {
-        background-color: transparent; !important;
-        border-color:  {{ text_color }} !important;
-        z-index: 0;
-      }
-      .text-with-image-{{ section.id }}.section-text-with-image .button:hover {
-        background-color: {{ bg_color }} !important;
-        color: {{ hover_color }} !important;
-        border-color:  {{ hover_color }} !important;
-      }
-       .text-with-image-{{ section.id }}.section-text-with-image .button:hover:after {
-        border-color:  {{ hover_color }} !important;
-      }
-    }
-    @media (max-width: 767px) {
-      .text-with-image-{{ section.id }}.section-text-with-image {
-        background: -webkit-linear-gradient({{ bg_color }} 35%, var(--background) 35%);
-      }
-      .text-with-image-{{ section.id }}.section-text-with-image h2 {
-        font-size: calc({{ section.settings.heading_size }}px - ({{ section.settings.heading_size }}px * 0.40));
-      }
-      .text-with-image-{{ section.id }}.section-text-with-image p {
-        font-size: calc({{ section.settings.text_size }}px - ({{ section.settings.text_size }}px * 0.15));
-      }
-    }
-    {% if section.settings.color_header %}
-      .template-index #shopify-section-header,
-      .template-index .section-header__mobile,
-      .template-index .section-header__main-bar {
-        background-color: {{ bg_color }} !important;
-      }
-      .template-index .section-header .site-logo a,
-      .template-index ul.header__cart-links__wrapper a,
-      .template-index ul.header__cart-links__wrapper button,
-      .template-index ul.header__navigation a.dlink {
-        color: {{ text_color }} !important;
-      }
-      .template-index .section-header .site-logo a:hover,
-      .template-index ul.header__cart-links__wrapper a:hover,
-      .template-index ul.header__cart-links__wrapper button:hover {
-        color: {{ hover_color }} !important;
-      }
-      .template-index ul.header__cart-links__wrapper svg .hover-fill,
-      .template-index ul.header__navigation a.dlink svg .hover-fill,
-      .template-index .section-header__mobile svg .hover-fill {
-        fill: {{ text_color }} !important;
-      }
-      .section-header__main-bar .stroke g,
-      .section-header__mobile .stroke g {
-        stroke: {{ text_color }} !important;
-      }
-      .template-index ul.header__cart-links__wrapper svg:hover .hover-fill,
-      .template-index ul.header__navigation a.dlink svg:hover .hover-fill,
-      .template-index .section-header__mobile svg:hover .hover-fill {
-        fill: {{ hover_color }} !important;
-      }
-    {% endif %}
-  </style>
 </div>
 {% schema %}
   {
@@ -182,6 +194,58 @@
         "id": "image",
         "label": "Image",
         "info": "Use an image with a 3 x 4 vertical ratio for best results"
+      },
+      {
+        "type": "radio",
+        "id": "image_height",
+        "label": "Image height",
+        "default":"natural",
+        "options": [
+          {
+            "value": "natural",
+            "label": "Natural"
+          },
+          {
+            "value": "fixed",
+            "label": "Fixed height"
+          }
+        ]
+      },
+      {
+        "type": "range",
+        "id": "desktop_height",
+        "min": 200,
+        "max": 1000,
+        "step": 50,
+        "unit": "px",
+        "label": "Desktop fixed height",
+        "default": 550
+      },
+      {
+        "type": "range",
+        "id": "mobile_height",
+        "min": 200,
+        "max": 800,
+        "step": 50,
+        "unit": "px",
+        "label": "Mobile fixed height",
+        "default": 400
+      },
+      {
+        "type": "select",
+        "id": "desktop_image_placement",
+        "label": "Desktop image placement",
+        "default": "right",
+        "options": [
+          {
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ]
       },
       {
         "type": "select",
@@ -235,11 +299,11 @@
         "type": "range",
         "id": "heading_size",
         "min": 22,
-        "max": 34,
+        "max": 64,
         "step": 1,
         "unit": "px",
         "label": "Heading size",
-        "default": 34
+        "default": 64
       },
       {
         "type": "range",

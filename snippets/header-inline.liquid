@@ -2,9 +2,9 @@
   <article class="header-inline__logo-wrapper {{ logo_width }} auto {{ nav_align }}">
     <div class="site-logo header__logo-wrapper relative lh0 {{ logo_align }}">
       {% if section.settings.logo_homepage != blank and template == 'index' %}
-        <a class="header__img-logo-home inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}"><img src="{{ section.settings.logo_homepage | img_url: '800x' }}" loading="lazy" alt="{{ shop.name }}"></a>
+        <a class="header__img-logo-home inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}">{{ section.settings.logo_homepage | image_url: width: 800 | image_tag: loading: 'eager' }}</a>
       {% elsif section.settings.logo != blank %}
-        <a class="header__img-logo inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}"><img src="{{ section.settings.logo | img_url: '800x' }}" loading="lazy" alt="{{ shop.name }}"></a>
+        <a class="header__img-logo inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}">{{ section.settings.logo | image_url: width: 800 | image_tag: loading: 'eager' }}</a>
       {% else %}
         <a class="header__text-logo inline-block v-center m0" href="{{ routes.root_url }}">{{ shop.name }}</a>
       {% endif %}

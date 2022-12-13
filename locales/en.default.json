@@ -158,6 +158,7 @@
       "shop_all": "View All",
       "clear_all_tags": "Clear all filters",
       "save": "Save",
+      "save_to_html": "Save up to {{ savings }}",
       "items": "Item(s)",
       "item_count": {
         "one": "{{ count }} Item",

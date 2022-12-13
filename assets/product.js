@@ -56,7 +56,7 @@ ProductForm = function (context, sectionId, events, Product) {
           return Array.from(swatch.querySelectorAll('input')).find((radio) => radio.checked).value;
         });
       } else {
-        options = Array.from(context.querySelectorAll('select'), (select) => select.value);
+        options = Array.from(context.querySelectorAll('select.js-variant-selector'), (select) => select.value);
       }
 
       variant = Product.variants.find((variant) => {
@@ -534,7 +534,7 @@ ProductGallery = (function () {
       }
     });
 
-    ProductGallery.galleryEvents(flkty, context);
+    ProductGallery.galleryEvents(flkty, context, carouselNav);
 
     if ( carouselNav ) ProductGallery.thumbnails(flkty, carouselNav, config, context);
   }
@@ -620,7 +620,7 @@ ProductGallery = (function () {
     });
   }
 
-  function galleryEvents(flkty, context) {
+  function galleryEvents(flkty, context, carouselNav) {
 
     /* On Variant Change and Initial Load */
     Events.on('variantchange:image', function(id, context){
@@ -639,6 +639,11 @@ ProductGallery = (function () {
 
       curFlkty = Flickity.data( main );
       curFlkty.select( index );
+
+      if ( carouselNav ) {
+        let activeThumb = carouselNav.querySelector('.js-thumb-item.is-nav-selected');
+        ProductGallery.setThumbPos(activeThumb, carouselNav);
+      }
 
     });
   }

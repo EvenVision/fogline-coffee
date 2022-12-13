@@ -648,6 +648,25 @@ WAU.AjaxCart = {
     context.querySelector(selectors.addToCart).getAttribute('disabled', 'disabled');
 
 
+    function addingToCart(trigger) {
+      if (!trigger) {
+        console.warn('Warning. No trigger element passed in.');
+      }
+      trigger.innerHTML = config.adding_to_cart;
+      trigger.classList.add('disabled');
+      trigger.setAttribute('disabled', true);
+    }
+
+    function addedToCart(trigger) {
+      if (!trigger) {
+        console.warn('Warning. No trigger element passed in.');
+      }
+      trigger.innerHTML = config.added_to_cart;
+      trigger.classList.remove('disabled');
+      trigger.removeAttribute('disabled');
+    }
+
+
     WAU.ThemeCart.addItemFromForm(addToCartForm).then(item => {
       // Re-enable add to cart button
       context.querySelector(selectors.addToCartText).innerHTML = config.added_to_cart;
@@ -673,14 +692,29 @@ WAU.AjaxCart = {
         } else if ( isQuickview && config.cart_added_event == 'product_page') {
 					if ( quickAdd === true ) {
 						var trigger = document.querySelector('.js-quick-adding');
+            var quickviewAlt = trigger.dataset.quickviewAlt;
 						if ( trigger ) {
 							trigger.classList.remove('loading-quickshop');
-							WAU.Helpers.fadeOut(trigger.querySelector('.quickview-trigger--plus'));
-							WAU.Helpers.fadeIn(trigger.querySelector('.quickview-trigger--check'), 'inline-block');
+              if (!quickviewAlt) {
 
+  							WAU.Helpers.fadeOut(trigger.querySelector('.quickview-trigger--plus'));
+
+  							WAU.Helpers.fadeIn(trigger.querySelector('.quickview-trigger--check'), 'inline-block');
+
+              } else {
+                addingToCart(trigger);
+              }
 							setTimeout(function(){
-								WAU.Helpers.fadeOut(trigger.querySelector('.quickview-trigger--check'));
-								WAU.Helpers.fadeIn(trigger.querySelector('.quickview-trigger--plus'), 'inline-block');
+
+                if (!quickviewAlt) {
+
+  								WAU.Helpers.fadeOut(trigger.querySelector('.quickview-trigger--check'));
+
+  								WAU.Helpers.fadeIn(trigger.querySelector('.quickview-trigger--plus'), 'inline-block');
+
+                } else {
+                  addedToCart(trigger);
+                }
 								trigger.classList.remove('js-quick-adding');
 							}, 4000);
 						}

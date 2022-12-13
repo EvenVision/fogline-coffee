@@ -61,7 +61,7 @@ data-section-loaded="false">
           <tr id="{{ line_item.id }}" class="{% cycle 'odd', 'even' %}">
             <td class="product">
               <span class="image mr3 inline-block v-center">
-                {% if line_item.image %}{{ line_item.image | img_url: '70x' | img_tag }}{% endif %}
+                {% if line_item.image %}{{ line_item.image | image_url: width: 100 | image_tag }}{% endif %}
               </span>
               <div class="inline-block v-center">
                 <p class="mb0"><a href="{{ line_item.product.url }}"<b>{{ line_item.product.title }}</b></a></p>

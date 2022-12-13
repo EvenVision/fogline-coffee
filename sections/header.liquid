@@ -110,7 +110,8 @@
         >
       {%- endif -%}
       <form class="searchbox__form" action="{{ routes.search_url }}" method="get">
-        <input class="searchbox__input mb0" type="text" autocomplete="off" name="q" id="q" placeholder="Search..." />
+        <label class="visually-hidden" for="q">{{ 'general.search.title' | t }}</label>
+        <input class="searchbox__input mb0" title="{{ 'general.search.title' | t }}" type="text" autocomplete="off" name="q" id="q" placeholder="{{ 'general.search.placeholder' | t }}" />
         <input name="options[prefix]" type="hidden" value="last">
 
         {% if settings.search_show_products_only %}
@@ -150,9 +151,9 @@
       </ul>
       <div class="site-logo mobile-nav__logo-wrapper span-6 md-span-6 sm-span-6 auto a-center v-center shrink-wrap">
         {% if section.settings.logo_homepage != blank and template == 'index' %}
-          <a class="mobile-nav__img-logo-home inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}"><img src="{{ section.settings.logo_homepage | img_url: '800x' }}" loading="lazy" alt="{{ shop.name }}"></a>
+          <a class="mobile-nav__img-logo-home inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}">{{ section.settings.logo_homepage | image_url: width: 500 | image_tag: loading: 'eager' }}</a>
         {% elsif section.settings.logo != blank %}
-          <a class="mobile-nav__img-logo inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}"><img src="{{ section.settings.logo | img_url: '800x' }}" loading="lazy" alt="{{ shop.name }}"></a>
+          <a class="mobile-nav__img-logo inline-block lh0 mb0 shrink-wrap" href="{{ routes.root_url }}">{{ section.settings.logo | image_url: width: 500 | image_tag: loading: 'eager' }}</a>
         {% else %}
           <a class="mobile-nav__text-logo inline-block v-center m0" href="{{ routes.root_url }}">{{ shop.name }}</a>
         {% endif %}

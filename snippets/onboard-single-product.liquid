@@ -28,7 +28,7 @@ class="{{ gallery_width }} mb4">
                 <div class="product__quantity mt3 mb2" style="border-top: 1px solid;">
                   <label class="product__quantity-label vib-center mt3" for="productQty-{{ product.id }}">{{ 'products.product.quantity' | t }}</label>
                   <div class="product__quantity--selector">
-                    <a class="product__quantity-down downer js-qty-down mr1 mb0 vib-center" href="#" aria-label="Decrease" tabindex="0">
+                    <button class="product__quantity-down downer js-qty-down mr1 mb0 vib-center" aria-label="Decrease" tabindex="0" type="button" disabled>
                       {% render 'snip-icons',
                          wrapper: '.product__quantity',
                          type: 'theme',
@@ -36,14 +36,15 @@ class="{{ gallery_width }} mb4">
                          size: '10px',
                          fill: 'var(--text-color)',
                          hover: 'var(--text-color)' %}
-                    </a>
+                    </button>
                     <input id="productQty-{{ product.id }}"
                       min="1"
                       data-limit="{% if current_variant.inventory_management == 'shopify' %}{% unless current_variant.inventory_policy == 'continue' %}{{ current_variant.inventory_quantity }}{% endunless %}{% endif %}"
                       type="text" name="quantity"
                       class="product__quantity-input vib-center"
-                      value="1" />
-                    <a class="product__quantity-up js-qty-up up ml1 mb0 vib-center" href="#" aria-label="Increase" tabindex="0">
+                      value="1"
+                      disabled />
+                    <button class="product__quantity-up js-qty-up up ml1 mb0 vib-center" aria-label="Increase" tabindex="0" type="button" disabled>
                       {% render 'snip-icons',
                          wrapper: '.product__quantity',
                          type: 'theme',
@@ -51,7 +52,7 @@ class="{{ gallery_width }} mb4">
                          size: '10px',
                          fill: 'var(--text-color)',
                          hover: 'var(--text-color)' %}
-                    </a>
+                    </button>
                   </div>
                 </div>
               {% endif %}

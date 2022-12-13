@@ -28,12 +28,7 @@
             <div class="ajax-cart__item-image__wrapper">
               <a href="{{ item.url }}" title="{{ item.product.title | escape }}">
                 {% if item.image != blank %}
-                  <img
-                    src="{{ item.image | img_url: '200x' }}"
-                    width="{{ item.image.width }}"
-                    height="{{ item.image.height }}"
-                    loading="lazy"
-                    alt="{{ item.image.alt | escape }}" />
+                  {{ item.image | image_url: width: 200 | image_tag: loading: 'eager' }}
                 {% else %}
                   <span class="demo-1 color-2">{{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}</span>
                 {% endif %}
@@ -182,7 +177,8 @@
                 +
               </a>
             </div>
-            <input class="ajax-cart__item-update--no-js btn-as-link" type="submit" name="update" style="display:none;" value="{{ 'cart.general.update' | t }}">
+            <label class="visually-hidden" for="ajax-update">{{ 'cart.general.update' | t }}</label>
+            <input class="ajax-cart__item-update--no-js btn-as-link" type="submit" name="update" style="display:none;" id="ajax-update" value="{{ 'cart.general.update' | t }}">
           </li>
           <li class="ajax-cart__item-line-price v-center">
             <dl {% unless item.original_line_price != item.final_line_price %}class="hide" {% endunless %}data-cart-item-discounted-price-group>
@@ -218,6 +214,7 @@
           </li>
           <ul class="accordion-content sub closed">
             <div class="a-left">
+              <label class="visually-hidden" for="note">{{ 'cart.general.note' | t }}</label>
               <textarea name="note" id="note" rows="5" cols="60" class="js-cart-note border">{{ cart.note }}</textarea>
             </div>
           </ul>

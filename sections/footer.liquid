@@ -26,7 +26,7 @@
     <div class="span-4 auto">
       {% if section.settings.footer_logo != blank %}
         <a class="footer-logo mb4 lh0 inline-block" href="{{ routes.root_url }}">
-          <img src="{{ section.settings.footer_logo | img_url: '800x' }}" alt="{{ shop.name }}">
+          {{ section.settings.footer_logo | image_url: width: 800 | image_tag }}
         </a>
       {% endif %}
       {% if section.settings.footer_text != blank %}
@@ -59,7 +59,7 @@
               <noscript>
                 {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
                   <div class="localization-form__select inline-block v-center">
-                    <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">{{ 'localization.language_label' | t }}</h2>
+                    <h2 class="visually-hidden" id="FooterLanguageLabelNoScript">{{ 'general.language.dropdown_label' | t }}</h2>
                     <select class="localization-selector link" name="locale_code" aria-labelledby="FooterLanguageLabelNoScript">
                       <option value="" disabled>{{ 'general.language.dropdown_label' | t }}</option>
                       {%- for language in localization.available_languages -%}
@@ -84,9 +84,9 @@
               <div data-localization-form>
                 {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
                   <div class="no-js-hidden">
-                    <h2 class="visually-hidden" id="FooterLanguageLabel">{{ 'localization.language_label' | t }}</h2>
+                    <h2 class="visually-hidden" id="FooterLanguageLabel">{{ 'general.language.dropdown_label' | t }}</h2>
                     <div class="disclosure">
-                      <button type="button" class="disclosure__button localization-form__select btn-outline" aria-expanded="false" aria-controls="FooterLanguageList" aria-describedby="FooterLanguageLabel">
+                      <button type="button" class="disclosure__button localization-form__select btn-outline" aria-label="Choose language" aria-expanded="false" aria-controls="FooterLanguageList" aria-describedby="FooterLanguageLabel">
                         {{ localization.language.endonym_name | capitalize }}
                       </button>
                       <ul id="FooterLanguageList" role="list" class="disclosure__list" hidden>
@@ -136,7 +136,7 @@
                   <div class="no-js-hidden">
                     <h2 class="visually-hidden" id="FooterCountryLabel">{{ 'general.currency.dropdown_label' | t }}</h2>
                     <div class="disclosure">
-                      <button type="button" class="disclosure__button localization-form__select localization-selector btn-outline" aria-expanded="false" aria-controls="FooterCountryList" aria-describedby="FooterCountryLabel">
+                      <button type="button" class="disclosure__button localization-form__select localization-selector btn-outline" aria-label="Choose country" aria-expanded="false" aria-controls="FooterCountryList" aria-describedby="FooterCountryLabel">
                         {{ localization.country.name }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
                       </button>
                       <ul id="FooterCountryList" role="list" class="disclosure__list" hidden>

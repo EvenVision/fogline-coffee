@@ -158,6 +158,7 @@
       "shop_all": "Comprar todo",
       "clear_all_tags": "Filtros claros",
       "save": "Salvar",
+      "save_to_html": "Guardar hasta {{ savings }}",
       "items": "Artículos",
       "item_count": {
         "one": "{{ count }} Artículo",

@@ -35,26 +35,31 @@
     assign lg_render = 'calc(1600px / 3)'
     assign width_one = 'span-8'
     assign width_two = 'span-4'
+    assign width = '800'
   elsif section.settings.item_width == 'one_half' or section.settings.item_width == '50'
     assign md_render = 'calc(100vw / 2)'
     assign lg_render = 'calc(1600px / 2)'
     assign width_one = 'span-6'
     assign width_two = 'span-6'
+    assign width = '1000'
   elsif section.settings.item_width == 'two_thirds' or section.settings.item_width == '66'
     assign md_render = 'calc(100vw * 0.6667)'
     assign lg_render = 'calc(1600px * 0.6667)'
     assign width_one = 'span-4'
     assign width_two = 'span-8'
+    assign width = '1200'
   elsif section.settings.item_width == 'three_quarters' or section.settings.item_width == '75'
     assign md_render = 'calc(100vw * 0.75)'
     assign lg_render = 'calc(1600px * 0.75)'
     assign width_one = 'span-9'
     assign width_two = 'span-3'
+    assign width = '1200'
   elsif section.settings.item_width == 'one_whole' or section.settings.item_width == '100'
     assign md_render = '100vw'
     assign lg_render = '100vw'
     assign width_one = 'span-8 push-2'
     assign width_two = 'span-8 push-2'
+    assign width = '2000'
   endif
 
   case section.settings.text_align
@@ -74,15 +79,29 @@
   when 'bottom'
     assign vertical_align =  'v-end'
   endcase
+
+  assign is_fixed_height = false
+  if section.settings.image_height == 'fixed'
+    assign is_fixed_height = true
+    assign desktop_height = section.settings.desktop_height | append: 'px'
+    assign mobile_height = section.settings.mobile_height | append: 'px'
+  endif
+
 -%}
+
+{% style %}
+#shopify-section-{{ section.id }} {
+  --desktop-section-height: {{ desktop_height }};
+  --mobile-section-height: {{ mobile_height }};
+}
+{% endstyle %}
 
 {% comment %} Image Carousel with Text Template {% endcomment %}
 <div
   class="section-image-carousel-text text-with-image-{{ section.id }} global__section {{ section_padding }}"
   data-section-id="{{ section.id }}"
   data-asset-url="{{ 'carousel.js' | asset_url }}"
-  data-section-type="carousel"
-  data-section-loaded="false">
+  data-section-type="carousel">
 
   <div class="grid__wrapper {{ full_width }} aflow">
 
@@ -100,7 +119,7 @@
         {% if section.blocks.size > 0 %}
             {% for block in section.blocks %}
               <div
-                class="carousel-cell slide-{{ block.id }}"
+                class="carousel-cell image--carousel_image{% if is_fixed_height %} is--fixed{% endif %} slide-{{ block.id }}"
                 data-block-id="{{ block.id }}"
                 data-slider-index="{{ forloop.index0 }}" {{ block.shopify_attributes }}>
 
@@ -114,7 +133,8 @@
                        type: block.settings.image,
                        sm_render: sm_render
                        md_render: md_render,
-                       lg_render: lg_render %}
+                       lg_render: lg_render,
+                       width: width %}
                   </a>
                 {% endif %}
 
@@ -126,10 +146,10 @@
     <article class="{{ width_one }} {{ position_two }} {{ text_align }} {{ vertical_align }}">
       <div class="text-with-image p3">
         {% if section.settings.title != blank %}
-          <h2 class="section-image-carousel-text__block-heading mb4">{{ section.settings.title | escape }}</h2>
+          <h3 class="section-image-carousel-text__block-heading mb1">{{ section.settings.title | escape }}</h3>
         {% endif %}
         {% if section.settings.text != blank %}
-          <div class="section-image-carousel-text__block-subheading rte mb6">{{ section.settings.text }}</div>
+          <div class="section-image-carousel-text__block-subheading rte mb4">{{ section.settings.text }}</div>
         {% endif %}
         {% if section.settings.button != blank and section.settings.link != blank %}
           <a href="{{ section.settings.link }}" class="section-image-carousel-text__button button btn-outline mt3">
@@ -161,6 +181,42 @@
         "label": "Enable full width",
         "default": false
 	  },
+    {
+      "type": "radio",
+      "id": "image_height",
+      "label": "Image height",
+      "default":"natural",
+      "options": [
+        {
+          "value": "natural",
+          "label": "Natural"
+        },
+        {
+          "value": "fixed",
+          "label": "Fixed height"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "desktop_height",
+      "min": 200,
+      "max": 1000,
+      "step": 50,
+      "unit": "px",
+      "label": "Desktop fixed height",
+      "default": 650
+    },
+    {
+      "type": "range",
+      "id": "mobile_height",
+      "min": 200,
+      "max": 800,
+      "step": 50,
+      "unit": "px",
+      "label": "Mobile fixed height",
+      "default": 400
+    },
     {
       "type": "select",
       "id": "section_padding",

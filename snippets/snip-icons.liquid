@@ -58,17 +58,16 @@
         <style>#icon--dropdown-arrow.stroke:hover g { stroke: {{ hover }};}</style>
     </svg>
   {% elsif icon == 'account' or icon == 'user-circle' %}
-    <svg id="icon--account" class="{{ classes }} stroke" width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g class="icon-fill" transform="translate(-398.000000, -703.000000)" stroke="{{ fill }}">
-                <g id="Account-Icon" transform="translate(398.000000, 703.000000)">
-                    <path d="M3.16881835,15.7516851 C3.76794965,12.7435106 6.5568776,10.4680707 9.90689161,10.4680707 C13.0775544,10.4680707 15.7456013,12.5063902 16.5301574,15.2750726"  stroke-linecap="round" stroke-linejoin="bevel"></path>
-                    <circle  cx="9.777514" cy="9.6419837" r="9.08695652"></circle>
-                    <circle  cx="10.0648486" cy="7.45105742" r="2.76559547"></circle>
-                </g>
-            </g>
-        </g>
-        <style>#icon--account.stroke:hover g { stroke: {{ hover }};}</style>
+     <svg class="icon--account {{ classes }}" height="{{ size }}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 20 20" xml:space="preserve">
+      <g class="hover-fill" fill="{{ fill }}">
+       <path d="M10,0C4.5,0,0,4.5,0,10c0,5.5,4.5,10,10,10c5.5,0,10-4.5,10-10C20,4.5,15.5,0,10,0z M10.3,5.6c1.2,0,2.1,1,2.1,2.1
+    s-1,2.1-2.1,2.1s-2.1-1-2.1-2.1S9.1,5.6,10.3,5.6z M10.1,11.6c2.8,0,5.3,1.8,6.1,4.4c-1.6,1.7-3.9,2.7-6.2,2.7c-2.3,0-4.4-0.9-6-2.4
+    C4.7,13.5,7.2,11.6,10.1,11.6z M13.8,7.8c0-2-1.6-3.5-3.5-3.5S6.8,5.8,6.8,7.8c0,1,0.5,2,1.2,2.7c-2.3,0.6-4.2,2.3-5.1,4.4
+    c-1-1.4-1.5-3.1-1.5-4.8c0-4.7,3.9-8.6,8.6-8.6c4.7,0,8.6,3.9,8.6,8.6c0,1.6-0.5,3.2-1.4,4.6c-0.9-2-2.6-3.5-4.7-4.1
+    C13.3,9.8,13.8,8.8,13.8,7.8z"/>
+      </g>
+      <style>{{ wrapper }} .icon-account:hover .hover-fill { fill: {{ hover }};}</style>
     </svg>
   {% elsif icon == 'user-circle-logout' %}
     <svg id="icon--user-circle-logout" class="{{ classes }}" width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -85,18 +84,12 @@
         <style>#icon--user-circle-logout:hover g.icon-fill { fill: {{ hover }} !important;}</style>
     </svg>
   {% elsif icon == 'bag' %}
-    <svg id="icon--bag" class="{{ classes }} stroke" width="15px" height="20px" viewBox="0 0 15 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g class="icon-fill" transform="translate(-434.000000, -703.000000)" stroke="{{ fill }}">
-                <g id="Bag-Icon" transform="translate(435.000000, 704.000000)">
-                    <g id="Group" transform="translate(3.477022, 0.192670)">
-                        <path d="M0,2.67647059 C0,1.1982967 1.1982967,-1.90174674e-14 2.67647059,-1.90174674e-14 C4.15464447,-1.90174674e-14 5.35294118,1.1982967 5.35294118,2.67647059" ></path>
-                    </g>
-                    <path d="M0.0358455882,2.86914053 L0.0358455882,15.4867876 C0.0358455882,16.1202907 0.54940132,16.6338464 1.18290441,16.6338464 L11.1240809,16.6338464 C11.757584,16.6338464 12.2711397,16.1202907 12.2711397,15.4867876 L12.2711397,2.86914053 L0.0358455882,2.86914053 Z" ></path>
-                </g>
-            </g>
+    <svg class="icon--bag {{ classes }}" height="{{ size }}" viewBox="0 0 15.2 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g class="hover-fill" fill="{{ fill }}">
+           <path d="M11.2,3.1C10.9,1.3,9.4,0,7.6,0C5.8,0,4.3,1.3,4,3.1H0v15c0,1,0.8,1.9,1.9,1.9h11.4c1,0,1.9-0.8,1.9-1.9v-15H11.2z M7.6,1.1
+        C8.8,1.1,9.8,2,10,3.1H5.2C5.4,2,6.4,1.1,7.6,1.1z M14,18.1c0,0.4-0.3,0.7-0.7,0.7H1.9c-0.4,0-0.7-0.3-0.7-0.7V4.2H14V18.1z"/>
         </g>
-        <style>#icon--bag.stroke:hover g { stroke: {{ hover }};}</style>
+        <style>{{ wrapper }} .icon--bag:hover .hover-fill { fill: {{ hover }};}</style>
     </svg>
   {% elsif icon == 'checkmark' %}
     <svg id="icon--checkmark" class="{{ classes }} stroke" width="15px" height="9px" viewBox="0 0 15 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -211,16 +204,14 @@
       <style>#icon--left-carrot:hover .cls-1 { fill: {{ hover }};}</style>
     </svg>
   {% elsif icon == 'search' %}
-    <svg id="icon--search" class="{{ classes }} stroke" width="19px" height="20px" viewBox="0 0 19 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g  stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-            <g class="icon-fill" transform="translate(-362.000000, -702.000000)" stroke="{{ fill }}">
-                <g id="Search-Icon" transform="translate(363.000000, 703.000000)">
-                    <circle  cx="7.65447464" cy="7.37482255" r="7.36363636"></circle>
-                    <path d="M12.5635655,13.1020953 L17.4760522,18.0111862 L12.5635655,13.1020953 Z"  stroke-linecap="square"></path>
-                </g>
-            </g>
-        </g>
-      <style>#icon--search.stroke:hover g { stroke: {{ hover }};}</style>
+    <svg class="icon--search {{ classes }}" height="{{ size }}" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+         viewBox="0 0 20 20" xml:space="preserve">
+      <g class="hover-fill" fill="{{ fill }}">
+       <path d="M14.9,14.3c1.6-1.8,2.4-3.8,2.4-5.8c0-4.7-3.8-8.4-8.4-8.4C4.2,0,0.4,3.8,0.4,8.4c0,4.7,3.8,8.4,8.4,8.4
+    c1.7,0,3.4-0.6,4.9-1.6l4.7,4.7l1-1L14.9,14.3z M15.9,8.5c0,3.9-3.2,7.1-7.1,7.1s-7.1-3.2-7.1-7.2c0-3.8,3.2-7,7.1-7
+    S15.9,4.6,15.9,8.5z"/>
+      </g>
+      <style>{{ wrapper }} .icon-search:hover .hover-fill { fill: {{ hover }};}</style>
     </svg>
   {% elsif icon == 'up-carrot' %}
     <svg id="icon--up-carrot" class="{{ classes }} stroke" width="14px" height="6px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"

@@ -18,7 +18,7 @@
         {%- liquid
               assign variant_image_url = blank
               if variant.image
-                assign variant_image_url =  variant.image | img_url: '100x'
+                assign variant_image_url =  variant.image | image_url: width: 100
               endif
               assign value = variant.options[option_index]
           -%}
