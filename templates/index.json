@@ -26,6 +26,7 @@
     },
     "16260997139ae0f76a": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Latest Coffees",
         "subtitle": "Fuel up with a cup of the latest ethically sourced and freshly roasted beans.",
@@ -37,6 +38,48 @@
         "section_padding": "both",
         "button": "Shop all",
         "link": ""
+      }
+    },
+    "edc23816-bf1b-4a02-965a-9b9c387103e8": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-0": {
+          "type": "product_title",
+          "settings": {
+          }
+        },
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-1": {
+          "type": "product_subtitle",
+          "settings": {
+            "subtitle": ""
+          }
+        },
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-2": {
+          "type": "product_form",
+          "settings": {
+            "show_quantity": true,
+            "show_sku": true
+          }
+        },
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-3": {
+          "type": "social_share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-0",
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-1",
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-2",
+        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-3"
+      ],
+      "settings": {
+        "featured_product": "",
+        "title": "Featured Product",
+        "thumbnail_position": "right",
+        "click_to_enlarge": true,
+        "enable_video_looping": false,
+        "section_padding": "both"
       }
     },
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2": {
@@ -285,6 +328,7 @@
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "16260997139ae0f76a",
+    "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "05119e69-6c26-449f-ad52-7058cb295376",
