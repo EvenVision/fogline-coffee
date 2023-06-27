@@ -71,36 +71,12 @@
           "disabled": true,
           "settings": {
           }
-        },
-        "9baa0512-a43a-4ae2-8feb-e5ac17faadb3": {
-          "type": "product_type",
-          "settings": {
-          }
-        },
-        "d12e3a4e-453a-4362-8144-0ffcf29965d7": {
-          "type": "product_sku",
-          "settings": {
-          }
-        },
-        "87ab27ea-e73d-437e-897b-28d30835ed8b": {
-          "type": "product_vendor",
-          "settings": {
-          }
-        },
-        "a739078f-4d98-4349-a399-c18c2f011733": {
-          "type": "product_collection",
-          "settings": {
-          }
         }
       },
       "block_order": [
         "a3ec2846-2640-4d01-bcba-2a3e889128b8",
         "d1fafd22-8a86-4284-a422-a96fa258731c",
-        "6f1f3608-16f5-4316-ae3c-31752e9d85c5",
-        "9baa0512-a43a-4ae2-8feb-e5ac17faadb3",
-        "d12e3a4e-453a-4362-8144-0ffcf29965d7",
-        "87ab27ea-e73d-437e-897b-28d30835ed8b",
-        "a739078f-4d98-4349-a399-c18c2f011733"
+        "6f1f3608-16f5-4316-ae3c-31752e9d85c5"
       ],
       "settings": {
       }
