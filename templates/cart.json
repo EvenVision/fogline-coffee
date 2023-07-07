@@ -10,7 +10,7 @@
     "main": {
       "type": "main-cart",
       "settings": {
-        "link": ""
+        "link": "shopify:\/\/collections\/shop-all"
       }
     },
     "image-with-text": {
