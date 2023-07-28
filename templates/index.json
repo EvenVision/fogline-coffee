@@ -323,6 +323,65 @@
         "iwt_section_height": 500,
         "section_padding": "both"
       }
+    },
+    "9c566bd5-b247-43e1-8f89-48fa555f8aba": {
+      "type": "fact-columns",
+      "blocks": {
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-1": {
+          "type": "text",
+          "settings": {
+            "bg_shape": "rough_circle_shape",
+            "title": "Fact Text",
+            "text_size": 32,
+            "bg_color": "#4B2C1B",
+            "text_color": "#ffffff",
+            "link": ""
+          }
+        },
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-2": {
+          "type": "text",
+          "settings": {
+            "bg_shape": "rough_circle_shape",
+            "title": "Fact Text",
+            "text_size": 32,
+            "bg_color": "#4B2C1B",
+            "text_color": "#ffffff",
+            "link": ""
+          }
+        },
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-3": {
+          "type": "text",
+          "settings": {
+            "bg_shape": "rough_circle_shape",
+            "title": "Fact Text",
+            "text_size": 32,
+            "bg_color": "#4B2C1B",
+            "text_color": "#ffffff",
+            "link": ""
+          }
+        },
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-4": {
+          "type": "text",
+          "settings": {
+            "bg_shape": "rough_circle_shape",
+            "title": "Fact Text",
+            "text_size": 32,
+            "bg_color": "#4B2C1B",
+            "text_color": "#ffffff",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-1",
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-2",
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-3",
+        "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -333,6 +392,7 @@
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "05119e69-6c26-449f-ad52-7058cb295376",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
-    "55831ab0-44ba-4d50-a485-d56664c521e3"
+    "55831ab0-44ba-4d50-a485-d56664c521e3",
+    "9c566bd5-b247-43e1-8f89-48fa555f8aba"
   ]
 }
