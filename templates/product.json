@@ -87,22 +87,22 @@
         "template--16908412387644__d2099b42-b569-4396-90b3-17381a485b8b-16681150309cf1a8c2-0": {
           "type": "panel",
           "settings": {
-            "heading": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "heading": "When do you roast coffee?",
+            "content": "<p>We roast Monday through Wednesday and sometimes Thursdays based on orders. Coffees roasted are then available the next day. We like a minimum of a day's rest prior to release for consumption. <\/p>"
           }
         },
         "template--16908412387644__d2099b42-b569-4396-90b3-17381a485b8b-16681150309cf1a8c2-1": {
           "type": "panel",
           "settings": {
-            "heading": "Heading",
+            "heading": "Why does my coffee taste weak, strong, or doesn't match your tasting notes? ",
             "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
           }
         },
         "template--16908412387644__d2099b42-b569-4396-90b3-17381a485b8b-16681150309cf1a8c2-2": {
           "type": "panel",
           "settings": {
-            "heading": "Heading",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.<\/p>"
+            "heading": "When do you ship coffee?",
+            "content": "<p>We ship Monday through Friday. Orders made Monday - Thursday by 12 PM Pacific standard time will ship out the next day. To ensure that you are receiving the freshest roast possible, any orders made after 12 PM Pacific standard time Thursday through Sunday will typically ship Mondays and sometimes Tuesdays based on availability of the most current roast.<\/p>"
           }
         }
       },
