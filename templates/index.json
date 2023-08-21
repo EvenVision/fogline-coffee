@@ -331,8 +331,8 @@
           "type": "text",
           "settings": {
             "bg_shape": "rough_circle_shape",
-            "title": "Fact Text",
-            "text_size": 32,
+            "title": "Fresh Roast",
+            "text_size": 20,
             "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
@@ -342,8 +342,8 @@
           "type": "text",
           "settings": {
             "bg_shape": "rough_circle_shape",
-            "title": "Fact Text",
-            "text_size": 32,
+            "title": "Small Farms",
+            "text_size": 22,
             "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
@@ -353,8 +353,8 @@
           "type": "text",
           "settings": {
             "bg_shape": "rough_circle_shape",
-            "title": "Fact Text",
-            "text_size": 32,
+            "title": "Conscious",
+            "text_size": 20,
             "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
@@ -364,8 +364,8 @@
           "type": "text",
           "settings": {
             "bg_shape": "rough_circle_shape",
-            "title": "Fact Text",
-            "text_size": 32,
+            "title": "Unique Flavors",
+            "text_size": 20,
             "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
