@@ -6,6 +6,7 @@
         "animation": false,
         "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac31e256657541dbae1e1eac8191febb.mp4",
         "video_url": "",
+        "fallback_image": "shopify:\/\/shop_images\/FALL-BACK-FOG-intro.png",
         "title": "",
         "subheading_text": "",
         "link_1": "shopify:\/\/collections\/shop-all",
