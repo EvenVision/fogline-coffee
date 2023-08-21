@@ -27,9 +27,9 @@
     "16260997139ae0f76a": {
       "type": "featured-collection",
       "settings": {
-        "title": "Latest Coffees",
-        "subtitle": "Fuel up with a cup of the latest ethically sourced and freshly roasted beans.",
-        "subtitle_size": 20,
+        "title": "",
+        "subtitle": "",
+        "subtitle_size": 19,
         "collection": "latest-coffees",
         "display_type": "carousel",
         "items_per_row": 3,
@@ -41,7 +41,6 @@
     },
     "edc23816-bf1b-4a02-965a-9b9c387103e8": {
       "type": "featured-product",
-      "disabled": true,
       "blocks": {
         "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-0": {
           "type": "product_title",
@@ -73,6 +72,7 @@
         "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-2",
         "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-3"
       ],
+      "disabled": true,
       "settings": {
         "featured_product": "roasters-choice",
         "title": "Featured Product",
@@ -202,7 +202,6 @@
     },
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce": {
       "type": "slideshow",
-      "disabled": true,
       "blocks": {
         "template--14384131998012__c23e8dc5-2c33-4169-9147-bcb227a8c9ce-16669673374b727410-0": {
           "type": "image",
@@ -299,6 +298,7 @@
         "3bd3a10c-a651-401e-95fd-c891545abb2d",
         "04658cb0-c6c0-46b2-bfca-ab05fb91666e"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "enable_autoplay": true,
@@ -333,7 +333,7 @@
             "bg_shape": "rough_circle_shape",
             "title": "Fact Text",
             "text_size": 32,
-            "bg_color": "#4B2C1B",
+            "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
           }
@@ -344,7 +344,7 @@
             "bg_shape": "rough_circle_shape",
             "title": "Fact Text",
             "text_size": 32,
-            "bg_color": "#4B2C1B",
+            "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
           }
@@ -355,7 +355,7 @@
             "bg_shape": "rough_circle_shape",
             "title": "Fact Text",
             "text_size": 32,
-            "bg_color": "#4B2C1B",
+            "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
           }
@@ -366,7 +366,7 @@
             "bg_shape": "rough_circle_shape",
             "title": "Fact Text",
             "text_size": 32,
-            "bg_color": "#4B2C1B",
+            "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
             "link": ""
           }
