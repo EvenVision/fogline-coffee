@@ -386,18 +386,17 @@
     },
     "3a438c7d-01bd-4d47-89bd-e209268d019a": {
       "type": "featured-blog",
-      "disabled": true,
       "settings": {
         "title": "Featured Blog",
         "blog": "news",
-        "items_per_page": 3,
-        "items_per_row": 3,
+        "items_per_page": 1,
+        "items_per_row": 1,
         "text_align": "left",
         "show_date": true,
         "show_author": false,
         "show_tags": false,
         "show_comments": true,
-        "section_padding": "both"
+        "section_padding": "top"
       }
     }
   },
