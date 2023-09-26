@@ -14,6 +14,11 @@
             "subtitle": ""
           }
         },
+        "cf7ae95d-e1d2-4a1c-9083-d8202a3349a8": {
+          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {
+          }
+        },
         "e6875fb5-148a-4e09-8072-5d5b4b2a1765": {
           "type": "product_form",
           "settings": {
@@ -32,6 +37,7 @@
         },
         "e00412da-b16d-495e-a3ab-b6eae4390a75": {
           "type": "shopify:\/\/apps\/loox-product-reviews-photos\/blocks\/loox-rating\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
           "settings": {
             "contentSize": 16,
             "pattern": "",
@@ -48,6 +54,7 @@
       "block_order": [
         "90b84880-2bb4-4603-891c-c2bb5ddee26a",
         "ad98456e-8e56-466c-9858-9e2c5a43df91",
+        "cf7ae95d-e1d2-4a1c-9083-d8202a3349a8",
         "e6875fb5-148a-4e09-8072-5d5b4b2a1765",
         "fa93d867-94af-47af-999d-e5cf78771b56",
         "f9aaf511-db5a-47d3-9f8a-10764caebba8",
