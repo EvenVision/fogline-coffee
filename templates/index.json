@@ -28,7 +28,7 @@
     "16260997139ae0f76a": {
       "type": "featured-collection",
       "settings": {
-        "title": "",
+        "title": "Our Newest Coffees",
         "subtitle": "",
         "subtitle_size": 19,
         "collection": "latest-coffees",
@@ -37,7 +37,7 @@
         "items_per_page": 4,
         "section_padding": "both",
         "button": "Shop all",
-        "link": ""
+        "link": "shopify:\/\/collections\/all"
       }
     },
     "edc23816-bf1b-4a02-965a-9b9c387103e8": {
