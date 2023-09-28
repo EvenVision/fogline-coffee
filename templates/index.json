@@ -25,6 +25,48 @@
         "section_padding": "none"
       }
     },
+    "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_title-1": {
+          "type": "product_title",
+          "settings": {
+          }
+        },
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_subtitle-1": {
+          "type": "product_subtitle",
+          "settings": {
+            "subtitle": ""
+          }
+        },
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_form-1": {
+          "type": "product_form",
+          "settings": {
+            "show_quantity": true,
+            "show_sku": true
+          }
+        },
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-social_share-1": {
+          "type": "social_share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_title-1",
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_subtitle-1",
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_form-1",
+        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-social_share-1"
+      ],
+      "settings": {
+        "featured_product": "koke-station-grade-1-ethiopia",
+        "title": "",
+        "thumbnail_position": "right",
+        "click_to_enlarge": true,
+        "enable_video_looping": false,
+        "section_padding": "both"
+      }
+    },
     "16260997139ae0f76a": {
       "type": "featured-collection",
       "settings": {
@@ -402,6 +444,7 @@
   },
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
+    "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "16260997139ae0f76a",
     "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "3a438c7d-01bd-4d47-89bd-e209268d019a",
