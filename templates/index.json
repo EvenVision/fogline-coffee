@@ -25,6 +25,23 @@
         "section_padding": "none"
       }
     },
+    "4749bc41-f834-46a5-a1dd-2834a0eefa87": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLINE_GURA_-58.jpg",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "Most Unique Roast",
+        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p>",
+        "heading_size": 27,
+        "text_size": 16,
+        "button": "Taste Here",
+        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
+        "section_padding": "bottom",
+        "color_scheme": "2",
+        "color_header": false
+      }
+    },
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3": {
       "type": "featured-product",
       "blocks": {
@@ -144,7 +161,7 @@
     "3a438c7d-01bd-4d47-89bd-e209268d019a": {
       "type": "featured-blog",
       "settings": {
-        "title": "Featured Blog",
+        "title": "What's Happening At The Shop",
         "blog": "news",
         "items_per_page": 1,
         "items_per_row": 1,
@@ -456,27 +473,11 @@
         "title": "",
         "section_padding": "both"
       }
-    },
-    "4749bc41-f834-46a5-a1dd-2834a0eefa87": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FOGLINE_GURA_-58.jpg",
-        "text_align": "left",
-        "vertical_align": "middle",
-        "title": "Most Unique Roast",
-        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p>",
-        "heading_size": 27,
-        "text_size": 16,
-        "button": "Taste Here",
-        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
-        "section_padding": "bottom",
-        "color_scheme": "2",
-        "color_header": false
-      }
     }
   },
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
+    "4749bc41-f834-46a5-a1dd-2834a0eefa87",
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "16260997139ae0f76a",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
@@ -487,7 +488,6 @@
     "05119e69-6c26-449f-ad52-7058cb295376",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "55831ab0-44ba-4d50-a485-d56664c521e3",
-    "9c566bd5-b247-43e1-8f89-48fa555f8aba",
-    "4749bc41-f834-46a5-a1dd-2834a0eefa87"
+    "9c566bd5-b247-43e1-8f89-48fa555f8aba"
   ]
 }
