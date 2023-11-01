@@ -90,7 +90,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLINE_GIF_COLA.gif",
         "show_overlay_color": false,
-        "overlay_color": "#000",
+        "overlay_color": "#ffffff",
         "image_height": 600,
         "title": "GURA",
         "subheading_text": "Cola, Citrus, Floral, YUM.",
