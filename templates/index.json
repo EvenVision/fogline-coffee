@@ -85,8 +85,27 @@
         "section_padding": "both"
       }
     },
+    "457ad3d6-d33b-4eeb-b97b-ba52e90119b8": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLINE_GIF_COLA.gif",
+        "show_overlay_color": false,
+        "overlay_color": "#000",
+        "image_height": 600,
+        "title": "GURA",
+        "subheading_text": "Cola, Citrus, Floral, YUM.",
+        "button_text": "Taste Here",
+        "link": "shopify:\/\/products\/gura-factory-aa-kenya",
+        "heading_size": 60,
+        "subheading_size": 18,
+        "text_color": "#FFFFFF",
+        "full_width": true,
+        "section_padding": "both"
+      }
+    },
     "6f99d52b-6748-440c-8238-0a588abeba8c": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/wide_cola_yum.gif",
         "show_overlay_color": false,
@@ -506,30 +525,13 @@
         "iwt_section_height": 1200,
         "section_padding": "both"
       }
-    },
-    "457ad3d6-d33b-4eeb-b97b-ba52e90119b8": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FOGLINE_GIF_COLA.gif",
-        "show_overlay_color": false,
-        "overlay_color": "#000",
-        "image_height": 600,
-        "title": "GURA",
-        "subheading_text": "Cola, Citrus, Floral, YUM.",
-        "button_text": "Taste Here",
-        "link": "shopify:\/\/products\/gura-factory-aa-kenya",
-        "heading_size": 60,
-        "subheading_size": 18,
-        "text_color": "#FFFFFF",
-        "full_width": true,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
+    "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "16260997139ae0f76a",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
@@ -541,7 +543,6 @@
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "55831ab0-44ba-4d50-a485-d56664c521e3",
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
-    "5f737ddc-a45b-4900-be67-ade8895b6c13",
-    "457ad3d6-d33b-4eeb-b97b-ba52e90119b8"
+    "5f737ddc-a45b-4900-be67-ade8895b6c13"
   ]
 }
