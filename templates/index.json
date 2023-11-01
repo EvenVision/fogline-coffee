@@ -473,6 +473,24 @@
         "title": "",
         "section_padding": "both"
       }
+    },
+    "6f99d52b-6748-440c-8238-0a588abeba8c": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/wide_cola_yum.gif",
+        "show_overlay_color": false,
+        "overlay_color": "#000",
+        "image_height": 600,
+        "title": "GURA",
+        "subheading_text": "Floral, Citrus, Cola",
+        "button_text": "Taste Here",
+        "link": "shopify:\/\/products\/gura-factory-aa-kenya",
+        "heading_size": 60,
+        "subheading_size": 18,
+        "text_color": "#FFFFFF",
+        "full_width": true,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -488,6 +506,7 @@
     "05119e69-6c26-449f-ad52-7058cb295376",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "55831ab0-44ba-4d50-a485-d56664c521e3",
-    "9c566bd5-b247-43e1-8f89-48fa555f8aba"
+    "9c566bd5-b247-43e1-8f89-48fa555f8aba",
+    "6f99d52b-6748-440c-8238-0a588abeba8c"
   ]
 }
