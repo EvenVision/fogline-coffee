@@ -124,6 +124,7 @@
     },
     "16260997139ae0f76a": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Our Newest Coffees",
         "subtitle": "",
@@ -208,23 +209,6 @@
         "show_tags": false,
         "show_comments": true,
         "section_padding": "top"
-      }
-    },
-    "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/770B26DF-906C-49FF-ABC9-08DCC0EAC15C.jpg",
-        "text_align": "left",
-        "vertical_align": "middle",
-        "title": "Coffee you can feel good about",
-        "text": "<p>Not only does your beloved coffee ritual have an impact on your day, it also has an impact on the world. You deserve a cup you love and can feel good about enjoying. Brew a cup from our freshly roasted beans, pull up a chair, and let us tell you more about the farm-to-cup story you just became a part of:<\/p>",
-        "heading_size": 34,
-        "text_size": 20,
-        "button": "Tell Me More",
-        "link": "shopify:\/\/pages\/about",
-        "section_padding": "bottom",
-        "color_scheme": "2",
-        "color_header": false
       }
     },
     "0db485c0-a5e4-47a5-a546-b97142c75401": {
@@ -511,6 +495,23 @@
         "section_padding": "both"
       }
     },
+    "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/770B26DF-906C-49FF-ABC9-08DCC0EAC15C.jpg",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "Coffee you can feel good about",
+        "text": "<p>Not only does your beloved coffee ritual have an impact on your day, it also has an impact on the world. You deserve a cup you love and can feel good about enjoying. Brew a cup from our freshly roasted beans, pull up a chair, and let us tell you more about the farm-to-cup story you just became a part of:<\/p>",
+        "heading_size": 34,
+        "text_size": 20,
+        "button": "Tell Me More",
+        "link": "shopify:\/\/pages\/about",
+        "section_padding": "bottom",
+        "color_scheme": "2",
+        "color_header": false
+      }
+    },
     "5f737ddc-a45b-4900-be67-ade8895b6c13": {
       "type": "image-with-text",
       "disabled": true,
@@ -537,12 +538,12 @@
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "3a438c7d-01bd-4d47-89bd-e209268d019a",
-    "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "05119e69-6c26-449f-ad52-7058cb295376",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "55831ab0-44ba-4d50-a485-d56664c521e3",
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
+    "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
     "5f737ddc-a45b-4900-be67-ade8895b6c13"
   ]
 }
