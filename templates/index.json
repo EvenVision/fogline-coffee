@@ -91,14 +91,14 @@
         "image": "shopify:\/\/shop_images\/FOGLINE_GIF_COLA.gif",
         "show_overlay_color": false,
         "overlay_color": "#ffffff",
-        "image_height": 600,
+        "image_height": 800,
         "title": "GURA",
         "subheading_text": "Cola, Citrus, Floral, YUM.",
         "button_text": "Taste Here",
         "link": "shopify:\/\/products\/gura-factory-aa-kenya",
         "heading_size": 60,
-        "subheading_size": 18,
-        "text_color": "#FFFFFF",
+        "subheading_size": 31,
+        "text_color": "#ffffff",
         "full_width": true,
         "section_padding": "both"
       }
