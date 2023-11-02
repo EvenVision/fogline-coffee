@@ -540,6 +540,7 @@
     },
     "54124bfa-98e9-44d4-bc61-6afa3821d353": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "animation": false,
         "mp4_url": "",
@@ -556,7 +557,7 @@
         "bg_color": "#ffffff",
         "caption_horizontal": 50,
         "caption_vertical": 50,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_color": true,
         "full_width": true,
         "video_height": 600,
