@@ -526,6 +526,42 @@
         "iwt_section_height": 1200,
         "section_padding": "both"
       }
+    },
+    "30bc6dc8-f16d-4507-8086-8c9823b012d3": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "heading": "Video",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=xr9G77Vek84",
+        "description": "Describe the video for customers using screen readers",
+        "section_padding": "both"
+      }
+    },
+    "54124bfa-98e9-44d4-bc61-6afa3821d353": {
+      "type": "background-video",
+      "settings": {
+        "animation": false,
+        "mp4_url": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=xr9G77Vek84",
+        "fallback_image": "shopify:\/\/shop_images\/FOGLINE_GURA_-16.jpg",
+        "title": "",
+        "subheading_text": "",
+        "link_1": "",
+        "button_text_1": "",
+        "link_2": "",
+        "button_text_2": "",
+        "link": "",
+        "text_color": "#000000",
+        "bg_color": "#ffffff",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "overlay_color": "#000",
+        "show_overlay_color": true,
+        "full_width": true,
+        "video_height": 600,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -544,6 +580,8 @@
     "55831ab0-44ba-4d50-a485-d56664c521e3",
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
-    "5f737ddc-a45b-4900-be67-ade8895b6c13"
+    "5f737ddc-a45b-4900-be67-ade8895b6c13",
+    "30bc6dc8-f16d-4507-8086-8c9823b012d3",
+    "54124bfa-98e9-44d4-bc61-6afa3821d353"
   ]
 }
