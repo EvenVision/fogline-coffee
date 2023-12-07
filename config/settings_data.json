@@ -696,6 +696,7 @@
     "product_grid_padding": false,
     "product_grid_dropshadow": true,
     "product_grid_vendor": false,
+    "show_rating": true,
     "secondary_images_hover": true,
     "product_variants": "dropdowns",
     "show_color_swatches": false,
