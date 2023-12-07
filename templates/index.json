@@ -42,6 +42,23 @@
         "color_header": false
       }
     },
+    "552017ad-6474-49b4-807f-86d3a8452b9b": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/BRAZIL-HONEY.png",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "This is the One",
+        "text": "<p>All Brazil; sweet, low acid, and full bodied. Probably our top selling coffee for a good reason and just an all-around favorite at the shop. Sort of \"put a smile on our face\" type of cup. Roasted just on the light side of medium, we note a sweet cup of honeycomb, caramel, chocolate, graham cracker, nuttiness, and hint of baked apple. All with a heavy body that finishes smooth with very low acidity. A classic Brazil cup, it can be brewed in all formats: drip\/pour over, direct immersion (french press\/siphon pot), or extracted under pressure (espresso, moka pot, aeropress).<\/p><p><strong>The Producer: <\/strong>This single origin, single source microlot coffee<strong> <\/strong>comes from farmer José Domingos of Fazenda Jatobá. A relatively small farm for Brazil, Jatobá sits on 19 hectares and cultivates 6 varietals of specialty grade arabica. This particular microlot consists of Yellow Catuai and Mundo Novo that underwent natural processing. We love to highlight that the farm maintains the use of microbiological means to control pests and disease in the crop rather than potentially harmful chemicals. <\/p>",
+        "heading_size": 34,
+        "text_size": 16,
+        "button": "Enjoy Here",
+        "link": "shopify:\/\/products\/fazenda-jatoba-lot-jc-brazil",
+        "section_padding": "bottom",
+        "color_scheme": "2",
+        "color_header": false
+      }
+    },
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3": {
       "type": "featured-product",
       "blocks": {
@@ -638,28 +655,12 @@
         "full_width": true,
         "section_padding": "both"
       }
-    },
-    "552017ad-6474-49b4-807f-86d3a8452b9b": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BRAZIL-HONEY.png",
-        "text_align": "left",
-        "vertical_align": "middle",
-        "title": "This is the One",
-        "text": "<p>All Brazil; sweet, low acid, and full bodied. Probably our top selling coffee for a good reason and just an all-around favorite at the shop. Sort of \"put a smile on our face\" type of cup. Roasted just on the light side of medium, we note a sweet cup of honeycomb, caramel, chocolate, graham cracker, nuttiness, and hint of baked apple. All with a heavy body that finishes smooth with very low acidity. A classic Brazil cup, it can be brewed in all formats: drip\/pour over, direct immersion (french press\/siphon pot), or extracted under pressure (espresso, moka pot, aeropress).<\/p><p><strong>The Producer: <\/strong>This single origin, single source microlot coffee<strong> <\/strong>comes from farmer José Domingos of Fazenda Jatobá. A relatively small farm for Brazil, Jatobá sits on 19 hectares and cultivates 6 varietals of specialty grade arabica. This particular microlot consists of Yellow Catuai and Mundo Novo that underwent natural processing. We love to highlight that the farm maintains the use of microbiological means to control pests and disease in the crop rather than potentially harmful chemicals. <\/p>",
-        "heading_size": 34,
-        "text_size": 16,
-        "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/fazenda-jatoba-lot-jc-brazil",
-        "section_padding": "bottom",
-        "color_scheme": "2",
-        "color_header": false
-      }
     }
   },
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
+    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
@@ -677,7 +678,6 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "30bc6dc8-f16d-4507-8086-8c9823b012d3",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
-    "f40fcec5-d687-48e4-a644-a160b2567696",
-    "552017ad-6474-49b4-807f-86d3a8452b9b"
+    "f40fcec5-d687-48e4-a644-a160b2567696"
   ]
 }
