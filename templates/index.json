@@ -643,7 +643,7 @@
       "disabled": true,
       "settings": {
         "show_overlay_color": false,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "image_height": 600,
         "title": "Image with Text Overlay",
         "subheading_text": "Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.",
@@ -651,8 +651,33 @@
         "link": "",
         "heading_size": 60,
         "subheading_size": 18,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "full_width": true,
+        "section_padding": "both"
+      }
+    },
+    "e8eab338-37d6-4058-8073-3181e44d91b2": {
+      "type": "background-video",
+      "settings": {
+        "animation": false,
+        "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5fee8a548d2a4ebe83bd3a5e89c956c1.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "fallback_image": "shopify:\/\/shop_images\/FOGLINE_GURA_-5.jpg",
+        "title": "GURA",
+        "subheading_text": "An exquisite and rare offering. This coffee is juicy, complex, and an amazing example of a Kenya AA. We note a clean and sweet delivery of citrus, cola, vanilla, green tea, pineapple. This is probably our favorite pour-over coffee at the shop.",
+        "link_1": "shopify:\/\/products\/gura-factory-aa-kenya",
+        "button_text_1": "Experience Here",
+        "link_2": "",
+        "button_text_2": "",
+        "link": "",
+        "text_color": "#000000",
+        "bg_color": "#ffffff",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "overlay_color": "#000",
+        "show_overlay_color": false,
+        "full_width": true,
+        "video_height": 900,
         "section_padding": "both"
       }
     }
@@ -678,6 +703,7 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "30bc6dc8-f16d-4507-8086-8c9823b012d3",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
-    "f40fcec5-d687-48e4-a644-a160b2567696"
+    "f40fcec5-d687-48e4-a644-a160b2567696",
+    "e8eab338-37d6-4058-8073-3181e44d91b2"
   ]
 }
