@@ -17,11 +17,11 @@
         "bg_color": "rgba(0,0,0,0)",
         "caption_horizontal": 50,
         "caption_vertical": 50,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "show_overlay_color": true,
         "full_width": true,
         "video_height": 600,
-        "section_padding": "both"
+        "section_padding": "none"
       }
     },
     "banner": {
