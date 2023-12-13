@@ -1,5 +1,29 @@
 {
   "sections": {
+    "33e183f2-5945-4769-bd3d-bbecab6b2341": {
+      "type": "background-video",
+      "settings": {
+        "animation": false,
+        "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/95c1718dcc8b47989fb223f8039a44c2.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "title": "",
+        "subheading_text": "",
+        "link_1": "",
+        "button_text_1": "",
+        "link_2": "",
+        "button_text_2": "",
+        "link": "",
+        "text_color": "#000000",
+        "bg_color": "rgba(0,0,0,0)",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "overlay_color": "#000",
+        "show_overlay_color": true,
+        "full_width": true,
+        "video_height": 600,
+        "section_padding": "both"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "settings": {
@@ -67,6 +91,7 @@
     }
   },
   "order": [
+    "33e183f2-5945-4769-bd3d-bbecab6b2341",
     "banner",
     "b0366a65-b613-4f16-a31f-1b9f93735ad7",
     "main",
