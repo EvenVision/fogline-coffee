@@ -87,6 +87,7 @@
     },
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLINE_GIF_COLA.gif",
         "show_overlay_color": false,
@@ -136,6 +137,31 @@
         "section_padding": "top",
         "button": "",
         "link": "shopify:\/\/collections\/all"
+      }
+    },
+    "e8eab338-37d6-4058-8073-3181e44d91b2": {
+      "type": "background-video",
+      "settings": {
+        "animation": false,
+        "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5fee8a548d2a4ebe83bd3a5e89c956c1.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "fallback_image": "shopify:\/\/shop_images\/FOGLINE_GURA_-5.jpg",
+        "title": "GURA",
+        "subheading_text": "",
+        "link_1": "shopify:\/\/products\/gura-factory-aa-kenya",
+        "button_text_1": "Experience Here",
+        "link_2": "",
+        "button_text_2": "",
+        "link": "",
+        "text_color": "#000000",
+        "bg_color": "rgba(0,0,0,0)",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "overlay_color": "#000",
+        "show_overlay_color": false,
+        "full_width": true,
+        "video_height": 900,
+        "section_padding": "both"
       }
     },
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba": {
@@ -655,31 +681,6 @@
         "full_width": true,
         "section_padding": "both"
       }
-    },
-    "e8eab338-37d6-4058-8073-3181e44d91b2": {
-      "type": "background-video",
-      "settings": {
-        "animation": false,
-        "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5fee8a548d2a4ebe83bd3a5e89c956c1.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "fallback_image": "shopify:\/\/shop_images\/FOGLINE_GURA_-5.jpg",
-        "title": "GURA",
-        "subheading_text": "An exquisite and rare offering. This coffee is juicy, complex, and an amazing example of a Kenya AA. We note a clean and sweet delivery of citrus, cola, vanilla, green tea, pineapple. This is probably our favorite pour-over coffee at the shop.",
-        "link_1": "shopify:\/\/products\/gura-factory-aa-kenya",
-        "button_text_1": "Experience Here",
-        "link_2": "",
-        "button_text_2": "",
-        "link": "",
-        "text_color": "#000000",
-        "bg_color": "#ffffff",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "overlay_color": "#000",
-        "show_overlay_color": false,
-        "full_width": true,
-        "video_height": 900,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -689,6 +690,7 @@
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "16260997139ae0f76a",
+    "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
@@ -703,7 +705,6 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "30bc6dc8-f16d-4507-8086-8c9823b012d3",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
-    "f40fcec5-d687-48e4-a644-a160b2567696",
-    "e8eab338-37d6-4058-8073-3181e44d91b2"
+    "f40fcec5-d687-48e4-a644-a160b2567696"
   ]
 }
