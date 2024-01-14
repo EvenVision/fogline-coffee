@@ -624,7 +624,7 @@
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2": {
       "type": "hero-image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/770B26DF-906C-49FF-ABC9-08DCC0EAC15C.jpg",
+        "image": "shopify:\/\/shop_images\/BEST-FOGLINE-EVER.png",
         "text_align": "left",
         "vertical_align": "middle",
         "title": "Coffee you can feel good about",
@@ -634,7 +634,7 @@
         "button": "Tell Me More",
         "link": "shopify:\/\/pages\/about",
         "section_padding": "bottom",
-        "color_scheme": "2",
+        "color_scheme": "1",
         "color_header": false
       }
     },
