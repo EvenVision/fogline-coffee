@@ -697,7 +697,7 @@
         "button_text_2": "",
         "link": "",
         "text_color": "#000000",
-        "bg_color": "#ffffff",
+        "bg_color": "rgba(0,0,0,0)",
         "caption_horizontal": 50,
         "caption_vertical": 50,
         "overlay_color": "#000",
