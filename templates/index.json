@@ -143,7 +143,7 @@
       "type": "background-video",
       "settings": {
         "animation": false,
-        "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/84d8f4f79be84f79a50fdeca916b412f.mp4",
+        "mp4_url": "",
         "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
         "fallback_image": "shopify:\/\/shop_images\/Mornign_Dew_Bag.jpg",
         "title": "",
