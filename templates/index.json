@@ -681,6 +681,31 @@
         "full_width": true,
         "section_padding": "both"
       }
+    },
+    "background_video_J4939j": {
+      "type": "background-video",
+      "settings": {
+        "animation": false,
+        "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/84d8f4f79be84f79a50fdeca916b412f.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "fallback_image": "shopify:\/\/shop_images\/Mornign_Dew_Bag.jpg",
+        "title": "Background Video",
+        "subheading_text": "Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.",
+        "link_1": "",
+        "button_text_1": "",
+        "link_2": "",
+        "button_text_2": "",
+        "link": "",
+        "text_color": "#000000",
+        "bg_color": "#ffffff",
+        "caption_horizontal": 50,
+        "caption_vertical": 50,
+        "overlay_color": "#000",
+        "show_overlay_color": false,
+        "full_width": true,
+        "video_height": 600,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -705,6 +730,7 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "30bc6dc8-f16d-4507-8086-8c9823b012d3",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
-    "f40fcec5-d687-48e4-a644-a160b2567696"
+    "f40fcec5-d687-48e4-a644-a160b2567696",
+    "background_video_J4939j"
   ]
 }
