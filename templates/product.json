@@ -1,5 +1,23 @@
 {
   "sections": {
+    "image_with_text_overlay_GmNWGe": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLIEN-ESPRESSO-BIG-BESRT.png",
+        "show_overlay_color": false,
+        "overlay_color": "#000",
+        "image_height": 600,
+        "title": "Our Staple Roast",
+        "subheading_text": "",
+        "button_text": "Learn More",
+        "link": "",
+        "heading_size": 60,
+        "subheading_size": 18,
+        "text_color": "#FFFFFF",
+        "full_width": true,
+        "section_padding": "both"
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -38,6 +56,7 @@
             "pattern": "",
             "hideText": false,
             "alignment": "",
+            "layout": "",
             "textColor": "",
             "starColor": "",
             "showAllReviews": false,
@@ -180,6 +199,7 @@
     }
   },
   "order": [
+    "image_with_text_overlay_GmNWGe",
     "main",
     "product-details",
     "d2099b42-b569-4396-90b3-17381a485b8b",
