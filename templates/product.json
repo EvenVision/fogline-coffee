@@ -2,6 +2,7 @@
   "sections": {
     "image_with_text_overlay_GmNWGe": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLIEN-ESPRESSO-BIG-BESRT.png",
         "show_overlay_color": false,
