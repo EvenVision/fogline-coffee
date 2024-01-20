@@ -707,6 +707,24 @@
         "full_width": true,
         "section_padding": "both"
       }
+    },
+    "image_with_text_overlay_PkxEG3": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLIEN-ESPRESSO-BIG-BESRT.png",
+        "show_overlay_color": true,
+        "overlay_color": "#000",
+        "image_height": 600,
+        "title": "Espresso is the foundation",
+        "subheading_text": "",
+        "button_text": "",
+        "link": "shopify:\/\/products\/fogline-espresso",
+        "heading_size": 60,
+        "subheading_size": 25,
+        "text_color": "#FFFFFF",
+        "full_width": true,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -732,6 +750,7 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "30bc6dc8-f16d-4507-8086-8c9823b012d3",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
-    "f40fcec5-d687-48e4-a644-a160b2567696"
+    "f40fcec5-d687-48e4-a644-a160b2567696",
+    "image_with_text_overlay_PkxEG3"
   ]
 }
