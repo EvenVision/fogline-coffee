@@ -6,7 +6,7 @@
         "animation": false,
         "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac31e256657541dbae1e1eac8191febb.mp4",
         "video_url": "",
-        "fallback_image": "shopify:\/\/shop_images\/FALL-BACK-FOG-intro.png",
+        "fallback_image": "shopify:\/\/shop_images\/FOGLINE_-2.jpg",
         "title": "Connected By The Cup",
         "subheading_text": "",
         "link_1": "shopify:\/\/collections\/shop-all",
@@ -713,7 +713,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLIEN-ESPRESSO-BIG-BESRT.png",
         "show_overlay_color": true,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "image_height": 600,
         "title": "Espresso is the foundation",
         "subheading_text": "",
@@ -721,7 +721,7 @@
         "link": "shopify:\/\/products\/fogline-espresso",
         "heading_size": 60,
         "subheading_size": 25,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "full_width": true,
         "section_padding": "both"
       }
