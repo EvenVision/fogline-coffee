@@ -584,7 +584,7 @@
             "text_size": 22,
             "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
-            "link": ""
+            "link": "shopify:\/\/collections\/all"
           }
         },
         "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-3": {
@@ -595,7 +595,7 @@
             "text_size": 20,
             "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
-            "link": ""
+            "link": "shopify:\/\/pages\/about"
           }
         },
         "template--16908413010236__9c566bd5-b247-43e1-8f89-48fa555f8aba-text-4": {
@@ -606,7 +606,7 @@
             "text_size": 20,
             "bg_color": "#4b2c1b",
             "text_color": "#ffffff",
-            "link": ""
+            "link": "shopify:\/\/collections\/all"
           }
         }
       },
