@@ -304,21 +304,21 @@
         "template--14384131998012__05119e69-6c26-449f-ad52-7058cb295376-1666967309fcb1f94a-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_-13.jpg",
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-14.jpg",
             "link": ""
           }
         },
         "0206e3a2-188e-4934-ae6d-fee05b03fa31": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_-2-2.jpg",
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-32.jpg",
             "link": ""
           }
         },
         "a2b43357-fb94-4a87-ad7a-07a7778216f0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_-6-2.jpg",
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-63.jpg",
             "link": ""
           }
         },
@@ -340,7 +340,7 @@
         "full_width": false,
         "section_padding": "both",
         "item_position": "left",
-        "item_width": "one_half",
+        "item_width": "one_whole",
         "text_align": "left",
         "vertical_align": "middle",
         "title": "Freshly roasted with care",
@@ -725,6 +725,63 @@
         "full_width": true,
         "section_padding": "both"
       }
+    },
+    "image_gallery_LaB8Q4": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_F4mYjr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-55.jpg",
+            "image_width": "33",
+            "title": "",
+            "subheading_text": "",
+            "link_text": "Shop collection",
+            "link": "",
+            "text_color": "#fff",
+            "overlay_color": "#000"
+          }
+        },
+        "image_pEHxHD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-12.jpg",
+            "image_width": "33",
+            "title": "",
+            "subheading_text": "",
+            "link_text": "Shop collection",
+            "link": "",
+            "text_color": "#fff",
+            "overlay_color": "#000"
+          }
+        },
+        "image_j3rW6r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-11.jpg",
+            "image_width": "33",
+            "title": "",
+            "subheading_text": "",
+            "link_text": "Shop collection",
+            "link": "",
+            "text_color": "#fff",
+            "overlay_color": "#000"
+          }
+        }
+      },
+      "block_order": [
+        "image_F4mYjr",
+        "image_pEHxHD",
+        "image_j3rW6r"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "Image gallery",
+        "heading_size": 24,
+        "subheading_size": 18,
+        "image_padding": "no-padding",
+        "section_padding": "both"
+      }
     }
   },
   "order": [
@@ -751,6 +808,7 @@
     "30bc6dc8-f16d-4507-8086-8c9823b012d3",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
     "f40fcec5-d687-48e4-a644-a160b2567696",
-    "image_with_text_overlay_PkxEG3"
+    "image_with_text_overlay_PkxEG3",
+    "image_gallery_LaB8Q4"
   ]
 }
