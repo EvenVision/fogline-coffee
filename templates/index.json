@@ -31,15 +31,15 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLINE_-2.jpg",
         "show_overlay_color": true,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "image_height": 600,
         "title": "Connected By The Cup",
         "subheading_text": "",
         "button_text": "Shop Coffee",
         "link": "shopify:\/\/collections\/all",
-        "heading_size": 60,
-        "subheading_size": 18,
-        "text_color": "#FFFFFF",
+        "heading_size": 37,
+        "subheading_size": 19,
+        "text_color": "#ffffff",
         "full_width": true,
         "section_padding": "both"
       }
