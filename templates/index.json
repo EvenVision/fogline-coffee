@@ -2,7 +2,6 @@
   "sections": {
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2": {
       "type": "background-video",
-      "disabled": true,
       "settings": {
         "animation": false,
         "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac31e256657541dbae1e1eac8191febb.mp4",
@@ -28,6 +27,7 @@
     },
     "image_with_text_overlay_prnYT6": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLINE_-2.jpg",
         "show_overlay_color": true,
