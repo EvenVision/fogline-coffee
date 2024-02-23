@@ -778,7 +778,7 @@
         "title": "",
         "heading_size": 24,
         "subheading_size": 18,
-        "image_padding": "no-padding",
+        "image_padding": "padding",
         "section_padding": "both"
       }
     }
