@@ -737,8 +737,8 @@
             "subheading_text": "",
             "link_text": "Shop collection",
             "link": "",
-            "text_color": "#fff",
-            "overlay_color": "#000"
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
           }
         },
         "image_pEHxHD": {
@@ -750,8 +750,8 @@
             "subheading_text": "",
             "link_text": "Shop collection",
             "link": "",
-            "text_color": "#fff",
-            "overlay_color": "#000"
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
           }
         },
         "image_j3rW6r": {
@@ -763,8 +763,8 @@
             "subheading_text": "",
             "link_text": "Shop collection",
             "link": "",
-            "text_color": "#fff",
-            "overlay_color": "#000"
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
           }
         }
       },
@@ -775,7 +775,7 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "Image gallery",
+        "title": "",
         "heading_size": 24,
         "subheading_size": 18,
         "image_padding": "no-padding",
