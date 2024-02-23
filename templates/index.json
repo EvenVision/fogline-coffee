@@ -2,6 +2,7 @@
   "sections": {
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2": {
       "type": "background-video",
+      "disabled": true,
       "settings": {
         "animation": false,
         "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/ac31e256657541dbae1e1eac8191febb.mp4",
@@ -23,6 +24,24 @@
         "full_width": true,
         "video_height": 500,
         "section_padding": "none"
+      }
+    },
+    "image_with_text_overlay_prnYT6": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLINE_-2.jpg",
+        "show_overlay_color": true,
+        "overlay_color": "#000",
+        "image_height": 600,
+        "title": "Connected By The Cup",
+        "subheading_text": "",
+        "button_text": "Shop Coffee",
+        "link": "shopify:\/\/collections\/all",
+        "heading_size": 60,
+        "subheading_size": 18,
+        "text_color": "#FFFFFF",
+        "full_width": true,
+        "section_padding": "both"
       }
     },
     "552017ad-6474-49b4-807f-86d3a8452b9b": {
@@ -652,17 +671,6 @@
         "section_padding": "both"
       }
     },
-    "30bc6dc8-f16d-4507-8086-8c9823b012d3": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "heading": "Video",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=xr9G77Vek84",
-        "description": "Describe the video for customers using screen readers",
-        "section_padding": "both"
-      }
-    },
     "54124bfa-98e9-44d4-bc61-6afa3821d353": {
       "type": "background-video",
       "disabled": true,
@@ -785,6 +793,7 @@
   },
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
+    "image_with_text_overlay_prnYT6",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
@@ -804,7 +813,6 @@
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
-    "30bc6dc8-f16d-4507-8086-8c9823b012d3",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
     "f40fcec5-d687-48e4-a644-a160b2567696",
     "image_with_text_overlay_PkxEG3",
