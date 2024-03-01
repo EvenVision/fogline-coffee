@@ -160,7 +160,6 @@
     },
     "background_video_J4939j": {
       "type": "background-video",
-      "disabled": true,
       "settings": {
         "animation": false,
         "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/f4b3039016324ee2a50f9a199f65854d.mp4",
