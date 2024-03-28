@@ -47,15 +47,15 @@
     "552017ad-6474-49b4-807f-86d3a8452b9b": {
       "type": "hero-image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BRAZIL-HONEY.png",
+        "image": "shopify:\/\/shop_images\/buddy_-4.jpg",
         "text_align": "left",
         "vertical_align": "middle",
-        "title": "This is the One",
-        "text": "<p>Our top selling coffee for a good reason and just an all-around favorite at the shop. Sort of \"put a smile on our face\" type of cup. Roasted just on the light side of medium, we note a sweet cup of honeycomb, caramel, chocolate, graham cracker, nuttiness, and hint of baked apple. All with a heavy body that finishes smooth with very low acidity. <\/p><p>This single origin, single source microlot coffee<strong> <\/strong>comes from farmer José Domingos of Fazenda Jatobá. A relatively small farm for Brazil, Jatobá sits on 19 hectares and cultivates 6 varietals of specialty grade arabica. This particular microlot consists of Yellow Catuai and Mundo Novo that underwent natural processing. We love to highlight that the farm maintains the use of microbiological means to control pests and disease in the crop rather than potentially harmful chemicals. <\/p>",
+        "title": "Must Try Beans",
+        "text": "<p>This bright and expressive Gesha comes with loads of florality, citrus, and caramel notes up front rounded out with subtle malic undertones. A Guatemalan grown Gesha that shines in drip\/pour-over, aeropress, and tricolate brew formats.<\/p><p>Inmer Abel Valladares Rodríguez, from farm hand to managing his own farm, El Pinal. A coffee estate divided up into 4 different sub-farms, with Finca Linda Vista providing this lot of Gesha. A family-run farm whose coffees are harvested and processed on site in microlots. In this case their Gesha is depupled, fermented overnight, washed then dried on raised beds. <\/p>",
         "heading_size": 34,
         "text_size": 16,
         "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/fazenda-jatoba-lot-jc-brazil",
+        "link": "shopify:\/\/products\/el-pinal-linda-vista-guatemala",
         "section_padding": "both",
         "color_scheme": "3",
         "color_header": false
@@ -480,6 +480,7 @@
     },
     "4749bc41-f834-46a5-a1dd-2834a0eefa87": {
       "type": "hero-image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLINE_GURA_-58.jpg",
         "text_align": "left",
@@ -493,6 +494,24 @@
         "section_padding": "bottom",
         "color_scheme": "2",
         "color_header": false
+      }
+    },
+    "image_with_text_overlay_PkxEG3": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLIEN-ESPRESSO-BIG-BESRT.png",
+        "show_overlay_color": true,
+        "overlay_color": "#000000",
+        "image_height": 600,
+        "title": "Espresso is the foundation",
+        "subheading_text": "",
+        "button_text": "",
+        "link": "shopify:\/\/products\/fogline-espresso",
+        "heading_size": 60,
+        "subheading_size": 25,
+        "text_color": "#ffffff",
+        "full_width": true,
+        "section_padding": "both"
       }
     },
     "1701466807c653651a": {
@@ -526,6 +545,7 @@
             "maxWidth": 1100,
             "borderRadius": 8,
             "itemsPerView": 4,
+            "mobileItemsPerView": 1,
             "maxNumberOfCharacters": 100,
             "imageRatio": "0.72",
             "reviewerNameColor": "#000000",
@@ -716,24 +736,6 @@
         "section_padding": "both"
       }
     },
-    "image_with_text_overlay_PkxEG3": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FOGLIEN-ESPRESSO-BIG-BESRT.png",
-        "show_overlay_color": true,
-        "overlay_color": "#000000",
-        "image_height": 600,
-        "title": "Espresso is the foundation",
-        "subheading_text": "",
-        "button_text": "",
-        "link": "shopify:\/\/products\/fogline-espresso",
-        "heading_size": 60,
-        "subheading_size": 25,
-        "text_color": "#ffffff",
-        "full_width": true,
-        "section_padding": "both"
-      }
-    },
     "image_gallery_LaB8Q4": {
       "type": "image-gallery",
       "blocks": {
@@ -808,6 +810,7 @@
     "05119e69-6c26-449f-ad52-7058cb295376",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
+    "image_with_text_overlay_PkxEG3",
     "1701466807c653651a",
     "3a438c7d-01bd-4d47-89bd-e209268d019a",
     "55831ab0-44ba-4d50-a485-d56664c521e3",
@@ -816,7 +819,6 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
     "f40fcec5-d687-48e4-a644-a160b2567696",
-    "image_with_text_overlay_PkxEG3",
     "image_gallery_LaB8Q4"
   ]
 }
