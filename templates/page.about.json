@@ -1,5 +1,19 @@
 {
   "sections": {
+    "68272f38-432e-4984-9ba6-ab1a5ba0616b": {
+      "type": "rich-text",
+      "settings": {
+        "title": "About Us",
+        "rich_text": "<p>We are a micro roasting company in Arcata, California, nestled along the Northern California coast.<\/p>",
+        "heading_size": 40,
+        "text_size": 20,
+        "page": "",
+        "alignment": "a-center",
+        "content_width": 60,
+        "section_padding": "both",
+        "color_scheme": "2"
+      }
+    },
     "banner": {
       "type": "banner-image",
       "disabled": true,
@@ -36,20 +50,6 @@
         "section_padding": "both"
       }
     },
-    "68272f38-432e-4984-9ba6-ab1a5ba0616b": {
-      "type": "rich-text",
-      "settings": {
-        "title": "About Us",
-        "rich_text": "<p>We are a micro roasting company in Arcata, California, nestled along the Northern California coast.<\/p>",
-        "heading_size": 40,
-        "text_size": 20,
-        "page": "",
-        "alignment": "a-center",
-        "content_width": 60,
-        "section_padding": "both",
-        "color_scheme": "1"
-      }
-    },
     "48e2ec77-2c4c-435b-910c-f3101a64d65e": {
       "type": "hero-image-with-text",
       "settings": {
@@ -83,11 +83,11 @@
     }
   },
   "order": [
+    "68272f38-432e-4984-9ba6-ab1a5ba0616b",
     "banner",
     "main",
     "38fca7be-f082-4d48-8a39-6b85b2f6200d",
     "video_qPUdKA",
-    "68272f38-432e-4984-9ba6-ab1a5ba0616b",
     "48e2ec77-2c4c-435b-910c-f3101a64d65e",
     "1641490467976bd7d5"
   ]
