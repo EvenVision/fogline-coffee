@@ -294,7 +294,7 @@
         "full_width": true,
         "section_padding": "both",
         "item_position": "left",
-        "item_width": "one_whole",
+        "item_width": "one_half",
         "text_align": "left",
         "vertical_align": "middle",
         "title": "Freshly roasted with care",
