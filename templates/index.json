@@ -278,6 +278,7 @@
         },
         "c0f44923-7bfa-4576-ae51-5a7556e1a330": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "link": ""
           }
