@@ -44,6 +44,23 @@
         "section_padding": "both"
       }
     },
+    "hero_image_with_text_KabmbA": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DECAF.png",
+        "text_align": "left",
+        "vertical_align": "top",
+        "title": "Death Before Decaf?",
+        "text": "<p>No, this coffee will give you life. A very full bodied, single varietal microlot decaf coffee with classic notes of a Brazil Natural. Almost like drinking a walnut fudge brownie that has an uplifting finish. If we are going to carry a decaf it's got to be a crowd pleaser that's enjoyed at all times of the day. This one hits the spot. Our notes include walnut, honey, cocoa, and citrus. A medium roast, this coffee brews great in all formats and pulls an especially thick and velvety espresso shot that milks quite well.<\/p><p><strong>The Producer: <\/strong>This is a single source, single varietal, microlot Yellow Catuaí that comes by way of Fazenda Mimoso in Chapada da Minas. A region well-known for their long tradition of natural processed coffees. The farm sits at an elevation of 1000 MASL and it's only focus is the cultivation of specialty grade coffee harvested in microlots and dried on raised beds.  They use microbiological processes on the farm to deal with pests and they utilize water processing for decaffeination. We only roast water process decaf and  stay away from the “sugarcane” (ethyl acetate solvent) decaf. <\/p><p><\/p><p><\/p>",
+        "heading_size": 32,
+        "text_size": 16,
+        "button": "Experience Here",
+        "link": "shopify:\/\/products\/untitled-sep12_16-19",
+        "section_padding": "both",
+        "color_scheme": "3",
+        "color_header": false
+      }
+    },
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3": {
       "type": "featured-product",
       "blocks": {
@@ -192,23 +209,6 @@
         "section_padding": "both"
       }
     },
-    "hero_image_with_text_KabmbA": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DECAF.png",
-        "text_align": "left",
-        "vertical_align": "top",
-        "title": "Death Before Decaf?",
-        "text": "<p>No, this coffee will give you life. A very full bodied, single varietal microlot decaf coffee with classic notes of a Brazil Natural. Almost like drinking a walnut fudge brownie that has an uplifting finish. If we are going to carry a decaf it's got to be a crowd pleaser that's enjoyed at all times of the day. This one hits the spot. Our notes include walnut, honey, cocoa, and citrus. A medium roast, this coffee brews great in all formats and pulls an especially thick and velvety espresso shot that milks quite well.<\/p><p><strong>The Producer: <\/strong>This is a single source, single varietal, microlot Yellow Catuaí that comes by way of Fazenda Mimoso in Chapada da Minas. A region well-known for their long tradition of natural processed coffees. The farm sits at an elevation of 1000 MASL and it's only focus is the cultivation of specialty grade coffee harvested in microlots and dried on raised beds.  They use microbiological processes on the farm to deal with pests and they utilize water processing for decaffeination. We only roast water process decaf and  stay away from the “sugarcane” (ethyl acetate solvent) decaf. <\/p><p><\/p><p><\/p>",
-        "heading_size": 32,
-        "text_size": 16,
-        "button": "Experience Here",
-        "link": "shopify:\/\/products\/untitled-sep12_16-19",
-        "section_padding": "both",
-        "color_scheme": "3",
-        "color_header": false
-      }
-    },
     "edc23816-bf1b-4a02-965a-9b9c387103e8": {
       "type": "featured-product",
       "blocks": {
@@ -300,23 +300,6 @@
         "text_align": "center",
         "color_scheme": "1",
         "section_padding": "both"
-      }
-    },
-    "552017ad-6474-49b4-807f-86d3a8452b9b": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gggg.png",
-        "text_align": "left",
-        "vertical_align": "top",
-        "title": "Must Try Beans",
-        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
-        "heading_size": 34,
-        "text_size": 16,
-        "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
-        "section_padding": "both",
-        "color_scheme": "2",
-        "color_header": false
       }
     },
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce": {
@@ -495,6 +478,23 @@
         "text": "<p>Whether you’re starting your day or need a midday pick-me-up, we care about your cup as much as you do. We schedule to ship your order within 24–48 hrs of being roasted, so your beans will always be fresh.<\/p>",
         "button": "",
         "link": ""
+      }
+    },
+    "552017ad-6474-49b4-807f-86d3a8452b9b": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gggg.png",
+        "text_align": "left",
+        "vertical_align": "top",
+        "title": "Must Try Beans",
+        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
+        "heading_size": 34,
+        "text_size": 16,
+        "button": "Enjoy Here",
+        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
+        "section_padding": "both",
+        "color_scheme": "2",
+        "color_header": false
       }
     },
     "image_with_text_overlay_PkxEG3": {
@@ -798,19 +798,19 @@
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "image_with_text_overlay_prnYT6",
+    "hero_image_with_text_KabmbA",
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "background_video_J4939j",
     "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
-    "hero_image_with_text_KabmbA",
     "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
-    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
     "05119e69-6c26-449f-ad52-7058cb295376",
+    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "image_with_text_overlay_PkxEG3",
     "1701466807c653651a",
     "3a438c7d-01bd-4d47-89bd-e209268d019a",
