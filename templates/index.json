@@ -44,23 +44,6 @@
         "section_padding": "both"
       }
     },
-    "552017ad-6474-49b4-807f-86d3a8452b9b": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gggg.png",
-        "text_align": "left",
-        "vertical_align": "top",
-        "title": "Must Try Beans",
-        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
-        "heading_size": 34,
-        "text_size": 16,
-        "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
-        "section_padding": "both",
-        "color_scheme": "2",
-        "color_header": false
-      }
-    },
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3": {
       "type": "featured-product",
       "blocks": {
@@ -319,54 +302,21 @@
         "section_padding": "both"
       }
     },
-    "05119e69-6c26-449f-ad52-7058cb295376": {
-      "type": "image-carousel-with-text",
-      "blocks": {
-        "template--14384131998012__05119e69-6c26-449f-ad52-7058cb295376-1666967309fcb1f94a-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-14.jpg",
-            "link": ""
-          }
-        },
-        "0206e3a2-188e-4934-ae6d-fee05b03fa31": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-32.jpg",
-            "link": ""
-          }
-        },
-        "a2b43357-fb94-4a87-ad7a-07a7778216f0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-63.jpg",
-            "link": ""
-          }
-        },
-        "c0f44923-7bfa-4576-ae51-5a7556e1a330": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14384131998012__05119e69-6c26-449f-ad52-7058cb295376-1666967309fcb1f94a-0",
-        "0206e3a2-188e-4934-ae6d-fee05b03fa31",
-        "a2b43357-fb94-4a87-ad7a-07a7778216f0",
-        "c0f44923-7bfa-4576-ae51-5a7556e1a330"
-      ],
+    "552017ad-6474-49b4-807f-86d3a8452b9b": {
+      "type": "hero-image-with-text",
       "settings": {
-        "full_width": true,
-        "section_padding": "both",
-        "item_position": "left",
-        "item_width": "one_whole",
+        "image": "shopify:\/\/shop_images\/gggg.png",
         "text_align": "left",
-        "vertical_align": "middle",
-        "title": "Freshly roasted with care",
-        "text": "<p>Whether you’re starting your day or need a midday pick-me-up, we care about your cup as much as you do. We schedule to ship your order within 24–48 hrs of being roasted, so your beans will always be fresh.<\/p>",
-        "button": "",
-        "link": ""
+        "vertical_align": "top",
+        "title": "Must Try Beans",
+        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
+        "heading_size": 34,
+        "text_size": 16,
+        "button": "Enjoy Here",
+        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
+        "section_padding": "both",
+        "color_scheme": "2",
+        "color_header": false
       }
     },
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce": {
@@ -495,6 +445,56 @@
         "section_padding": "bottom",
         "color_scheme": "2",
         "color_header": false
+      }
+    },
+    "05119e69-6c26-449f-ad52-7058cb295376": {
+      "type": "image-carousel-with-text",
+      "blocks": {
+        "template--14384131998012__05119e69-6c26-449f-ad52-7058cb295376-1666967309fcb1f94a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-14.jpg",
+            "link": ""
+          }
+        },
+        "0206e3a2-188e-4934-ae6d-fee05b03fa31": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-32.jpg",
+            "link": ""
+          }
+        },
+        "a2b43357-fb94-4a87-ad7a-07a7778216f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-63.jpg",
+            "link": ""
+          }
+        },
+        "c0f44923-7bfa-4576-ae51-5a7556e1a330": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14384131998012__05119e69-6c26-449f-ad52-7058cb295376-1666967309fcb1f94a-0",
+        "0206e3a2-188e-4934-ae6d-fee05b03fa31",
+        "a2b43357-fb94-4a87-ad7a-07a7778216f0",
+        "c0f44923-7bfa-4576-ae51-5a7556e1a330"
+      ],
+      "settings": {
+        "full_width": true,
+        "section_padding": "both",
+        "item_position": "left",
+        "item_width": "one_whole",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "Freshly roasted with care",
+        "text": "<p>Whether you’re starting your day or need a midday pick-me-up, we care about your cup as much as you do. We schedule to ship your order within 24–48 hrs of being roasted, so your beans will always be fresh.<\/p>",
+        "button": "",
+        "link": ""
       }
     },
     "image_with_text_overlay_PkxEG3": {
@@ -798,7 +798,6 @@
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "image_with_text_overlay_prnYT6",
-    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
@@ -808,9 +807,10 @@
     "hero_image_with_text_KabmbA",
     "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
-    "05119e69-6c26-449f-ad52-7058cb295376",
+    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
+    "05119e69-6c26-449f-ad52-7058cb295376",
     "image_with_text_overlay_PkxEG3",
     "1701466807c653651a",
     "3a438c7d-01bd-4d47-89bd-e209268d019a",
