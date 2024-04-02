@@ -212,16 +212,15 @@
     },
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba": {
       "type": "image-with-text",
-      "disabled": true,
       "settings": {
-        "iwt_image": "shopify:\/\/shop_images\/FOGLINE_GURA_-54.jpg",
-        "iwt_layout": "image_right",
-        "iwt_heading": "Most Unique Roast",
-        "iwt_text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p>",
-        "iwt_button": "Shop Here",
-        "iwt_link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
+        "iwt_image": "shopify:\/\/shop_images\/DECAF.png",
+        "iwt_layout": "image_left",
+        "iwt_heading": "Death Before Decaf?",
+        "iwt_text": "<p>No, this coffee will give you life. A very full bodied, single varietal microlot decaf coffee with classic notes of a Brazil Natural. Almost like drinking a walnut fudge brownie that has an uplifting finish. If we are going to carry a decaf it's got to be a crowd pleaser that's enjoyed at all times of the day. This one hits the spot. Our notes include walnut, honey, cocoa, and citrus. A medium roast, this coffee brews great in all formats and pulls an especially thick and velvety espresso shot that milks quite well.<\/p><p><strong>The Producer: <\/strong>This is a single source, single varietal, microlot Yellow Catuaí that comes by way of Fazenda Mimoso in Chapada da Minas. A region well-known for their long tradition of natural processed coffees. The farm sits at an elevation of 1000 MASL and it's only focus is the cultivation of specialty grade coffee harvested in microlots and dried on raised beds.  They use microbiological processes on the farm to deal with pests and they utilize water processing for decaffeination. We only roast water process decaf and  stay away from the “sugarcane” (ethyl acetate solvent) decaf.  Another practice on their farm site is planting the coffee where they're intercropped with shade trees throughout selected plots. The farm cultivates Red and Yellow Catuai, Topazio and Gesha. <\/p><p><\/p><p><\/p>",
+        "iwt_button": "Experience Here",
+        "iwt_link": "shopify:\/\/products\/untitled-sep12_16-19",
         "color_scheme": "3",
-        "iwt_section_height": 800,
+        "iwt_section_height": 1200,
         "section_padding": "both"
       }
     },
