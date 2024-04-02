@@ -292,7 +292,7 @@
       ],
       "settings": {
         "full_width": true,
-        "section_padding": "both",
+        "section_padding": "none",
         "item_position": "left",
         "item_width": "one_half",
         "text_align": "left",
@@ -301,64 +301,6 @@
         "text": "<p>Whether you’re starting your day or need a midday pick-me-up, we care about your cup as much as you do. We schedule to ship your order within 24–48 hrs of being roasted, so your beans will always be fresh.<\/p>",
         "button": "",
         "link": ""
-      }
-    },
-    "1701466807c653651a": {
-      "type": "apps",
-      "blocks": {
-        "ff54479a-4bf8-45ef-bb79-e094b7ed51dd": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1100,
-            "desktopFontSize": 32,
-            "mobileFontSize": 20,
-            "maxNumberOfCharacters": 100,
-            "quoteMarkIcon": "none",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "starsColor": "",
-            "quotesIconColor": "#eaeaea",
-            "arrows_iconColor": "#000000",
-            "arrows_hideOnMobile": true,
-            "pagination_active": true,
-            "pagination_selectedDotColor": "#000000",
-            "pagination_dotColor": "#000000",
-            "autoplay_active": true,
-            "autoplay_duration": 2,
-            "productIds": ""
-          }
-        },
-        "d4242e0b-251a-4d87-9d7e-08d57248665f": {
-          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "maxWidth": 1100,
-            "borderRadius": 8,
-            "itemsPerView": 4,
-            "mobileItemsPerView": 1,
-            "maxNumberOfCharacters": 100,
-            "imageRatio": "0.72",
-            "reviewerNameColor": "#000000",
-            "textColor": "#000000",
-            "itemBackgroundColor": "#ffffff",
-            "starsColor": "",
-            "starsBackgroundColor": "#ffffff",
-            "arrows_backgroundColor": "#ffffff",
-            "arrows_iconColor": "#9a9a9a",
-            "shadow": "offset-dark",
-            "border_active": false,
-            "border_width": 2,
-            "border_color": "#000000",
-            "productIds": ""
-          }
-        }
-      },
-      "block_order": [
-        "ff54479a-4bf8-45ef-bb79-e094b7ed51dd",
-        "d4242e0b-251a-4d87-9d7e-08d57248665f"
-      ],
-      "settings": {
-        "full_width": true,
-        "section_padding": "both"
       }
     },
     "0db485c0-a5e4-47a5-a546-b97142c75401": {
@@ -426,6 +368,64 @@
         "section_padding": "both",
         "color_scheme": "3",
         "color_header": false
+      }
+    },
+    "1701466807c653651a": {
+      "type": "apps",
+      "blocks": {
+        "ff54479a-4bf8-45ef-bb79-e094b7ed51dd": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-testimonial-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "desktopFontSize": 32,
+            "mobileFontSize": 20,
+            "maxNumberOfCharacters": 100,
+            "quoteMarkIcon": "none",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "starsColor": "",
+            "quotesIconColor": "#eaeaea",
+            "arrows_iconColor": "#000000",
+            "arrows_hideOnMobile": true,
+            "pagination_active": true,
+            "pagination_selectedDotColor": "#000000",
+            "pagination_dotColor": "#000000",
+            "autoplay_active": true,
+            "autoplay_duration": 2,
+            "productIds": ""
+          }
+        },
+        "d4242e0b-251a-4d87-9d7e-08d57248665f": {
+          "type": "shopify:\/\/apps\/loox-reviews\/blocks\/loox-card-carousel-section\/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "ff54479a-4bf8-45ef-bb79-e094b7ed51dd",
+        "d4242e0b-251a-4d87-9d7e-08d57248665f"
+      ],
+      "settings": {
+        "full_width": true,
+        "section_padding": "both"
       }
     },
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce": {
@@ -808,9 +808,9 @@
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "05119e69-6c26-449f-ad52-7058cb295376",
-    "1701466807c653651a",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "hero_image_with_text_KabmbA",
+    "1701466807c653651a",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
     "image_with_text_overlay_PkxEG3",
