@@ -142,22 +142,6 @@
         "section_padding": "both"
       }
     },
-    "16260997139ae0f76a": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Our Newest Coffees",
-        "subtitle": "",
-        "subtitle_size": 19,
-        "collection": "latest-coffees",
-        "display_type": "grid",
-        "items_per_row": 2,
-        "items_per_page": 4,
-        "section_padding": "top",
-        "button": "",
-        "link": "shopify:\/\/collections\/all"
-      }
-    },
     "background_video_J4939j": {
       "type": "background-video",
       "disabled": true,
@@ -212,6 +196,7 @@
     },
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "iwt_image": "shopify:\/\/shop_images\/DECAF.png",
         "iwt_layout": "image_left",
@@ -222,6 +207,23 @@
         "color_scheme": "3",
         "iwt_section_height": 1200,
         "section_padding": "both"
+      }
+    },
+    "hero_image_with_text_KabmbA": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DECAF.png",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "Death Before Decaf?",
+        "text": "<p>No, this coffee will give you life. A very full bodied, single varietal microlot decaf coffee with classic notes of a Brazil Natural. Almost like drinking a walnut fudge brownie that has an uplifting finish. If we are going to carry a decaf it's got to be a crowd pleaser that's enjoyed at all times of the day. This one hits the spot. Our notes include walnut, honey, cocoa, and citrus. A medium roast, this coffee brews great in all formats and pulls an especially thick and velvety espresso shot that milks quite well.<\/p><p><strong>The Producer: <\/strong>This is a single source, single varietal, microlot Yellow Catuaí that comes by way of Fazenda Mimoso in Chapada da Minas. A region well-known for their long tradition of natural processed coffees. The farm sits at an elevation of 1000 MASL and it's only focus is the cultivation of specialty grade coffee harvested in microlots and dried on raised beds.  They use microbiological processes on the farm to deal with pests and they utilize water processing for decaffeination. We only roast water process decaf and  stay away from the “sugarcane” (ethyl acetate solvent) decaf.  Another practice on their farm site is planting the coffee where they're intercropped with shade trees throughout selected plots. The farm cultivates Red and Yellow Catuai, Topazio and Gesha. <\/p><p><\/p><p><\/p>",
+        "heading_size": 32,
+        "text_size": 16,
+        "button": "Experience Here",
+        "link": "shopify:\/\/products\/untitled-sep12_16-19",
+        "section_padding": "bottom",
+        "color_scheme": "3",
+        "color_header": false
       }
     },
     "edc23816-bf1b-4a02-965a-9b9c387103e8": {
@@ -800,10 +802,10 @@
     "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
-    "16260997139ae0f76a",
     "background_video_J4939j",
     "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
+    "hero_image_with_text_KabmbA",
     "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "05119e69-6c26-449f-ad52-7058cb295376",
