@@ -221,7 +221,7 @@
         "text_size": 16,
         "button": "Experience Here",
         "link": "shopify:\/\/products\/untitled-sep12_16-19",
-        "section_padding": "bottom",
+        "section_padding": "both",
         "color_scheme": "3",
         "color_header": false
       }
