@@ -65,7 +65,7 @@
         "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-30.jpg",
         "show_overlay_color": true,
         "overlay_color": "#000000",
-        "image_height": 600,
+        "image_height": 400,
         "title": "1 Year Celebration!",
         "subheading_text": "Thank you for you support as a token of our gratitude, 15% off site wide!\nuse code \"1year\"",
         "button_text": "Learn More",
@@ -74,7 +74,7 @@
         "subheading_size": 20,
         "text_color": "#ffffff",
         "full_width": true,
-        "section_padding": "both"
+        "section_padding": "none"
       }
     },
     "hero_image_with_text_rUktxG": {
