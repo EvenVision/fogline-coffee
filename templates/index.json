@@ -76,23 +76,6 @@
         "color_header": false
       }
     },
-    "552017ad-6474-49b4-807f-86d3a8452b9b": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gggg.png",
-        "text_align": "left",
-        "vertical_align": "top",
-        "title": "Must Try Beans",
-        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
-        "heading_size": 34,
-        "text_size": 16,
-        "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
-        "section_padding": "both",
-        "color_scheme": "2",
-        "color_header": false
-      }
-    },
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -247,6 +230,23 @@
         "text": "<p>Whether you’re starting your day or need a midday pick-me-up, we care about your cup as much as you do. We schedule to ship your order within 24–48 hrs of being roasted, so your beans will always be fresh.<\/p>",
         "button": "",
         "link": ""
+      }
+    },
+    "552017ad-6474-49b4-807f-86d3a8452b9b": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gggg.png",
+        "text_align": "left",
+        "vertical_align": "top",
+        "title": "Must Try Beans",
+        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
+        "heading_size": 34,
+        "text_size": 16,
+        "button": "Enjoy Here",
+        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
+        "section_padding": "both",
+        "color_scheme": "2",
+        "color_header": false
       }
     },
     "0db485c0-a5e4-47a5-a546-b97142c75401": {
@@ -747,13 +747,13 @@
     "image_with_text_znc7qd",
     "image_with_text_overlay_prnYT6",
     "hero_image_with_text_rUktxG",
-    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "background_video_J4939j",
     "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "05119e69-6c26-449f-ad52-7058cb295376",
+    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "hero_image_with_text_KabmbA",
     "1701466807c653651a",
