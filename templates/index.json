@@ -59,6 +59,24 @@
         "section_padding": "both"
       }
     },
+    "f40fcec5-d687-48e4-a644-a160b2567696": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-30.jpg",
+        "show_overlay_color": true,
+        "overlay_color": "#000000",
+        "image_height": 600,
+        "title": "1 Year Celebration!",
+        "subheading_text": "Thank you for you support as a token of our gratitude, 15% off site wide!\nuse code \"1year\"",
+        "button_text": "Learn More",
+        "link": "",
+        "heading_size": 37,
+        "subheading_size": 20,
+        "text_color": "#ffffff",
+        "full_width": true,
+        "section_padding": "both"
+      }
+    },
     "hero_image_with_text_rUktxG": {
       "type": "hero-image-with-text",
       "settings": {
@@ -640,50 +658,6 @@
         "section_padding": "both"
       }
     },
-    "54124bfa-98e9-44d4-bc61-6afa3821d353": {
-      "type": "background-video",
-      "disabled": true,
-      "settings": {
-        "animation": false,
-        "mp4_url": "",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=xr9G77Vek84",
-        "fallback_image": "shopify:\/\/shop_images\/FOGLINE_GURA_-16.jpg",
-        "title": "",
-        "subheading_text": "",
-        "link_1": "",
-        "button_text_1": "",
-        "link_2": "",
-        "button_text_2": "",
-        "link": "",
-        "text_color": "#000000",
-        "bg_color": "#ffffff",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "overlay_color": "#000000",
-        "show_overlay_color": true,
-        "full_width": true,
-        "video_height": 600,
-        "section_padding": "both"
-      }
-    },
-    "f40fcec5-d687-48e4-a644-a160b2567696": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "show_overlay_color": false,
-        "overlay_color": "#000000",
-        "image_height": 600,
-        "title": "Image with Text Overlay",
-        "subheading_text": "Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.",
-        "button_text": "Learn More",
-        "link": "",
-        "heading_size": 60,
-        "subheading_size": 18,
-        "text_color": "#ffffff",
-        "full_width": true,
-        "section_padding": "both"
-      }
-    },
     "image_gallery_LaB8Q4": {
       "type": "image-gallery",
       "blocks": {
@@ -746,6 +720,7 @@
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "image_with_text_znc7qd",
     "image_with_text_overlay_prnYT6",
+    "f40fcec5-d687-48e4-a644-a160b2567696",
     "hero_image_with_text_rUktxG",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
@@ -765,8 +740,6 @@
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
-    "54124bfa-98e9-44d4-bc61-6afa3821d353",
-    "f40fcec5-d687-48e4-a644-a160b2567696",
     "image_gallery_LaB8Q4"
   ]
 }
