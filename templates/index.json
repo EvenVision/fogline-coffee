@@ -61,49 +61,6 @@
         "section_padding": "both"
       }
     },
-    "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_title-1": {
-          "type": "product_title",
-          "settings": {
-          }
-        },
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_subtitle-1": {
-          "type": "product_subtitle",
-          "settings": {
-            "subtitle": ""
-          }
-        },
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_form-1": {
-          "type": "product_form",
-          "settings": {
-            "show_quantity": true,
-            "show_sku": true
-          }
-        },
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-social_share-1": {
-          "type": "social_share",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_title-1",
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_subtitle-1",
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-product_form-1",
-        "template--16908413010236__0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3-social_share-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "featured_product": "koke-station-grade-1-ethiopia",
-        "title": "",
-        "thumbnail_position": "right",
-        "click_to_enlarge": true,
-        "enable_video_looping": false,
-        "section_padding": "both"
-      }
-    },
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -206,49 +163,6 @@
         "iwt_link": "shopify:\/\/products\/untitled-sep12_16-19",
         "color_scheme": "3",
         "iwt_section_height": 1200,
-        "section_padding": "both"
-      }
-    },
-    "edc23816-bf1b-4a02-965a-9b9c387103e8": {
-      "type": "featured-product",
-      "blocks": {
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-0": {
-          "type": "product_title",
-          "settings": {
-          }
-        },
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-1": {
-          "type": "product_subtitle",
-          "settings": {
-            "subtitle": ""
-          }
-        },
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-2": {
-          "type": "product_form",
-          "settings": {
-            "show_quantity": true,
-            "show_sku": true
-          }
-        },
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-3": {
-          "type": "social_share",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-0",
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-1",
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-2",
-        "template--16908413010236__edc23816-bf1b-4a02-965a-9b9c387103e8-16878063699eee6ab5-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "featured_product": "roasters-choice",
-        "title": "Featured Product",
-        "thumbnail_position": "right",
-        "click_to_enlarge": true,
-        "enable_video_looping": false,
         "section_padding": "both"
       }
     },
@@ -794,19 +708,31 @@
         "image_padding": "padding",
         "section_padding": "both"
       }
+    },
+    "image_with_text_znc7qd": {
+      "type": "image-with-text",
+      "settings": {
+        "iwt_image": "shopify:\/\/shop_images\/FOGLINE_-18_9f29d2c9-6b23-4801-81c1-ca8f8fccfcbd.jpg",
+        "iwt_layout": "image_left",
+        "iwt_heading": "Tropical Explosion",
+        "iwt_text": "<p>Roasted medium the cup is caramel sauce up front, fading into a sweet lime and as it cools further, we get this nice pleasant, grapefruit flavor, while finishing smooth with moderate acidity. <\/p>",
+        "iwt_button": "Experience Here",
+        "iwt_link": "shopify:\/\/products\/katia-duke-honduras",
+        "color_scheme": "3",
+        "iwt_section_height": 500,
+        "section_padding": "both"
+      }
     }
   },
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
     "image_with_text_overlay_prnYT6",
-    "0dba1d6f-7a0a-42a6-80f2-9fcc393b89e3",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "background_video_J4939j",
     "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
-    "edc23816-bf1b-4a02-965a-9b9c387103e8",
     "05119e69-6c26-449f-ad52-7058cb295376",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "hero_image_with_text_KabmbA",
@@ -821,6 +747,7 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
     "f40fcec5-d687-48e4-a644-a160b2567696",
-    "image_gallery_LaB8Q4"
+    "image_gallery_LaB8Q4",
+    "image_with_text_znc7qd"
   ]
 }
