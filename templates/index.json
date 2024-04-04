@@ -96,17 +96,16 @@
     },
     "hero_image_with_text_rUktxG": {
       "type": "hero-image-with-text",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/FOGLINE_-18_9f29d2c9-6b23-4801-81c1-ca8f8fccfcbd.jpg",
+        "image": "shopify:\/\/shop_images\/derii.png",
         "text_align": "left",
         "vertical_align": "middle",
-        "title": "Tropical Explosion",
-        "text": "<p><strong>The Coffee: <\/strong>This lot is a single varietal, Catuai, that undergoes a short fermentation then washed clean prior to drying. Intern, we get a coffee that exhibits a washed process profile with a touch of fruit and a full body commonly associated with natural process coffees. Sort of the best of both worlds. Roasted medium the cup is caramel sauce up front, fading into a sweet lime and as it cools further, we get this nice pleasant, grapefruit flavor, while finishing smooth with moderate acidity.<\/p><p><strong>The Producer: <\/strong>Katia Duke of Finca San Isidro brings us this coffee by way of Copan, Honduras. Here is a very young farmer attempting to take her parents farm to new heights by utilizing new and experimental processes to extract the seed. In this case a lot processed by Microorganism Fermentation for 24 hours in tanks, then washed and sun dried. <\/p>",
-        "heading_size": 34,
+        "title": "Strawberry Sweetness",
+        "text": "<p><strong>The Coffee: <\/strong>A natural process thats sweet, complex and a coffee with a lot going on. Roasted just on the light side of medium we note honey, strawberry, peach, green tea, lemongrass, herbs, and all balanced with medium body and moderate acidity. This coffee is quite versatile from pour-over to espresso and has quickly become a shop favorite. Shop note: this coffee is highly soluble, and grinds up finer than normal, so go a little more coarse than your normal approach.<\/p><p><strong>The Producer: <\/strong>Single origin Grade 1 coffee from smallholder lots in the community of Deri Kidame in Guji, Oromia. This community stands at an elevation of 2050 MASL, lending its hand to this extremely dense seed. All the coffee here comes from fully ripened cherries that are picked then sun dried on raised beds. Classic Ethiopian Natural.<\/p>",
+        "heading_size": 32,
         "text_size": 16,
         "button": "Experience Here!",
-        "link": "shopify:\/\/products\/katia-duke-honduras",
+        "link": "shopify:\/\/products\/deri-kidame-grade-1-ethiopia",
         "section_padding": "bottom",
         "color_scheme": "2",
         "color_header": false
