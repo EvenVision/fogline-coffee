@@ -199,6 +199,16 @@
         "section_padding": "both"
       }
     },
+    "video_ajhCg3": {
+      "type": "video",
+      "settings": {
+        "full_width": true,
+        "heading": "",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=CsXGJyaQqSE&t=56s",
+        "description": "Describe the video for customers using screen readers",
+        "section_padding": "none"
+      }
+    },
     "05119e69-6c26-449f-ad52-7058cb295376": {
       "type": "image-carousel-with-text",
       "blocks": {
@@ -727,6 +737,7 @@
     "background_video_J4939j",
     "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
+    "video_ajhCg3",
     "05119e69-6c26-449f-ad52-7058cb295376",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
