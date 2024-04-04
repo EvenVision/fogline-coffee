@@ -27,6 +27,7 @@
     },
     "image_with_text_znc7qd": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "iwt_image": "shopify:\/\/shop_images\/FOGLINE_-18_9f29d2c9-6b23-4801-81c1-ca8f8fccfcbd.jpg",
         "iwt_layout": "image_left",
@@ -35,7 +36,7 @@
         "iwt_button": "Experience Here",
         "iwt_link": "shopify:\/\/products\/katia-duke-honduras",
         "color_scheme": "3",
-        "iwt_section_height": 500,
+        "iwt_section_height": 600,
         "section_padding": "both"
       }
     },
@@ -56,6 +57,40 @@
         "text_color": "#ffffff",
         "full_width": true,
         "section_padding": "both"
+      }
+    },
+    "hero_image_with_text_rUktxG": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLINE_-18_9f29d2c9-6b23-4801-81c1-ca8f8fccfcbd.jpg",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "Tropical Explosion",
+        "text": "<p><strong>The Coffee: <\/strong>This lot is a single varietal, Catuai, that undergoes a short fermentation then washed clean prior to drying. Intern, we get a coffee that exhibits a washed process profile with a touch of fruit and a full body commonly associated with natural process coffees. Sort of the best of both worlds. Roasted medium the cup is caramel sauce up front, fading into a sweet lime and as it cools further, we get this nice pleasant, grapefruit flavor, while finishing smooth with moderate acidity.<\/p><p><strong>The Producer: <\/strong>Katia Duke of Finca San Isidro brings us this coffee by way of Copan, Honduras. Here is a very young farmer attempting to take her parents farm to new heights by utilizing new and experimental processes to extract the seed. In this case a lot processed by Microorganism Fermentation for 24 hours in tanks, then washed and sun dried. <\/p>",
+        "heading_size": 34,
+        "text_size": 16,
+        "button": "Experience Here!",
+        "link": "shopify:\/\/products\/katia-duke-honduras",
+        "section_padding": "bottom",
+        "color_scheme": "2",
+        "color_header": false
+      }
+    },
+    "552017ad-6474-49b4-807f-86d3a8452b9b": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/gggg.png",
+        "text_align": "left",
+        "vertical_align": "top",
+        "title": "Must Try Beans",
+        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
+        "heading_size": 34,
+        "text_size": 16,
+        "button": "Enjoy Here",
+        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
+        "section_padding": "both",
+        "color_scheme": "2",
+        "color_header": false
       }
     },
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8": {
@@ -705,29 +740,14 @@
         "image_padding": "padding",
         "section_padding": "both"
       }
-    },
-    "552017ad-6474-49b4-807f-86d3a8452b9b": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/gggg.png",
-        "text_align": "left",
-        "vertical_align": "top",
-        "title": "Must Try Beans",
-        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
-        "heading_size": 34,
-        "text_size": 16,
-        "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
-        "section_padding": "both",
-        "color_scheme": "2",
-        "color_header": false
-      }
     }
   },
   "order": [
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "image_with_text_znc7qd",
     "image_with_text_overlay_prnYT6",
+    "hero_image_with_text_rUktxG",
+    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "background_video_J4939j",
@@ -747,7 +767,6 @@
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
     "54124bfa-98e9-44d4-bc61-6afa3821d353",
     "f40fcec5-d687-48e4-a644-a160b2567696",
-    "image_gallery_LaB8Q4",
-    "552017ad-6474-49b4-807f-86d3a8452b9b"
+    "image_gallery_LaB8Q4"
   ]
 }
