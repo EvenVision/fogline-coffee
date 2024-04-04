@@ -723,17 +723,15 @@
           },
           "announcement-bar-1": {
             "type": "shop_note",
-            "disabled": true,
             "settings": {
-              "shop_note": "<p>CELEBRATING 1 YEAR USE CODE \"1year\" for a massive discount, only live for 2 days <\/p>",
+              "shop_note": "<p> USE CODE \"1year\"<\/p>",
               "alignment": "center"
             }
           },
           "announcement-bar-2": {
             "type": "announcement_text",
-            "disabled": true,
             "settings": {
-              "announcement_text": "<p>Share a shop announcement or message<\/p>",
+              "announcement_text": "<p>Celebrating Our 1 year! As a thank you we are giving a site-wide discount!<\/p>",
               "alignment": "center"
             }
           }
