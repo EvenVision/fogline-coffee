@@ -723,6 +723,7 @@
           },
           "announcement-bar-1": {
             "type": "shop_note",
+            "disabled": true,
             "settings": {
               "shop_note": "<p> USE CODE \"1year\"<\/p>",
               "alignment": "center"
@@ -730,6 +731,7 @@
           },
           "announcement-bar-2": {
             "type": "announcement_text",
+            "disabled": true,
             "settings": {
               "announcement_text": "<p>Celebrating Our 1 year! As a thank you we are giving a site-wide discount!<\/p>",
               "alignment": "center"

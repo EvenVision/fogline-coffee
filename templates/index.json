@@ -61,6 +61,7 @@
     },
     "f40fcec5-d687-48e4-a644-a160b2567696": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-30.jpg",
         "show_overlay_color": true,
@@ -203,7 +204,7 @@
       "type": "video",
       "settings": {
         "full_width": true,
-        "heading": "",
+        "heading": "We Turned 1!",
         "video_url": "https:\/\/www.youtube.com\/watch?v=CsXGJyaQqSE&t=56s",
         "description": "Describe the video for customers using screen readers",
         "section_padding": "none"
