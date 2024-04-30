@@ -679,6 +679,28 @@
     "slideshow_9RVEpi": {
       "type": "slideshow",
       "blocks": {
+        "image_CiB9CG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-63.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "slide_mobile_text_color": "#000000",
+            "heading": "Roasting unique beans",
+            "subheading": "<p>We source the most unique coffee we can find<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 100
+          }
+        },
         "image_R7QDyU": {
           "type": "image",
           "settings": {
@@ -704,6 +726,7 @@
         "image_N6Wpqz": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-14.jpg",
             "overlay": false,
             "text_align": "center",
             "caption_horizontal": 50,
@@ -724,6 +747,7 @@
         }
       },
       "block_order": [
+        "image_CiB9CG",
         "image_R7QDyU",
         "image_N6Wpqz"
       ],
