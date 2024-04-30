@@ -211,6 +211,92 @@
         "section_padding": "none"
       }
     },
+    "slideshow_9RVEpi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CiB9CG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-63.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "slide_mobile_text_color": "#000000",
+            "heading": "Roasting unique beans",
+            "subheading": "<p>We source the most unique coffee we can find<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 100
+          }
+        },
+        "image_R7QDyU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-32.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "slide_mobile_text_color": "#000000",
+            "heading": "Freshly roasted with care",
+            "subheading": "<p>Roasted in micro-batches to ensure exceptional quality<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 80
+          }
+        },
+        "image_N6Wpqz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-14.jpg",
+            "overlay": false,
+            "text_align": "center",
+            "caption_horizontal": 50,
+            "caption_vertical": 50,
+            "hide_caption_background": false,
+            "caption_below": false,
+            "slide_mobile_text_color": "#000000",
+            "heading": "Slide image title",
+            "subheading": "<p>Slide image subheading<\/p>",
+            "link": "",
+            "button_text": "Add a button",
+            "second_link": "",
+            "second_button_text": "Button 2 text",
+            "slide_text_color": "#000000",
+            "caption_background": "#ffffff",
+            "caption_background_opacity": 100
+          }
+        }
+      },
+      "block_order": [
+        "image_CiB9CG",
+        "image_R7QDyU",
+        "image_N6Wpqz"
+      ],
+      "settings": {
+        "full_width": true,
+        "enable_autoplay": false,
+        "animation": false,
+        "slider_speed": 5,
+        "pager": "dots",
+        "slide_heading_size": 34,
+        "subheading_size": 20,
+        "section_padding": "both"
+      }
+    },
     "552017ad-6474-49b4-807f-86d3a8452b9b": {
       "type": "hero-image-with-text",
       "settings": {
@@ -675,92 +761,6 @@
         "image_padding": "padding",
         "section_padding": "both"
       }
-    },
-    "slideshow_9RVEpi": {
-      "type": "slideshow",
-      "blocks": {
-        "image_CiB9CG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-63.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Roasting unique beans",
-            "subheading": "<p>We source the most unique coffee we can find<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        },
-        "image_R7QDyU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-32.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Freshly roasted with care",
-            "subheading": "<p>Roasted in micro-batches to ensure exceptional quality<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 80
-          }
-        },
-        "image_N6Wpqz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-14.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        }
-      },
-      "block_order": [
-        "image_CiB9CG",
-        "image_R7QDyU",
-        "image_N6Wpqz"
-      ],
-      "settings": {
-        "full_width": true,
-        "enable_autoplay": false,
-        "animation": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "slide_heading_size": 34,
-        "subheading_size": 20,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -775,6 +775,7 @@
     "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "video_ajhCg3",
+    "slideshow_9RVEpi",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "hero_image_with_text_KabmbA",
@@ -787,7 +788,6 @@
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
     "5f737ddc-a45b-4900-be67-ade8895b6c13",
-    "image_gallery_LaB8Q4",
-    "slideshow_9RVEpi"
+    "image_gallery_LaB8Q4"
   ]
 }
