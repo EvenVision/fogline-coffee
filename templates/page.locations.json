@@ -2,9 +2,11 @@
   "sections": {
     "banner": {
       "type": "banner-image",
+      "disabled": true,
       "settings": {
         "full_width": true,
-        "banner_height": 400
+        "image": "shopify:\/\/shop_images\/FOGLINE_-7.jpg",
+        "banner_height": 600
       }
     },
     "main": {
@@ -35,10 +37,54 @@
       "settings": {
         "iwt_filters_shown": ""
       }
+    },
+    "image_carousel_with_text_8y9z8j": {
+      "type": "image-carousel-with-text",
+      "blocks": {
+        "image_UKMyx6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_-7.jpg",
+            "link": ""
+          }
+        },
+        "image_8QwWC4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-12.jpg",
+            "link": ""
+          }
+        },
+        "image_RDTLPJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Blog-8.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UKMyx6",
+        "image_8QwWC4",
+        "image_RDTLPJ"
+      ],
+      "settings": {
+        "full_width": false,
+        "section_padding": "both",
+        "item_position": "left",
+        "item_width": "one_half",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "We can't wait to meet you!",
+        "text": "<p>We love sharing our love of coffee with the community! From lattes to pour-overs we will treat you to a special coffee experience!<\/p>",
+        "button": "",
+        "link": ""
+      }
     }
   },
   "order": [
     "banner",
-    "main"
+    "main",
+    "image_carousel_with_text_8y9z8j"
   ]
 }
