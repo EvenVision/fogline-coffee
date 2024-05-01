@@ -16,44 +16,11 @@
             "iwt_section_height": 500,
             "iwt_layout": "image_left",
             "color_scheme": "1",
+            "iwt_image": "shopify:\/\/shop_images\/fofline-blog-2.png",
             "iwt_filters_tags": "",
-            "iwt_heading": "Heading",
-            "iwt_address": "<p>5720 West End Rd <\/p><p>Arcata, CA 95521<\/p><p><\/p>",
-            "iwt_hours": "Hours",
-            "iwt_phone": "Phone: 1-234-567-8912",
-            "menu_link_text": "Menu",
-            "iwt_menu_link": "",
-            "map_link_text": "Map",
-            "iwt_map_link": ""
-          }
-        },
-        "6ca72251-27e3-41e0-9ba5-f1394d08711c": {
-          "type": "image_text",
-          "settings": {
-            "iwt_section_height": 500,
-            "iwt_layout": "image_left",
-            "color_scheme": "1",
-            "iwt_filters_tags": "",
-            "iwt_heading": "Heading",
-            "iwt_address": "<p>1234 N Street Name<br\/>City, State 123456<\/p>",
-            "iwt_hours": "Hours",
-            "iwt_phone": "Phone: 1-234-567-8912",
-            "menu_link_text": "Menu",
-            "iwt_menu_link": "",
-            "map_link_text": "Map",
-            "iwt_map_link": ""
-          }
-        },
-        "085647a2-298a-4c76-a9db-df36da9039db": {
-          "type": "image_text",
-          "settings": {
-            "iwt_section_height": 500,
-            "iwt_layout": "image_left",
-            "color_scheme": "1",
-            "iwt_filters_tags": "",
-            "iwt_heading": "Heading",
-            "iwt_address": "<p>1234 N Street Name<br\/>City, State 123456<\/p>",
-            "iwt_hours": "Hours",
+            "iwt_heading": "Come Visit Us!",
+            "iwt_address": "<p>5720 West End Rd Building 4<\/p><p>Arcata, CA 95521<\/p><p>Monday 7-3<\/p><p>Tuesday 7-3<\/p><p>Wednesday 7-3<\/p><p>Thursday 7-3<\/p><p>Friday 7-2<\/p><p>Saturday\/Sunday Closed (We are normally at the farmers market, check the Insta for weekend updates!<\/p><p><\/p>",
+            "iwt_hours": "",
             "iwt_phone": "Phone: 1-234-567-8912",
             "menu_link_text": "Menu",
             "iwt_menu_link": "",
@@ -63,9 +30,7 @@
         }
       },
       "block_order": [
-        "7225017e-9728-4e1b-b0c9-b971b65c300e",
-        "6ca72251-27e3-41e0-9ba5-f1394d08711c",
-        "085647a2-298a-4c76-a9db-df36da9039db"
+        "7225017e-9728-4e1b-b0c9-b971b65c300e"
       ],
       "settings": {
         "iwt_filters_shown": ""
