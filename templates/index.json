@@ -95,6 +95,63 @@
         "color_header": false
       }
     },
+    "image_gallery_LaB8Q4": {
+      "type": "image-gallery",
+      "blocks": {
+        "image_F4mYjr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-55.jpg",
+            "image_width": "33",
+            "title": "",
+            "subheading_text": "",
+            "link_text": "Shop collection",
+            "link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
+        },
+        "image_pEHxHD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-12.jpg",
+            "image_width": "33",
+            "title": "",
+            "subheading_text": "",
+            "link_text": "Shop collection",
+            "link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
+        },
+        "image_j3rW6r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-11.jpg",
+            "image_width": "33",
+            "title": "",
+            "subheading_text": "",
+            "link_text": "Shop collection",
+            "link": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_F4mYjr",
+        "image_pEHxHD",
+        "image_j3rW6r"
+      ],
+      "settings": {
+        "full_width": true,
+        "title": "",
+        "heading_size": 24,
+        "subheading_size": 18,
+        "image_padding": "padding",
+        "section_padding": "both"
+      }
+    },
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -261,93 +318,6 @@
         "section_padding": "none"
       }
     },
-    "slideshow_9RVEpi": {
-      "type": "slideshow",
-      "blocks": {
-        "image_CiB9CG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-63.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Roasting unique beans",
-            "subheading": "<p>We source the most unique coffee we can find<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        },
-        "image_R7QDyU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-32.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Freshly roasted with care",
-            "subheading": "<p>Roasted in micro-batches to ensure exceptional quality<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 80
-          }
-        },
-        "image_N6Wpqz": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-14.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Slide image title",
-            "subheading": "<p>Slide image subheading<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        }
-      },
-      "block_order": [
-        "image_CiB9CG",
-        "image_R7QDyU",
-        "image_N6Wpqz"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "enable_autoplay": false,
-        "animation": false,
-        "slider_speed": 5,
-        "pager": "dots",
-        "slide_heading_size": 34,
-        "subheading_size": 20,
-        "section_padding": "both"
-      }
-    },
     "552017ad-6474-49b4-807f-86d3a8452b9b": {
       "type": "hero-image-with-text",
       "settings": {
@@ -437,116 +407,6 @@
       ],
       "settings": {
         "full_width": true,
-        "section_padding": "both"
-      }
-    },
-    "c23e8dc5-2c33-4169-9147-bcb227a8c9ce": {
-      "type": "slideshow",
-      "blocks": {
-        "template--14384131998012__c23e8dc5-2c33-4169-9147-bcb227a8c9ce-16669673374b727410-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/andrew-neel-QLqNalPe0RA-unsplash_-_landscape.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Step 01",
-            "subheading": "<p>Browse our coffees by what’s most important to you: Origin, Flavor Profile, or Roast Profile.<\/p>",
-            "link": "shopify:\/\/collections\/shop-all",
-            "button_text": "Browse Now",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        },
-        "template--14384131998012__c23e8dc5-2c33-4169-9147-bcb227a8c9ce-16669673374b727410-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/justus-menke-83ijPo1g9og-unsplash_landscape.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Step 02",
-            "subheading": "<p>Freshly roasted beans arrive at your door.<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        },
-        "3bd3a10c-a651-401e-95fd-c891545abb2d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-rachel-claire-4846347_landscape.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Step 03.",
-            "subheading": "<p>Brew. Sip. Repeat.<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "",
-            "second_button_text": "Button 2 text",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        },
-        "04658cb0-c6c0-46b2-bfca-ab05fb91666e": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pexels-ketut-subiyanto-4349846_landscape.jpg",
-            "overlay": false,
-            "text_align": "center",
-            "caption_horizontal": 50,
-            "caption_vertical": 50,
-            "hide_caption_background": false,
-            "caption_below": false,
-            "slide_mobile_text_color": "#000000",
-            "heading": "Step 04",
-            "subheading": "<p>Never run out: Sign up for no-hassle regular coffee deliveries that always arrive on time and are easy to change, pause, or stop at any time.<\/p>",
-            "link": "",
-            "button_text": "Add a button",
-            "second_link": "shopify:\/\/collections\/subscriptions",
-            "second_button_text": "Subscribe Now",
-            "slide_text_color": "#000000",
-            "caption_background": "#ffffff",
-            "caption_background_opacity": 100
-          }
-        }
-      },
-      "block_order": [
-        "template--14384131998012__c23e8dc5-2c33-4169-9147-bcb227a8c9ce-16669673374b727410-0",
-        "template--14384131998012__c23e8dc5-2c33-4169-9147-bcb227a8c9ce-16669673374b727410-1",
-        "3bd3a10c-a651-401e-95fd-c891545abb2d",
-        "04658cb0-c6c0-46b2-bfca-ab05fb91666e"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "enable_autoplay": true,
-        "animation": false,
-        "slider_speed": 8,
-        "pager": "arrows",
-        "slide_heading_size": 32,
-        "subheading_size": 18,
         "section_padding": "both"
       }
     },
@@ -705,63 +565,6 @@
         "iwt_section_height": 1200,
         "section_padding": "both"
       }
-    },
-    "image_gallery_LaB8Q4": {
-      "type": "image-gallery",
-      "blocks": {
-        "image_F4mYjr": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-55.jpg",
-            "image_width": "33",
-            "title": "",
-            "subheading_text": "",
-            "link_text": "Shop collection",
-            "link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        },
-        "image_pEHxHD": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-12.jpg",
-            "image_width": "33",
-            "title": "",
-            "subheading_text": "",
-            "link_text": "Shop collection",
-            "link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        },
-        "image_j3rW6r": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/FOGLINE_PCICS_-11.jpg",
-            "image_width": "33",
-            "title": "",
-            "subheading_text": "",
-            "link_text": "Shop collection",
-            "link": "",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "image_F4mYjr",
-        "image_pEHxHD",
-        "image_j3rW6r"
-      ],
-      "settings": {
-        "full_width": true,
-        "title": "",
-        "heading_size": 24,
-        "subheading_size": 18,
-        "image_padding": "padding",
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -770,6 +573,7 @@
     "image_with_text_overlay_prnYT6",
     "f40fcec5-d687-48e4-a644-a160b2567696",
     "hero_image_with_text_rUktxG",
+    "image_gallery_LaB8Q4",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
@@ -777,18 +581,15 @@
     "e8eab338-37d6-4058-8073-3181e44d91b2",
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "video_ajhCg3",
-    "slideshow_9RVEpi",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
     "hero_image_with_text_KabmbA",
     "1701466807c653651a",
-    "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
     "image_with_text_overlay_PkxEG3",
     "3a438c7d-01bd-4d47-89bd-e209268d019a",
     "55831ab0-44ba-4d50-a485-d56664c521e3",
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
-    "5f737ddc-a45b-4900-be67-ade8895b6c13",
-    "image_gallery_LaB8Q4"
+    "5f737ddc-a45b-4900-be67-ade8895b6c13"
   ]
 }
