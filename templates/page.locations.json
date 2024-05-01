@@ -13,15 +13,15 @@
         "7225017e-9728-4e1b-b0c9-b971b65c300e": {
           "type": "image_text",
           "settings": {
-            "iwt_section_height": 500,
+            "iwt_section_height": 800,
             "iwt_layout": "image_left",
             "color_scheme": "1",
             "iwt_image": "shopify:\/\/shop_images\/fofline-blog-2.png",
             "iwt_filters_tags": "",
             "iwt_heading": "Come Visit Us!",
-            "iwt_address": "<p>5720 West End Rd Building 4<\/p><p>Arcata, CA 95521<\/p><p>Monday 7-3<\/p><p>Tuesday 7-3<\/p><p>Wednesday 7-3<\/p><p>Thursday 7-3<\/p><p>Friday 7-2<\/p><p>Saturday\/Sunday Closed (We are normally at the farmers market, check the Insta for weekend updates!<\/p><p><\/p>",
+            "iwt_address": "<p>5720 West End Rd Building 4<\/p><p>Arcata, CA 95521<\/p><p>Monday 7-3<\/p><p>Tuesday 7-3<\/p><p>Wednesday 7-3<\/p><p>Thursday 7-3<\/p><p>Friday 7-2<\/p><p>Saturday\/Sunday Closed <\/p><p>We are normally at the farmers market, check the Instagram for weekend updates!<\/p><p><\/p>",
             "iwt_hours": "",
-            "iwt_phone": "Phone: 1-234-567-8912",
+            "iwt_phone": "(707) 633-5029",
             "menu_link_text": "Menu",
             "iwt_menu_link": "",
             "map_link_text": "Map",
