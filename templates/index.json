@@ -114,6 +114,56 @@
         "section_padding": "both"
       }
     },
+    "0db485c0-a5e4-47a5-a546-b97142c75401": {
+      "type": "text-with-icons",
+      "blocks": {
+        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-0": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "image": "shopify:\/\/shop_images\/origin_7b180055-34bb-4c05-be25-aedb7fc2fb59.png",
+            "link": "shopify:\/\/collections\/shop-by-origin",
+            "title": "Shop by Origin",
+            "subheading": ""
+          }
+        },
+        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-1": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "image": "shopify:\/\/shop_images\/flavor_profile_895ece24-017d-4df0-b39f-913aaf96951f.png",
+            "link": "shopify:\/\/collections\/flavor-profile",
+            "title": "Shop by Flavor Profile",
+            "subheading": ""
+          }
+        },
+        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-2": {
+          "type": "text_block",
+          "settings": {
+            "icon": "chat",
+            "image": "shopify:\/\/shop_images\/roast_profile.png",
+            "link": "shopify:\/\/collections\/roast-profile",
+            "title": "Shop by Roast Profile",
+            "subheading": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-0",
+        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-1",
+        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-2"
+      ],
+      "settings": {
+        "title": "Start your day with good coffee, not stress.",
+        "subtitle": "Whether you're a coffee connoisseur or just dipping your toe into the coffee world, it can be hard to sort through all the options available. We know everyone has different tastes—so let us take the mystery out of choosing your next bag!",
+        "subtitle_size": 20,
+        "max_width_title": 540,
+        "max_width_description": 720,
+        "text_align": "center",
+        "color_scheme": "1",
+        "section_padding": "both"
+      }
+    },
     "6f99d52b-6748-440c-8238-0a588abeba8c": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -286,6 +336,7 @@
         "image_R7QDyU",
         "image_N6Wpqz"
       ],
+      "disabled": true,
       "settings": {
         "full_width": true,
         "enable_autoplay": false,
@@ -312,56 +363,6 @@
         "section_padding": "both",
         "color_scheme": "2",
         "color_header": false
-      }
-    },
-    "0db485c0-a5e4-47a5-a546-b97142c75401": {
-      "type": "text-with-icons",
-      "blocks": {
-        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-0": {
-          "type": "text_block",
-          "settings": {
-            "icon": "chat",
-            "image": "shopify:\/\/shop_images\/origin_7b180055-34bb-4c05-be25-aedb7fc2fb59.png",
-            "link": "shopify:\/\/collections\/shop-by-origin",
-            "title": "Shop by Origin",
-            "subheading": ""
-          }
-        },
-        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-1": {
-          "type": "text_block",
-          "settings": {
-            "icon": "chat",
-            "image": "shopify:\/\/shop_images\/flavor_profile_895ece24-017d-4df0-b39f-913aaf96951f.png",
-            "link": "shopify:\/\/collections\/flavor-profile",
-            "title": "Shop by Flavor Profile",
-            "subheading": ""
-          }
-        },
-        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-2": {
-          "type": "text_block",
-          "settings": {
-            "icon": "chat",
-            "image": "shopify:\/\/shop_images\/roast_profile.png",
-            "link": "shopify:\/\/collections\/roast-profile",
-            "title": "Shop by Roast Profile",
-            "subheading": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-0",
-        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-1",
-        "template--14384131998012__0db485c0-a5e4-47a5-a546-b97142c75401-166663517543ab5737-2"
-      ],
-      "settings": {
-        "title": "Start your day with good coffee, not stress.",
-        "subtitle": "Whether you're a coffee connoisseur or just dipping your toe into the coffee world, it can be hard to sort through all the options available. We know everyone has different tastes—so let us take the mystery out of choosing your next bag!",
-        "subtitle_size": 20,
-        "max_width_title": 540,
-        "max_width_description": 720,
-        "text_align": "center",
-        "color_scheme": "1",
-        "section_padding": "both"
       }
     },
     "hero_image_with_text_KabmbA": {
@@ -770,6 +771,7 @@
     "f40fcec5-d687-48e4-a644-a160b2567696",
     "hero_image_with_text_rUktxG",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
+    "0db485c0-a5e4-47a5-a546-b97142c75401",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "background_video_J4939j",
     "e8eab338-37d6-4058-8073-3181e44d91b2",
@@ -777,7 +779,6 @@
     "video_ajhCg3",
     "slideshow_9RVEpi",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
-    "0db485c0-a5e4-47a5-a546-b97142c75401",
     "hero_image_with_text_KabmbA",
     "1701466807c653651a",
     "c23e8dc5-2c33-4169-9147-bcb227a8c9ce",
