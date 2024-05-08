@@ -80,7 +80,7 @@
       "type": "image-with-text-overlay",
       "settings": {
         "image": "shopify:\/\/shop_images\/FOGLIEN.png",
-        "show_overlay_color": false,
+        "show_overlay_color": true,
         "overlay_color": "#000",
         "image_height": 600,
         "title": "Built On Passion",
