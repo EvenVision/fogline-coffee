@@ -76,6 +76,24 @@
         "color_header": false
       }
     },
+    "image_with_text_overlay_kmj93W": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/FOGLIEN.png",
+        "show_overlay_color": false,
+        "overlay_color": "#000",
+        "image_height": 600,
+        "title": "Built On Passion",
+        "subheading_text": "We love sharing our love of coffee with the masses!",
+        "button_text": "",
+        "link": "",
+        "heading_size": 60,
+        "subheading_size": 18,
+        "text_color": "#FFFFFF",
+        "full_width": true,
+        "section_padding": "both"
+      }
+    },
     "image_gallery_LaB8Q4": {
       "type": "image-gallery",
       "blocks": {
@@ -316,23 +334,6 @@
         "color_header": false
       }
     },
-    "hero_image_with_text_KabmbA": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DECAF.png",
-        "text_align": "left",
-        "vertical_align": "top",
-        "title": "Death Before Decaf?",
-        "text": "<p>No, this coffee will give you life. A very full bodied, single varietal microlot decaf coffee with classic notes of a Brazil Natural. Almost like drinking a walnut fudge brownie that has an uplifting finish. If we are going to carry a decaf it's got to be a crowd pleaser that's enjoyed at all times of the day. This one hits the spot. Our notes include walnut, honey, cocoa, and citrus. A medium roast, this coffee brews great in all formats and pulls an especially thick and velvety espresso shot that milks quite well.<\/p><p><strong>The Producer: <\/strong>This is a single source, single varietal, microlot Yellow Catuaí that comes by way of Fazenda Mimoso in Chapada da Minas. A region well-known for their long tradition of natural processed coffees. The farm sits at an elevation of 1000 MASL and it's only focus is the cultivation of specialty grade coffee harvested in microlots and dried on raised beds.  They use microbiological processes on the farm to deal with pests and they utilize water processing for decaffeination. We only roast water process decaf and  stay away from the “sugarcane” (ethyl acetate solvent) decaf. <\/p><p><\/p><p><\/p>",
-        "heading_size": 32,
-        "text_size": 16,
-        "button": "Experience Here",
-        "link": "shopify:\/\/products\/untitled-sep12_16-19",
-        "section_padding": "both",
-        "color_scheme": "3",
-        "color_header": false
-      }
-    },
     "1701466807c653651a": {
       "type": "apps",
       "blocks": {
@@ -389,6 +390,23 @@
       "settings": {
         "full_width": true,
         "section_padding": "both"
+      }
+    },
+    "hero_image_with_text_KabmbA": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DECAF.png",
+        "text_align": "left",
+        "vertical_align": "top",
+        "title": "Death Before Decaf?",
+        "text": "<p>No, this coffee will give you life. A very full bodied, single varietal microlot decaf coffee with classic notes of a Brazil Natural. Almost like drinking a walnut fudge brownie that has an uplifting finish. If we are going to carry a decaf it's got to be a crowd pleaser that's enjoyed at all times of the day. This one hits the spot. Our notes include walnut, honey, cocoa, and citrus. A medium roast, this coffee brews great in all formats and pulls an especially thick and velvety espresso shot that milks quite well.<\/p><p><strong>The Producer: <\/strong>This is a single source, single varietal, microlot Yellow Catuaí that comes by way of Fazenda Mimoso in Chapada da Minas. A region well-known for their long tradition of natural processed coffees. The farm sits at an elevation of 1000 MASL and it's only focus is the cultivation of specialty grade coffee harvested in microlots and dried on raised beds.  They use microbiological processes on the farm to deal with pests and they utilize water processing for decaffeination. We only roast water process decaf and  stay away from the “sugarcane” (ethyl acetate solvent) decaf. <\/p><p><\/p><p><\/p>",
+        "heading_size": 32,
+        "text_size": 16,
+        "button": "Experience Here",
+        "link": "shopify:\/\/products\/untitled-sep12_16-19",
+        "section_padding": "both",
+        "color_scheme": "3",
+        "color_header": false
       }
     },
     "4749bc41-f834-46a5-a1dd-2834a0eefa87": {
@@ -546,24 +564,6 @@
         "iwt_section_height": 1200,
         "section_padding": "both"
       }
-    },
-    "image_with_text_overlay_kmj93W": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/FOGLIEN.png",
-        "show_overlay_color": false,
-        "overlay_color": "#000",
-        "image_height": 600,
-        "title": "Built On Passion",
-        "subheading_text": "We love sharing our love of coffee with the masses!",
-        "button_text": "",
-        "link": "",
-        "heading_size": 60,
-        "subheading_size": 18,
-        "text_color": "#FFFFFF",
-        "full_width": true,
-        "section_padding": "both"
-      }
     }
   },
   "order": [
@@ -571,6 +571,7 @@
     "image_with_text_znc7qd",
     "image_with_text_overlay_prnYT6",
     "hero_image_with_text_rUktxG",
+    "image_with_text_overlay_kmj93W",
     "image_gallery_LaB8Q4",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
@@ -580,15 +581,14 @@
     "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "video_ajhCg3",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
-    "hero_image_with_text_KabmbA",
     "1701466807c653651a",
+    "hero_image_with_text_KabmbA",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
     "image_with_text_overlay_PkxEG3",
     "3a438c7d-01bd-4d47-89bd-e209268d019a",
     "55831ab0-44ba-4d50-a485-d56664c521e3",
     "9c566bd5-b247-43e1-8f89-48fa555f8aba",
     "b0b2f345-c4c2-4d0a-81ef-8d6b96ce44a2",
-    "5f737ddc-a45b-4900-be67-ade8895b6c13",
-    "image_with_text_overlay_kmj93W"
+    "5f737ddc-a45b-4900-be67-ade8895b6c13"
   ]
 }
