@@ -79,17 +79,17 @@
     "image_with_text_overlay_kmj93W": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify:\/\/shop_images\/FOGLIEN.png",
+        "image": "shopify:\/\/shop_images\/FOGLINE_-6-2.jpg",
         "show_overlay_color": true,
-        "overlay_color": "#000",
-        "image_height": 600,
+        "overlay_color": "#303030",
+        "image_height": 500,
         "title": "Built On Passion",
         "subheading_text": "We love sharing our love of coffee with the masses!",
         "button_text": "",
         "link": "",
         "heading_size": 60,
         "subheading_size": 18,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "full_width": true,
         "section_padding": "both"
       }
