@@ -438,11 +438,11 @@
         "subheading_text": "",
         "button_text": "",
         "link": "shopify:\/\/products\/fogline-espresso",
-        "heading_size": 60,
+        "heading_size": 28,
         "subheading_size": 25,
         "text_color": "#ffffff",
         "full_width": true,
-        "section_padding": "both"
+        "section_padding": "none"
       }
     },
     "3a438c7d-01bd-4d47-89bd-e209268d019a": {
