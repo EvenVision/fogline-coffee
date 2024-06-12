@@ -319,6 +319,7 @@
     },
     "552017ad-6474-49b4-807f-86d3a8452b9b": {
       "type": "hero-image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/gggg.png",
         "text_align": "left",
