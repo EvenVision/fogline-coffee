@@ -5,7 +5,7 @@
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/fofline-blog-2.png",
-        "banner_height": 400
+        "banner_height": 600
       }
     },
     "main": {
@@ -34,7 +34,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Fogline_June.jpg",
         "show_overlay_color": false,
-        "overlay_color": "#000",
+        "overlay_color": "#000000",
         "image_height": 600,
         "title": "",
         "subheading_text": "",
@@ -42,7 +42,7 @@
         "link": "",
         "heading_size": 60,
         "subheading_size": 18,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "full_width": true,
         "section_padding": "both"
       }
