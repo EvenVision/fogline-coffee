@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2": {
@@ -62,15 +71,15 @@
     "hero_image_with_text_rUktxG": {
       "type": "hero-image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/FOGLINE_deri.png",
+        "image": "shopify:\/\/shop_images\/MORING_DEW.png",
         "text_align": "left",
         "vertical_align": "middle",
-        "title": "Strawberry Sweetness",
-        "text": "<p><strong>The Coffee: <\/strong>A natural process thats sweet, complex and a coffee with a lot going on. Roasted just on the light side of medium we note honey, strawberry, peach, green tea, lemongrass, herbs, and all balanced with medium body and moderate acidity. This coffee is quite versatile from pour-over to espresso and has quickly become a shop favorite. Shop note: this coffee is highly soluble, and grinds up finer than normal, so go a little more coarse than your normal approach.<\/p><p><strong>The Producer: <\/strong>Single origin Grade 1 coffee from smallholder lots in the community of Deri Kidame in Guji, Oromia. This community stands at an elevation of 2050 MASL, lending its hand to this extremely dense seed. All the coffee here comes from fully ripened cherries that are picked then sun dried on raised beds. Classic Ethiopian Natural.<\/p>",
+        "title": "The blend of all blends",
+        "text": "<p>Nutty | Chocolate | Bright<\/p><p>Origins: Central and South Americas<\/p><p>Elevation: 1300-1900<\/p><p>Varietals: Varied<\/p><p>Process: Washed & Natural<\/p><p>Combining the best of both worlds. This post-roast blend of light and medium roasted beans highlights the chocolate nuttiness of a natural processed coffee from South America combined with the crisp and sweet finish from two of our washed processed coffees of Central America. This breakfast blend is an easy drinking and uplifting coffee that brews great in all formats, from drip to espresso, and holds up to creamers. <\/p>",
         "heading_size": 32,
         "text_size": 16,
         "button": "Experience Here!",
-        "link": "shopify:\/\/products\/deri-kidame-grade-1-ethiopia",
+        "link": "shopify:\/\/products\/morning-dew",
         "section_padding": "bottom",
         "color_scheme": "2",
         "color_header": false
