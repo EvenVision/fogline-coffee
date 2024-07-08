@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "banner": {
@@ -21,7 +30,7 @@
         "iwt_image": "shopify:\/\/shop_images\/Fogline_June_-15.jpg",
         "iwt_layout": "image_left",
         "iwt_heading": "",
-        "iwt_text": "<h3><\/h3><p>5720 West End Rd Building 4<\/p><p>Arcata, CA 95521<\/p><p>Monday 7-3<\/p><p>Tuesday 7-3<\/p><p>Wednesday 7-3<\/p><p>Thursday 7-3<\/p><p>Friday 7-2<\/p><p>Saturday\/Sunday Closed<\/p><p>We are normally at the farmers market, check the Instagram for weekend updates!<\/p><p>(707) 633-5029<\/p>",
+        "iwt_text": "<p>5720 West End Rd Building 4<\/p><p>Arcata, CA 95521<\/p><p>Monday 7-3<\/p><p>Tuesday 7-3<\/p><p>Wednesday 7-3<\/p><p>Thursday 7-3<\/p><p>Friday 7-2<\/p><p>Saturday\/Sunday Closed<\/p><p>We are normally at the Saturday farmers market and Friday night markets check the Instagram for weekend updates!<\/p><p>(707) 633-5029<\/p>",
         "iwt_button": "Button",
         "iwt_link": "",
         "color_scheme": "3",
