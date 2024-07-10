@@ -404,6 +404,7 @@
     },
     "hero_image_with_text_KabmbA": {
       "type": "hero-image-with-text",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/DECAF.png",
         "text_align": "left",
