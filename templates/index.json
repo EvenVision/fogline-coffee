@@ -68,19 +68,19 @@
         "section_padding": "both"
       }
     },
-    "hero_image_with_text_rUktxG": {
+    "552017ad-6474-49b4-807f-86d3a8452b9b": {
       "type": "hero-image-with-text",
       "settings": {
-        "image": "shopify:\/\/shop_images\/MORING_DEW.png",
+        "image": "shopify:\/\/shop_images\/Fogline_June_-22_3055ba5b-7f8e-4a40-81e5-44d24a17233f.jpg",
         "text_align": "left",
-        "vertical_align": "middle",
-        "title": "Blend Of All Blends",
-        "text": "<p>Nutty | Chocolate | Bright<\/p><p>Origins: Central and South Americas<\/p><p>Process: Washed & Natural<\/p><p>Combining the best of both worlds. This post-roast blend of light and medium roasted beans highlights the chocolate nuttiness of a natural processed coffee from South America combined with the crisp and sweet finish from two of our washed processed coffees of Central America. This breakfast blend is an easy drinking and uplifting coffee that brews great in all formats, from drip to espresso, and holds up to creamers. <\/p>",
-        "heading_size": 32,
+        "vertical_align": "top",
+        "title": "Espresso",
+        "text": "<p>Dark Chocolate | Tart Cherry | Creamy<\/p><p><\/p><p><\/p><p>Process: Washed & Natural<\/p><p><strong>The Coffee: <\/strong>A blend of four coffees with the intention of producing an espresso with a silky, creamy body. Adding to that texture are notes of fudge, dark chocolate, and tart cherry. A merriment that is great as a stand alone espresso or hitting it with creamers at the barista bar. Pulled as a ristretto, espresso, or luongo you can expect these notes to shine. Roasted specifically to be extracted under pressure this coffee shines in automatic or manual espresso machines, moka pot and aeropress.<\/p>",
+        "heading_size": 34,
         "text_size": 16,
-        "button": "Experience Here!",
-        "link": "shopify:\/\/products\/morning-dew",
-        "section_padding": "bottom",
+        "button": "Enjoy Here",
+        "link": "shopify:\/\/products\/fogline-espresso",
+        "section_padding": "both",
         "color_scheme": "2",
         "color_header": false
       }
@@ -229,6 +229,23 @@
         "section_padding": "both"
       }
     },
+    "hero_image_with_text_rUktxG": {
+      "type": "hero-image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MORING_DEW.png",
+        "text_align": "left",
+        "vertical_align": "middle",
+        "title": "Blend Of All Blends",
+        "text": "<p>Nutty | Chocolate | Bright<\/p><p>Origins: Central and South Americas<\/p><p>Process: Washed & Natural<\/p><p>Combining the best of both worlds. This post-roast blend of light and medium roasted beans highlights the chocolate nuttiness of a natural processed coffee from South America combined with the crisp and sweet finish from two of our washed processed coffees of Central America. This breakfast blend is an easy drinking and uplifting coffee that brews great in all formats, from drip to espresso, and holds up to creamers. <\/p>",
+        "heading_size": 32,
+        "text_size": 16,
+        "button": "Experience Here!",
+        "link": "shopify:\/\/products\/morning-dew",
+        "section_padding": "bottom",
+        "color_scheme": "2",
+        "color_header": false
+      }
+    },
     "6f99d52b-6748-440c-8238-0a588abeba8c": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -283,23 +300,6 @@
         "video_url": "https:\/\/www.youtube.com\/watch?v=CsXGJyaQqSE&t=56s",
         "description": "Describe the video for customers using screen readers",
         "section_padding": "none"
-      }
-    },
-    "552017ad-6474-49b4-807f-86d3a8452b9b": {
-      "type": "hero-image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Fogline_June_-22_3055ba5b-7f8e-4a40-81e5-44d24a17233f.jpg",
-        "text_align": "left",
-        "vertical_align": "top",
-        "title": "Espresso",
-        "text": "<p>Dark Chocolate | Tart Cherry | Creamy<\/p><p><\/p><p><\/p><p>Process: Washed & Natural<\/p><p><strong>The Coffee: <\/strong>A blend of four coffees with the intention of producing an espresso with a silky, creamy body. Adding to that texture are notes of fudge, dark chocolate, and tart cherry. A merriment that is great as a stand alone espresso or hitting it with creamers at the barista bar. Pulled as a ristretto, espresso, or luongo you can expect these notes to shine. Roasted specifically to be extracted under pressure this coffee shines in automatic or manual espresso machines, moka pot and aeropress.<\/p>",
-        "heading_size": 34,
-        "text_size": 16,
-        "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/fogline-espresso",
-        "section_padding": "both",
-        "color_scheme": "2",
-        "color_header": false
       }
     },
     "1701466807c653651a": {
@@ -539,15 +539,15 @@
     "0f8bf6ec-f07a-477f-95e0-0f24bb50c8f2",
     "image_with_text_znc7qd",
     "image_with_text_overlay_prnYT6",
-    "hero_image_with_text_rUktxG",
+    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "image_with_text_overlay_kmj93W",
     "image_gallery_LaB8Q4",
     "457ad3d6-d33b-4eeb-b97b-ba52e90119b8",
     "0db485c0-a5e4-47a5-a546-b97142c75401",
+    "hero_image_with_text_rUktxG",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "background_video_J4939j",
     "video_ajhCg3",
-    "552017ad-6474-49b4-807f-86d3a8452b9b",
     "1701466807c653651a",
     "hero_image_with_text_KabmbA",
     "4749bc41-f834-46a5-a1dd-2834a0eefa87",
