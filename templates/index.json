@@ -274,47 +274,6 @@
         "section_padding": "both"
       }
     },
-    "e8eab338-37d6-4058-8073-3181e44d91b2": {
-      "type": "background-video",
-      "disabled": true,
-      "settings": {
-        "animation": false,
-        "mp4_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5fee8a548d2a4ebe83bd3a5e89c956c1.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "fallback_image": "shopify:\/\/shop_images\/FOGLINE_GURA_-5.jpg",
-        "title": "",
-        "subheading_text": "",
-        "link_1": "shopify:\/\/products\/gura-factory-aa-kenya",
-        "button_text_1": "Experience Here",
-        "link_2": "",
-        "button_text_2": "",
-        "link": "",
-        "text_color": "#ffffff",
-        "bg_color": "rgba(0,0,0,0)",
-        "caption_horizontal": 50,
-        "caption_vertical": 50,
-        "overlay_color": "#000000",
-        "show_overlay_color": false,
-        "full_width": true,
-        "video_height": 900,
-        "section_padding": "both"
-      }
-    },
-    "7aa2bcec-5980-4d87-95ae-adbb0cd856ba": {
-      "type": "image-with-text",
-      "disabled": true,
-      "settings": {
-        "iwt_image": "shopify:\/\/shop_images\/DECAF.png",
-        "iwt_layout": "image_left",
-        "iwt_heading": "Death Before Decaf?",
-        "iwt_text": "<p>No, this coffee will give you life. A very full bodied, single varietal microlot decaf coffee with classic notes of a Brazil Natural. Almost like drinking a walnut fudge brownie that has an uplifting finish. If we are going to carry a decaf it's got to be a crowd pleaser that's enjoyed at all times of the day. This one hits the spot. Our notes include walnut, honey, cocoa, and citrus. A medium roast, this coffee brews great in all formats and pulls an especially thick and velvety espresso shot that milks quite well.<\/p><p><strong>The Producer: <\/strong>This is a single source, single varietal, microlot Yellow Catuaí that comes by way of Fazenda Mimoso in Chapada da Minas. A region well-known for their long tradition of natural processed coffees. The farm sits at an elevation of 1000 MASL and it's only focus is the cultivation of specialty grade coffee harvested in microlots and dried on raised beds.  They use microbiological processes on the farm to deal with pests and they utilize water processing for decaffeination. We only roast water process decaf and  stay away from the “sugarcane” (ethyl acetate solvent) decaf.  Another practice on their farm site is planting the coffee where they're intercropped with shade trees throughout selected plots. The farm cultivates Red and Yellow Catuai, Topazio and Gesha. <\/p><p><\/p><p><\/p>",
-        "iwt_button": "Experience Here",
-        "iwt_link": "shopify:\/\/products\/untitled-sep12_16-19",
-        "color_scheme": "3",
-        "iwt_section_height": 1200,
-        "section_padding": "both"
-      }
-    },
     "video_ajhCg3": {
       "type": "video",
       "disabled": true,
@@ -328,17 +287,16 @@
     },
     "552017ad-6474-49b4-807f-86d3a8452b9b": {
       "type": "hero-image-with-text",
-      "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/gggg.png",
+        "image": "shopify:\/\/shop_images\/Fogline_June_-22_3055ba5b-7f8e-4a40-81e5-44d24a17233f.jpg",
         "text_align": "left",
         "vertical_align": "top",
-        "title": "Must Try Beans",
-        "text": "<p>This is an ultra sweet experience with a creamy texture and a long hanging finish. Notes are clear and up front with honeysuckle, grape soda, pan dulce, candied berries, lavender, and very mild acidity. This coffee brews true in all formats from  drip\/pour over that highlights its sweet florals, direct immersion (french press\/siphon pot) if you want to accentuate the creamy texture, and espresso that pushes sweet grape to the front of the line.<\/p><p><strong>The Producer: <\/strong>This Grade 1 offering is a community lot of coffee from outgrowers sourced by the Koké Washing Station. Aptly named after the Koké neighborhood in Yirgacheffe, Southern Nations, Nationalities and Peoples Region (SNNPR) of Ethiopia. <\/p>",
+        "title": "Espresso",
+        "text": "<p>Dark Chocolate | Tart Cherry | Creamy<\/p><p><\/p><p><\/p><p>Process: Washed & Natural<\/p><p><strong>The Coffee: <\/strong>A blend of four coffees with the intention of producing an espresso with a silky, creamy body. Adding to that texture are notes of fudge, dark chocolate, and tart cherry. A merriment that is great as a stand alone espresso or hitting it with creamers at the barista bar. Pulled as a ristretto, espresso, or luongo you can expect these notes to shine. Roasted specifically to be extracted under pressure this coffee shines in automatic or manual espresso machines, moka pot and aeropress.<\/p>",
         "heading_size": 34,
         "text_size": 16,
         "button": "Enjoy Here",
-        "link": "shopify:\/\/products\/koke-station-grade-1-ethiopia",
+        "link": "shopify:\/\/products\/fogline-espresso",
         "section_padding": "both",
         "color_scheme": "2",
         "color_header": false
@@ -588,8 +546,6 @@
     "0db485c0-a5e4-47a5-a546-b97142c75401",
     "6f99d52b-6748-440c-8238-0a588abeba8c",
     "background_video_J4939j",
-    "e8eab338-37d6-4058-8073-3181e44d91b2",
-    "7aa2bcec-5980-4d87-95ae-adbb0cd856ba",
     "video_ajhCg3",
     "552017ad-6474-49b4-807f-86d3a8452b9b",
     "1701466807c653651a",
